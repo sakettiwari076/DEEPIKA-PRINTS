@@ -1,8 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 .bgour{
     background: #FFAB17;
     height:fit-content;
+}
+.fontour {
+    font-family: 'Open Sans', sans-serif;
 }
