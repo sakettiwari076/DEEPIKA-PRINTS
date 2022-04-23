@@ -9,3 +9,10 @@
 .fontour {
     font-family: 'Open Sans', sans-serif;
 }
+.brd{
+    border: 1px solid #FFAB17 ;
+    ;
+}
+body {
+    border: none;
+}
