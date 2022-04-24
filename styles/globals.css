@@ -3,8 +3,8 @@
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 .bgour{
-    background: #FFAB17;
-    height:fit-content;
+    background:lavender;
+
 }
 .fontour {
     font-family: 'Open Sans', sans-serif;
@@ -15,4 +15,11 @@
 }
 body {
     border: none;
+}
+.bgour3 {
+    background: white;
+}
+.fontour3 {
+    font-family: 'Open Sans', sans-serif;
+
 }
