@@ -3,54 +3,123 @@ import React from 'react'
 const product = () => {
   return (
     <div>
-    <div className="text-gray-600 body-font">
-  <div className="container px-5 py-24 mx-auto">
-    <div className="flex flex-wrap -m-4">
-      <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-        <a className="block relative h-48 rounded overflow-hidden">
-          <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/420x260"/>
-        </a>
-        <div className="mt-4">
-          <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
-          <h2 className="text-gray-900 title-font text-lg font-medium">The Catalyzer</h2>
-          <p className="mt-1">$16.00</p>
-        </div>
-      </div>
-      <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-        <a className="block relative h-48 rounded overflow-hidden">
-          <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/421x261"/>
-        </a>
-        <div className="mt-4">
-          <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
-          <h2 className="text-gray-900 title-font text-lg font-medium">Shooting Stars</h2>
-          <p className="mt-1">$21.15</p>
-        </div>
-      </div>
-      <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-        <a className="block relative h-48 rounded overflow-hidden">
-          <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/422x262"/>
-        </a>
-        <div className="mt-4">
-          <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
-          <h2 className="text-gray-900 title-font text-lg font-medium">Neptune</h2>
-          <p className="mt-1">$12.00</p>
-        </div>
-      </div>
-      <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-        <a className="block relative h-48 rounded overflow-hidden">
-          <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/423x263"/>
-        </a>
-        <div className="mt-4">
-          <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
-          <h2 className="text-gray-900 title-font text-lg font-medium">The 400 Blows</h2>
-          <p className="mt-1">$18.40</p>
-        </div>
-        
-      </div>
-    </div>
-    </div>
+    <h1 className='text-center py-5 text-5xl font-semibold'>PRODUCTS</h1>
+<div className='mt-8 grid lg:grid-cols-3 py-4 space-x-5 '>
+
+<div className='py-3'>
+
+<img src='https://img.freepik.com/free-psd/cosmetic-glass-bottle-packaging-mockup_439185-7968.jpg?t=st=1650790899~exp=1650791499~hmac=b9443be22f9dd048e0e1e80849e83981ebf4a36368be0a1d1ee8c2d6bafdb039&w=900' className=''/>
+<div className=''>TOP</div>
+<div className=''>TOP</div>
+<div className=''>TOP</div>
 </div>
-    
+<div className='py-3'>
+
+<img src='https://img.freepik.com/free-psd/cosmetic-glass-bottle-packaging-mockup_439185-7968.jpg?t=st=1650790899~exp=1650791499~hmac=b9443be22f9dd048e0e1e80849e83981ebf4a36368be0a1d1ee8c2d6bafdb039&w=900' className=''/>
+<div className=''>TOP</div>
+<div className=''>TOP</div>
+<div className=''>TOP</div>
+
+</div>
+<div className='py-3'>
+
+<img src='https://img.freepik.com/free-psd/cosmetic-glass-bottle-packaging-mockup_439185-7968.jpg?t=st=1650790899~exp=1650791499~hmac=b9443be22f9dd048e0e1e80849e83981ebf4a36368be0a1d1ee8c2d6bafdb039&w=900' className=''/>
+<div className=''>TOP</div>
+<div className=''>TOP</div>
+<div className=''>TOP</div>
+
+
+</div>
+
+
+
+</div>
+<div className='mt-8 grid lg:grid-cols-3 py-4 space-x-5'>
+
+<div className='py-3'>
+
+<img src='https://img.freepik.com/free-psd/cosmetic-glass-bottle-packaging-mockup_439185-7968.jpg?t=st=1650790899~exp=1650791499~hmac=b9443be22f9dd048e0e1e80849e83981ebf4a36368be0a1d1ee8c2d6bafdb039&w=900' className=''/>TOP
+<div className=''>TOP</div>
+<div className=''>TOP</div>
+<div className=''>TOP</div>
+</div>
+<div className='py-3'>
+
+<img src='https://img.freepik.com/free-psd/cosmetic-glass-bottle-packaging-mockup_439185-7968.jpg?t=st=1650790899~exp=1650791499~hmac=b9443be22f9dd048e0e1e80849e83981ebf4a36368be0a1d1ee8c2d6bafdb039&w=900' className=''/>TOP
+<div className=''>TOP</div>
+<div className=''>TOP</div>
+<div className=''>TOP</div>
+</div>
+<div className='py-3'>
+
+
+<img src='https://img.freepik.com/free-psd/cosmetic-glass-bottle-packaging-mockup_439185-7968.jpg?t=st=1650790899~exp=1650791499~hmac=b9443be22f9dd048e0e1e80849e83981ebf4a36368be0a1d1ee8c2d6bafdb039&w=900' className=''/>TOP
+<div className=''>TOP</div>
+<div className=''>TOP</div>
+<div className=''>TOP</div>
+</div>
+
+
+
+</div>
+<div className='mt-8 grid lg:grid-cols-3 py-4 space-x-5 '>
+
+<div className='py-3'>
+
+<img src='https://img.freepik.com/free-psd/cosmetic-glass-bottle-packaging-mockup_439185-7968.jpg?t=st=1650790899~exp=1650791499~hmac=b9443be22f9dd048e0e1e80849e83981ebf4a36368be0a1d1ee8c2d6bafdb039&w=900' className=''/>
+<div className=''>TOP</div>
+<div className=''>TOP</div>
+<div className=''>TOP</div>
+</div>
+<div className='py-3'>
+
+<img src='https://img.freepik.com/free-psd/cosmetic-glass-bottle-packaging-mockup_439185-7968.jpg?t=st=1650790899~exp=1650791499~hmac=b9443be22f9dd048e0e1e80849e83981ebf4a36368be0a1d1ee8c2d6bafdb039&w=900' className=''/>
+<div className=''>TOP</div>
+<div className=''>TOP</div>
+<div className=''>TOP</div>
+
+</div>
+<div className='py-3'>
+
+<img src='https://img.freepik.com/free-psd/cosmetic-glass-bottle-packaging-mockup_439185-7968.jpg?t=st=1650790899~exp=1650791499~hmac=b9443be22f9dd048e0e1e80849e83981ebf4a36368be0a1d1ee8c2d6bafdb039&w=900' className=''/>
+<div className=''>TOP</div>
+<div className=''>TOP</div>
+<div className=''>TOP</div>
+
+
+</div>
+
+
+
+</div>
+<div className='mt-8 grid lg:grid-cols-3 py-4 space-x-5'>
+
+<div className='py-3'>
+
+<img src='https://img.freepik.com/free-psd/cosmetic-glass-bottle-packaging-mockup_439185-7968.jpg?t=st=1650790899~exp=1650791499~hmac=b9443be22f9dd048e0e1e80849e83981ebf4a36368be0a1d1ee8c2d6bafdb039&w=900' className=''/>TOP
+<div className=''>TOP</div>
+<div className=''>TOP</div>
+<div className=''>TOP</div>
+</div>
+<div className='py-3'>
+
+<img src='https://img.freepik.com/free-psd/cosmetic-glass-bottle-packaging-mockup_439185-7968.jpg?t=st=1650790899~exp=1650791499~hmac=b9443be22f9dd048e0e1e80849e83981ebf4a36368be0a1d1ee8c2d6bafdb039&w=900' className=''/>TOP
+<div className=''>TOP</div>
+<div className=''>TOP</div>
+<div className=''>TOP</div>
+</div>
+<div className='py-3'>
+
+
+<img src='https://img.freepik.com/free-psd/cosmetic-glass-bottle-packaging-mockup_439185-7968.jpg?t=st=1650790899~exp=1650791499~hmac=b9443be22f9dd048e0e1e80849e83981ebf4a36368be0a1d1ee8c2d6bafdb039&w=900' className=''/>TOP
+<div className=''>TOP</div>
+<div className=''>TOP</div>
+<div className=''>TOP</div>
+</div>
+
+
+
+</div>
 </div>
   )
 }
