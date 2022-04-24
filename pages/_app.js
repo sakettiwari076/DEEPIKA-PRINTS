@@ -25,9 +25,6 @@ function MyApp({ Component, pageProps }) {
   </header>
   
   <Component {...pageProps} />
-
-
-  
   <div className='text-center	text-4xl font-mono py-6 '>
   <h1 className=''>Contact Us</h1>
   </div>
@@ -68,23 +65,26 @@ function MyApp({ Component, pageProps }) {
   </div>
 </div>
 </div>
-  <div className='footer grid lg:grid-cols-3 text-center bgour6 py-16'>
-  
-    <div className='font-semibold text-2xl text-white'>DEEPIKA PRINTS </div>
-        <div className=''>Follow us</div>
+  <div className='footer grid lg:grid-cols-3  text-center bgour6 py-36'>
+<div className='font-semibold text-2xl text-white '>DEEPIKA PRINTS <br></br>ESTD : </div>
+<div className=''></div>
+
+<div className='flex space-x-8 text-white'>
+<h1 className='font-semibold pt-2 sm:pl-10'>FOLLOW US</h1>
 <img src='fb.png' className='' />
 <img src='fb.png' className='' />
 <img src='fb.png' className='' />
+</div>
 
+ 
 
-  
-
-
-
+<div className=''>2nd</div>
   </div>
-
-
+  
+  <p className=' bgour6 text-xl text-white text-center
+  '>© 2021-22 Priyanka Press. All Rights Reserved.</p>
   </div>
+ 
   )
 }
 

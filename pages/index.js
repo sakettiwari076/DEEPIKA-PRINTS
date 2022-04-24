@@ -2,8 +2,13 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import '../public/frontpage.png'
+import '../public/bat.png'
+
 
 import Navbar from '../Subcomponents/Navbar'
+
+ 
+
 export default function Home() {
   return (
     <div className=' '>
@@ -21,10 +26,26 @@ export default function Home() {
         />
       </div>
     </div>
-    </div>  
-      <div className=' text-gray-900 py-28   grid lg:grid-cols-4 text-center '>
+    </div> 
+    <h1 className='text-center font-bold pt-10 text-4xl decoration-violet-600  '>OUR SPECIALIZATION</h1>
+    <div className='  text-gray-900 py-28  grid lg:grid-cols-4 text-center '>
+    <div className='font-semibold  fontour3'>
+    <h1 className=''></h1> Corporate Giftings <br></br> <p className=''> A Gift to Build Relations</p><br></br><img src='bat.png' className='h-24 pl-32'/>
+    </div>
+    <div className='font-semibold  fontour3'>
+    <h1 className=''></h1> Corporate Giftings <br></br> <p className=''> A Gift to Build Relations</p><br></br><img src='bat.png' className='h-24 pl-32'/>
+    </div>
+    <div className='font-semibold  fontour3'>
+    <h1 className=''></h1> Corporate Giftings <br></br> <p className=''> A Gift to Build Relations</p><br></br><img src='bat.png' className='h-24 pl-32'/>
+    </div>
+    <div className='font-semibold  fontour3'>
+    <h1 className=''></h1> Corporate Giftings <br></br> <p className=''> A Gift to Build Relations</p><br></br><img src='bat.png' className='h-24 pl-32'/>
+    </div>
+    </div> 
+    
+      <div className=' text-gray-900 py-28 space-y-10 effect6 grid lg:grid-cols-4 text-center '>
     <div className='font-semibold text-4xl fontour3'>
-        100+ <br></br> CLIENTS
+      100+  <br></br> CLIENTS
         </div>
         <div className='font-semibold text-4xl fontour3'>
         100+ <br></br> CLIENTS
@@ -38,22 +59,9 @@ export default function Home() {
    
    
         </div>
-     <div className='  text-gray-900 py-28  grid lg:grid-cols-4 text-center '>
-     <div className='font-semibold text-4xl fontour3'>
-     100+ <br></br> CLIENTS
-     </div>
-     <div className='font-semibold text-4xl fontour3'>
-     100+ <br></br> CLIENTS
-     </div>
-     <div className='font-semibold text-4xl fontour3'>
-     100+ <br></br> CLIENTS
-     </div>
-     <div className='font-semibold text-4xl fontour3'>
-     100+ <br></br> CLIENTS
-     </div>
+  
 
-
-     </div>
+      
      </div>
   
   )
