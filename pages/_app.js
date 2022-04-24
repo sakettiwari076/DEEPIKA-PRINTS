@@ -12,21 +12,21 @@ function MyApp({ Component, pageProps }) {
         <span class="ml-3 text-xl font-semibold text-white fontlogo ">DEEPIKA PRINTS</span>
       </a>
       <nav className="md:ml-auto md:mr-auto flex flex-wrap space-x-6 font-medium text-lg font- items-center navtxt justify-center">
-        <a className="mr-5 hover:text-gray-900">Products</a>
-        <a className="mr-5 hover:text-gray-900">Packages</a>
-        <a className="mr-5 hover:text-gray-900">About us</a>
-        <a className="mr-5 hover:text-gray-900">Contact us</a>
+        <a href="#contactus" className="cursor-pointer mr-5 hover:text-gray-900">Products</a>
+        <a className="mr-5 cursor-pointer hover:text-gray-900">Packages</a>
+        <a className="mr-5 cursor-pointer hover:text-gray-900">About us</a>
+        <a className="mr-5 cursor-pointer hover:text-gray-900">Contact us</a>
       </nav>
       <button className="  text-black inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">BACK
-
-      
       </button>
     </div>
   </header>
   
   <Component {...pageProps} />
-  <div className='text-center	text-4xl font-mono py-6 '>
-  <h1 className=''>Contact Us</h1>
+
+  <div className='  text-center	text-4xl font-mono py-6 ' >
+
+  <h1 className='' id='contactus'>Contact Us</h1>
   </div>
   <div className="text-gray-600  text-2xl body-font relative">
 <div className="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
