@@ -1,33 +1,33 @@
 import '../styles/globals.css'
 import '../Subcomponents/my.css'
-
+import '../public/fb.png'
 function MyApp({ Component, pageProps }) {
   return(
     <div>
-    <header className="text-gray-600 body-font">
+    
+    <header className="text-black body-font py-5  effect6 bgour5">
     <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
       <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
-          <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-        </svg>
-        <span class="ml-3 text-xl">Tailblocks</span>
+       
+        <span class="ml-3 text-xl font-semibold text-white fontlogo ">DEEPIKA PRINTS</span>
       </a>
-      <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
-        <a className="mr-5 hover:text-gray-900">First Link</a>
-        <a className="mr-5 hover:text-gray-900">Second Link</a>
-        <a className="mr-5 hover:text-gray-900">Third Link</a>
-        <a className="mr-5 hover:text-gray-900">Fourth Link</a>
+      <nav className="md:ml-auto md:mr-auto flex flex-wrap space-x-6 font-medium text-lg font- items-center navtxt justify-center">
+        <a className="mr-5 hover:text-gray-900">Products</a>
+        <a className="mr-5 hover:text-gray-900">Packages</a>
+        <a className="mr-5 hover:text-gray-900">About us</a>
+        <a className="mr-5 hover:text-gray-900">Contact us</a>
       </nav>
-      <button className="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Button
-        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
-          <path d="M5 12h14M12 5l7 7-7 7"></path>
-        </svg>
+      <button className="  text-black inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">BACK
+
+      
       </button>
     </div>
   </header>
   
-  
   <Component {...pageProps} />
+
+
+  
   <div className='text-center	text-4xl font-mono py-6 '>
   <h1 className=''>Contact Us</h1>
   </div>
@@ -68,7 +68,22 @@ function MyApp({ Component, pageProps }) {
   </div>
 </div>
 </div>
+  <div className='footer grid lg:grid-cols-3 text-center bgour6 py-16'>
   
+    <div className='font-semibold text-2xl text-white'>DEEPIKA PRINTS </div>
+        <div className=''>Follow us</div>
+<img src='fb.png' className='' />
+<img src='fb.png' className='' />
+<img src='fb.png' className='' />
+
+
+  
+
+
+
+  </div>
+
+
   </div>
   )
 }
