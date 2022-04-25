@@ -28,8 +28,8 @@ function MyApp({ Component, pageProps }) {
 
 
 
-  <div className='  text-center bgtest mt-12	text-4xl font-mono py-12 ' >
-  <h1 className='' id='contactus'>Contact Us</h1>
+  <div className='  font-bold bgtest mt-12 text-red-600 text-center py-12 text-4xl' >
+  <h1 className='' id='contactus'>CONTACT US</h1>
   </div>
   <div className="text-gray-600 bgtest  text-2xl body-font relative">
 <div className="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">

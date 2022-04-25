@@ -183,3 +183,8 @@ background-color:blueviolet ;
 .bgour7 {
     background-color: blueviolet;
 }
+.textour {
+    text-decoration: underline;
+    text-decoration-color: red;
+    text: decoration thickness 1px; 
+}

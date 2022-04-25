@@ -28,7 +28,8 @@ export default function Home() {
       </div>
     </div>
     </div> 
-    <h1 className='text-center font-bold pt-12 text-4xl decoration-violet-600  '>OUR SPECIALIZATION</h1>
+    <h1 className='text-center font-bold pt-12 text-4xl text-red-600 decoration-violet-600  '>OUR SPECIALIZATION</h1>
+
     <div className='  text-gray-900 py-28  grid lg:grid-cols-4 text-center '>
     <div className='font-semibold  fontour3'>
     <h1 className='text-3xl '>Corporate Giftings </h1>  <br></br> <p className='text-center'> A Gift to Build Relations</p><br></br>
@@ -73,8 +74,6 @@ export default function Home() {
         <div className='font-semibold text-4xl fontour3'>
         100+ <br></br> CLIENTS
         </div>
-   
-   
         </div>
 
 
