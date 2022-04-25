@@ -1,8 +1,12 @@
 import React from 'react'
+import Navbar from '../../Subcomponent/Navbar'
 
 const test = () => {
   return (
-    <div>test</div>
+    <div>
+    
+    <Navbar/>
+    </div>
   )
 }
 
