@@ -24,20 +24,14 @@ function MyApp({ Component, pageProps }) {
   
 
 
-
-
-
   <Component {...pageProps} />
 
 
 
-
-
-
-  <div className='  text-center	text-4xl font-mono py-12 ' >
+  <div className='  text-center bgtest mt-12	text-4xl font-mono py-12 ' >
   <h1 className='' id='contactus'>Contact Us</h1>
   </div>
-  <div className="text-gray-600  text-2xl body-font relative">
+  <div className="text-gray-600 bgtest  text-2xl body-font relative">
 <div className="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
   <div className="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
     <iframe width="100%" height="100%" className="absolute inset-0" frameBorder="0" title="map" marginHeight="0" marginWidth="0" scrolling="no" src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=%C4%B0zmir+(My%20Business%20Name)&ie=UTF8&t=&z=14&iwloc=B&output=embed" ></iframe>

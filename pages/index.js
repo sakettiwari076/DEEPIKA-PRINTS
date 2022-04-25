@@ -31,20 +31,36 @@ export default function Home() {
     <h1 className='text-center font-bold pt-12 text-4xl decoration-violet-600  '>OUR SPECIALIZATION</h1>
     <div className='  text-gray-900 py-28  grid lg:grid-cols-4 text-center '>
     <div className='font-semibold  fontour3'>
-    <h1 className=''></h1> Corporate Giftings <br></br> <p className=''> A Gift to Build Relations</p><br></br><img src='bat.png' className='h-24 pl-32'/>
+    <h1 className='text-3xl '>Corporate Giftings </h1>  <br></br> <p className='text-center'> A Gift to Build Relations</p><br></br>
+    <div className='flex justify-center'>
+    <img src='bat.png' className='h-14 w-20  '/>
+    </div>
     </div>
     <div className='font-semibold  fontour3'>
-    <h1 className=''></h1> Corporate Giftings <br></br> <p className=''> A Gift to Build Relations</p><br></br><img src='bat.png' className='h-24 pl-32'/>
+    <h1 className='text-3xl '>Corporate Giftings </h1>  <br></br> <p className='text-center'> A Gift to Build Relations</p><br></br>
+    <div className='flex justify-center'>
+    <img src='bat.png' className='h-14 w-20  '/>
+    </div>
     </div>
     <div className='font-semibold  fontour3'>
-    <h1 className=''></h1> Corporate Giftings <br></br> <p className=''> A Gift to Build Relations</p><br></br><img src='bat.png' className='h-24 pl-32'/>
+    <h1 className='text-3xl '>Corporate Giftings </h1>  <br></br> <p className='text-center'> A Gift to Build Relations</p><br></br>
+    <div className='flex justify-center'>
+    <img src='bat.png' className='h-14 w-20  '/>
     </div>
+    </div>
+   
     <div className='font-semibold  fontour3'>
-    <h1 className=''></h1> Corporate Giftings <br></br> <p className=''> A Gift to Build Relations</p><br></br><img src='bat.png' className='h-24 pl-32'/>
+    <h1 className='text-3xl '>Corporate Giftings </h1>  <br></br> <p className='text-center'> A Gift to Build Relations</p><br></br>
+    <div className='flex justify-center'>
+    <img src='bat.png' className='h-14 w-20  '/>
     </div>
+    </div>
+
+    
+   
     </div> 
     
-      <div className=' text-gray-900 py-12  bgour7 grid lg:grid-cols-4 text-center '>
+      <div className=' text-gray-900 py-12 effect6  bgour7 grid lg:grid-cols-4 text-center '>
       <div className='font-semibold text-4xl fontour3'>
       100+ <br></br> CLIENTS
       </div>
