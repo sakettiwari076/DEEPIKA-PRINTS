@@ -188,3 +188,12 @@ background-color:blueviolet ;
     text-decoration-color: red;
     text: decoration thickness 1px; 
 }
+
+@media only screen and (max-width: 768) {
+.imgour4{
+padding-top: 4rem;
+padding-bottom: 4rem;
+
+}
+
+}

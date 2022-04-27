@@ -1,5 +1,6 @@
 import '../styles/globals.css'
 import '../public/fb.png'
+import Link from 'next/link'
 function MyApp({ Component, pageProps }) {
   return(
     // NAVBAR 
@@ -12,8 +13,10 @@ function MyApp({ Component, pageProps }) {
         <span className="ml-3 text-xl font-semibold text-white fontlogo ">DEEPIKA PRINTS</span>
       </a>
       <nav className="md:ml-auto md:mr-auto flex flex-wrap space-x-6 font-medium text-lg font- items-center navtxt justify-center">
-        <a href="#contactus" className="cursor-pointer mr-5 hover:text-gray-900">Products</a>
-        <a className="mr-5 cursor-pointer hover:text-gray-900">Packages</a>
+      <Link href="/Components/product">
+      <a className="mr-5 cursor-pointer hover:text-gray-900">Products</a></Link>
+        <Link href="/">
+        <a className="mr-5 cursor-pointer hover:text-gray-900">Packages</a></Link>
         <a className="mr-5 cursor-pointer hover:text-gray-900">About us</a>
         <a className="mr-5 cursor-pointer hover:text-gray-900">Contact us</a>
       </nav>
