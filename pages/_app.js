@@ -9,7 +9,6 @@ function MyApp({ Component, pageProps }) {
     <header className="text-black body-font py-5  effect6 bgour5">
     <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
       <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-       
         <span className="ml-3 text-xl font-semibold text-white fontlogo ">DEEPIKA PRINTS</span>
       </a>
       <nav className="md:ml-auto md:mr-auto flex flex-wrap space-x-6 font-medium text-lg font- items-center navtxt justify-center">
@@ -55,7 +54,7 @@ function MyApp({ Component, pageProps }) {
     </div>
   </div>
   
-  <div className="lg:w-1/3 md:w-1/2 bg-white flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
+  <div className="lg:w-1/3 md:w-1/2  flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
     <h2 className="text-gray-900 text-lg mb-1 font-medium title-font">Feedback</h2>
     <p className="leading-relaxed mb-5 text-gray-600">Please enter your valuable feedbacks here!</p>
     <div className="relative mb-4">
@@ -77,16 +76,7 @@ function MyApp({ Component, pageProps }) {
 </div>
 
 </div>
-  <div className='footer grid lg:grid-cols-3  text-center bgour6 py-36'>
-<div className='font-semibold text-2xl text-white '>DEEPIKA PRINTS <br></br>ESTD : </div>
-<div className=''></div>
 
-
-
- 
-
-<div className=''>2nd</div>
-  </div>
   
   
   <p className=' bgour6 text-xl text-white text-center
