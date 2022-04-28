@@ -229,7 +229,10 @@ padding-bottom: 4rem;
 .prour8 {
   padding-right: 8.3rem;
 }
-@media only screen and (max-width: 680px) {
+@media only screen and (max-width: 756px) {
+  .btn4 {
+    display: none;
+  }
 
 .btn9 {
   bottom: 34rem;

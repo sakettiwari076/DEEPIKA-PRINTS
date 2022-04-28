@@ -19,7 +19,10 @@ export default function Home() {
       <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
 
         <p className="text-xl text-black fontour textour6 mr-4  "><b>Make Every Happiness Possible With Deepika Prints , Join us to get the benefits of our awesome packages and the best </b> <span className='text-red-600 font-extrabold'>Client experience.</span>  </p>
-        
+        <button className="bg-blue-500 btn4 hover:bg-blue-700 text-white font-bold py-2 ml-8 mt-9  px-8 rounded-md">
+  EXPLORE
+</button>
+
       </div>
       <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6  ">
         <img className="object-cover  object-center rounded-3xl mb-7 " alt="hero" src="contact.png"
@@ -28,7 +31,7 @@ export default function Home() {
       
     </div>
     
-    <button className='bg-blue-500 text-white font-semibold px-9 py-2 rounded-md btn9'>Share</button>
+    <button className='bg-blue-500 text-white font-semibold px-9 py-2 rounded-md btn9'>EXPLORE</button>
 
 
    
