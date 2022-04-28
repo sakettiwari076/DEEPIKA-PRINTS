@@ -2,6 +2,7 @@ import '../styles/globals.css'
 import { createStore, applyMiddleware } from 'redux';
 import { persistStore } from 'redux-persist';
 import thunk from 'redux-thunk';
+import '../public/whatsapp.png'
 import '../public/fb.png'
 import React, { useState } from "react";
 import { Transition } from "@headlessui/react";
@@ -206,7 +207,7 @@ function MyApp({ Component, pageProps }) {
 			</nav>
 
   <Component {...pageProps} />
-  <div className='  font-bold bgtest mt-12 text-red-600 text-center py-12 text-4xl' >
+  <div className='  font-bold bgtest mt-12 text-red-600 text-center py-12 text-3xl' >
   <h1 className='' id='contactus'>CONTACT US</h1>
   </div>
 
@@ -258,9 +259,9 @@ function MyApp({ Component, pageProps }) {
   <p className=' bgour6 text-xl text-white text-center
   '>© 2021-22 Priyanka Press. All Rights Reserved.</p>
   <div className="w-full bgour6   text-center">
-          <a className="text-indigo-500">example@email.com</a>
-          <p className="leading-normal my-5">49 Smith St.
-            <br></br>Saint Cloud, MN 56301
+          <a className="text-indigo-500">Deepikaprints72gmail.com</a>
+          <p className="leading-normal my-5 text-white">Flat No 452 , Adarsh Apartment
+            <br></br>Pocket-16 , Sector 3 , Delhi , 110075
           </p>
           <span className="inline-flex">
             <a className="text-gray-500">
@@ -286,6 +287,7 @@ function MyApp({ Component, pageProps }) {
             </a>
           </span>
       </div>
+	  <img src='whatsapp.png' className='h-14 imgour8'></img>
       </div>
   )
 }

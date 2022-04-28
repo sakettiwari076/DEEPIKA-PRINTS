@@ -10,18 +10,18 @@ import Testimonials from '../Comp/Testimonail'
 export default function Home() {
   return (
     <div className=' '>
+    <button className=''>BY</button>
+
     <div className="text-gray-600 body-font effect6  bgour3 pt-14">
     <div className="container mx-auto flex  py-24 md:flex-row flex-col items-center">
     
       <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-       
-        <p className="text-3xl text-black fontour textour6   ">Make Every Happiness Possible With Deepika Prints, Join us to get the benefits of our awesome packages and the best client experience.</p>
-        <div className="grid  ">
-          <button className="inline-flex text-white mt-7   bg-red-600 border-0 py-3 mb-4 rounded-md  px-8  focus:outline-none hover:bg-indigo-600  text-lg ">KNOW MORE</button>
-        </div>
+
+        <p className="text-xl text-black fontour textour6   ">Make Every Happiness Possible With <b>Deepika Prints </b> , <span className='text-blue-500'>Join us to get the benefits of our awesome packages and the best  <br></br> <span className='text-red-600 font-bold'>Client experience.</span> </span> </p>
+        
       </div>
       <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6  ">
-        <img className="object-cover imgour8 object-center rounded-3xl mb-7 " alt="hero" src="contact.png"
+        <img className="object-cover  object-center rounded-3xl mb-7 " alt="hero" src="contact.png"
         />
       </div>
       
@@ -29,7 +29,7 @@ export default function Home() {
     
    
     </div> 
-    <h1 className='text-center font-bold pt-12 text-4xl text-red-600 decoration-violet-600  '>OUR SPECIALIZATION</h1>
+    <h1 className='text-center font-bold pt-12 text-3xl text-red-600 decoration-violet-600  '>OUR SPECIALIZATION</h1>
 
     <div className='  text-gray-900 py-28  grid lg:grid-cols-4 text-center '>
   
