@@ -51,7 +51,7 @@ export default function Home() {
     <div className='flex justify-center'>
     <img src='https://static.thenounproject.com/png/2724353-200.png' className=' pr-48 pb-4 h-16  '/>
     </div>
-    <h1 className='text-3xl pr-3 '>Event Management </h1>  <br></br> <p className='font-extralight pr-20 '> One Place Event Solution
+    <h1 className='text-3xl  '>Event Management </h1>  <br></br> <p className='font-extralight pr-20 '> One Place Event Solution
     </p><br></br>
     </div>
     <div className='font-semibold py-5  fontour3'>
@@ -61,18 +61,22 @@ export default function Home() {
     <h1 className='text-3xl pr-9 '>Supply Chain </h1>  <br></br> <p className='font-extralight pr-20 '> Deliver Anywhere</p><br></br>
     </div>
     </div> 
-      <div className=' text-gray-900 py-12 effect6  bgour7 grid lg:grid-cols-4 text-center '>
+      <div className=' text-gray-900  effect6  bgour7 grid lg:grid-cols-4 text-center '>
       <div className='font-semibold py-5 text-3xl fontour3'>
-      100+ <br></br> CLIENTS
+      100+ <br></br> Projects <br></br>
+      Completed
       </div>
         <div className='font-semibold  text-3xl py-5 fontour3'>
-        100+ <br></br> CLIENTS
+        100+ <br></br>Happy<br></br>
+        Clients
         </div>
         <div className='font-semibold text-3xl py-5 fontour3'>
-        100+ <br></br> CLIENTS
+        100+ <br></br> Awards <br></br>
+        Recieved
         </div>
         <div className='font-semibold text-3xl py-5 fontour3'>
-        100+ <br></br> CLIENTS
+        100+ <br></br> Cups Of <br></br>
+        Coffee
         </div>
         </div>
       <Testimonials/>

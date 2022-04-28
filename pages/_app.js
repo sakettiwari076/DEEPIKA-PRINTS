@@ -14,7 +14,7 @@ function MyApp({ Component, pageProps }) {
     // NAVBAR 
 
     <div>
-  <nav className=" shadow-sm fixed w-full z-10">
+  <nav className=" ournav  fixed w-full z-10">
 				<div className="w-full">
 					<div className="flex items-center h-20 w-full">
 						<div className="flex items-center  mx-20  justify-between w-full">
@@ -205,17 +205,7 @@ function MyApp({ Component, pageProps }) {
 				</Transition>
 			</nav>
 
-
-
-    
-   
-  
-
-
   <Component {...pageProps} />
-
-
-
   <div className='  font-bold bgtest mt-12 text-red-600 text-center py-12 text-4xl' >
   <h1 className='' id='contactus'>CONTACT US</h1>
   </div>
@@ -224,7 +214,7 @@ function MyApp({ Component, pageProps }) {
 <div className="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
   <div className="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
     <iframe width="100%" height="100%" className="absolute inset-0" frameBorder="0" title="map" marginHeight="0" marginWidth="0" scrolling="no"  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14012.014268470783!2d77.0619035!3d28.5996698!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x983aaecf13f656a0!2sAdarsh%20Apartment%2C%20Sector%203%2C%20Pocket%2016%2C%20Dwarka!5e0!3m2!1sen!2sin!4v1651079425095!5m2!1sen!2sin "loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe>
-    <div className="bg-white relative flex flex-wrap py-6 rounded shadow-md">
+    <div className="">
       <div className="lg:w-1/2 px-6">
         <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">ADDRESS</h2>
         <p className="mt-1">Flat No 452, Adarsh Apartment, Pocket - 16, Sector - 3, Dwarka, Delhi - 110075</p>
