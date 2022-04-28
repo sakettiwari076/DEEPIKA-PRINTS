@@ -17,7 +17,7 @@ export default function Home() {
     
       <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
 
-        <p className="text-xl text-black fontour textour6   ">Make Every Happiness Possible With <b>Deepika Prints </b> , <span className='text-blue-500'>Join us to get the benefits of our awesome packages and the best  <br></br> <span className='text-red-600 font-bold'>Client experience.</span> </span> </p>
+        <p className="text-xl text-black fontour textour6 mr-4  ">Make Every Happiness Possible With <b>Deepika Prints </b> , <span className='text-blue-500'>Join us to get the benefits of our awesome packages and the best  <span className='text-red-600 font-bold'>Client experience.</span> </span> </p>
         
       </div>
       <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6  ">

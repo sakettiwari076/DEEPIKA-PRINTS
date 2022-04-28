@@ -200,12 +200,7 @@ padding-bottom: 4rem;
 
 }
 
-@media only screen and (max-width: 749px) {
-.textour6 {
-text-align: left;
-padding-left: 2rem;
-}
-}
+
 .ournav {
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(10px);
@@ -223,5 +218,6 @@ padding-left: 2rem;
 }
 .textour6 {
   font-family: 'Share Tech Mono', monospace;
-  padding-right: 2rem;
+
+  padding-right: 4rem;
 }
