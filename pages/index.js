@@ -32,32 +32,33 @@ export default function Home() {
     <h1 className='text-center font-bold pt-12 text-4xl text-red-600 decoration-violet-600  '>OUR SPECIALIZATION</h1>
 
     <div className='  text-gray-900 py-28  grid lg:grid-cols-4 text-center '>
-    <div className='font-semibold py-5 fontour3'>
-    <div className='flex justify-center '>
-    <img src='bat.png' className='h-12 pr-44 pb-4   '/>
-    </div>
-    <h1 className='text-3xl font-semibold '>Corporate Giftings </h1>  <br></br> <p className='font-extralight pr-20'> A Gift to Build Relations</p><br></br>
   
-    </div>
-    <div className='font-semibold  fontour3 py-5'>
-    <div className='flex justify-center'>
-    <img src='bat.png' className='h-12 pr-44 pb-4  '/>
-    </div>
-    <h1 className='text-3xl '>Corporate Giftings </h1>  <br></br> <p className='font-extralight pr-20'> A Gift to Build Relations</p><br></br>
-
-    </div>
-    <div className='font-semibold py-5  fontour3'>
-    <div className='flex justify-center '>
-    <img src='bat.png' className='h-12 pr-44 pb-4   '/>
-    </div>
-    <h1 className='text-3xl '>Corporate Giftings </h1>  <br></br> <p className='font-extralight pr-20'> A Gift to Build Relations</p><br></br>
-    </div>
-   
     <div className='font-semibold py-5  fontour3'>
     <div className='flex justify-center'>
-    <img src='bat.png' className='h-12 pr-44 pb-4  '/>
+    <img src='https://static.thenounproject.com/png/2724353-200.png' className=' pr-48 pb-4 h-16  '/>
     </div>
-    <h1 className='text-3xl '>Corporate Giftings </h1>  <br></br> <p className='font-extralight pr-20'> A Gift to Build Relations</p><br></br>
+    <h1 className='text-3xl pr-5 '>Corporate Giftings </h1>  <br></br> <p className='font-extralight pr-20 '> A Gift To Build Relations
+    </p><br></br>
+    </div>
+    <div className='font-semibold py-5  fontour3'>
+    <div className='flex justify-center'>
+    <img src='https://static.thenounproject.com/png/2724353-200.png' className=' pr-48 pb-4 h-16  '/>
+    </div>
+    <h1 className='text-3xl pr-8 '>Customized Gifts </h1>  <br></br> <p className='font-extralight pr-20 '> Gift for your loved ones
+    </p><br></br>
+    </div>
+    <div className='font-semibold py-5  fontour3'>
+    <div className='flex justify-center'>
+    <img src='https://static.thenounproject.com/png/2724353-200.png' className=' pr-48 pb-4 h-16  '/>
+    </div>
+    <h1 className='text-3xl pr-3 '>Event Management </h1>  <br></br> <p className='font-extralight pr-20 '> One Place Event Solution
+    </p><br></br>
+    </div>
+    <div className='font-semibold py-5  fontour3'>
+    <div className='flex justify-center'>
+    <img src='https://static.thenounproject.com/png/2724353-200.png' className=' pr-48 pb-4 h-16  '/>
+    </div>
+    <h1 className='text-3xl pr-9 '>Supply Chain </h1>  <br></br> <p className='font-extralight pr-20 '> Deliver Anywhere</p><br></br>
     </div>
     </div> 
       <div className=' text-gray-900 py-12 effect6  bgour7 grid lg:grid-cols-4 text-center '>
