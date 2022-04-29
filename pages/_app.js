@@ -141,7 +141,7 @@ const executeScroll = () => scrollToRef(myRef)
 						<div className="md:hidden" id="mobile-menu">
 							<div
 								ref={ref}
-								className="bg-white px-2 pt-2 pb-3 space-y-1 sm:px-3"
+								className="bgournv px-2 pt-2 pb-3 space-y-1 sm:px-3"
 							>
 								<Link
 									href="/home"

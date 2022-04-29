@@ -25,7 +25,7 @@ export default function Home() {
         />
       </div>
     </div>
-    <button className='bg-blue-500 text-white font-semibold px-9 py-2 smallscreenb rounded-md btn9'>EXPLORE</button>
+  <a href='https://www.indiamart.com/deepika-prints-delhi/profile.html'><button className='bg-blue-500 text-white font-semibold px-9 py-2 smallscreenb rounded-md btn9'>EXPLORE</button></a>  
     </div> 
     <h1 className='text-center font-bold pt-10 text-3xl text-red-600 decoration-violet-600  '>OUR SPECIALIZATION</h1>
 
