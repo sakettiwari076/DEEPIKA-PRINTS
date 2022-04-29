@@ -49,14 +49,14 @@ export default function Home() {
     <div className='flex justify-center'>
     <img src='https://static.thenounproject.com/png/2724353-200.png' className=' prour pb-4 h-16  '/>
     </div>
-    <h1 className='text-3xl  '>Event Management </h1>  <br></br> <p className='font-extralight pr-20 '> One Place Event Solution
+    <h1 className='text-3xl  pr-5'>Event Management </h1>  <br></br> <p className='font-extralight pr-20 '> One Place Event Solution
     </p><br></br>
     </div>
     <div className='font-semibold py-5  fontour3'>
     <div className='flex justify-center '>
     <img src='https://static.thenounproject.com/png/2724353-200.png' className=' prour pb-4 h-16  '/>
     </div>
-    <h1 className='text-3xl pr-20  '>Supply Chain </h1>  <br></br> <p className='font-extralight prour8 '> Deliver Anywhere</p><br></br>
+    <h1 className='text-3xl pr-24  '>Supply Chain </h1>  <br></br> <p className='font-extralight prour8 '> Deliver Anywhere</p><br></br>
     </div>
     </div> 
       <div className=' text-gray-900  effect6  bgour7 grid lg:grid-cols-4 text-center '>
