@@ -14,7 +14,7 @@ export default function Home() {
     <div className="text-gray-600 body-font effect6  bgour3 pt-14" id='home'>
         <div className="container mx-auto flex  py-24 md:flex-row flex-col items-center">
       <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-        <p className="text-xl  text-black fontour textour6 mr-4  "><b>Make Every Happiness Possible With Deepika Prints , Join us to get the benefits of our awesome packages and the best </b> <span className='text-red-600 font-extrabold'>Client .</span>  </p>
+        <p className="text-xl  text-black fontour textour6 mr-4  ">Make Every Happiness Possible With Deepika Prints , Join us to get the benefits of our awesome packages and the best <span className='text-red-600 font-extrabold'>Client .</span>  </p>
         <button className="bg-blue-500 btn4 hover:bg-blue-700 text-white font-bold py-2 ml-8 mt-9 bigscreenb px-8 rounded-md">
   EXPLORE
 </button>
