@@ -8,7 +8,7 @@ import Footer from '../Comp/Footer'
 import Testimonials from '../Comp/Testimonail'
 import { Link } from "react-scroll";
 import React, { useState, useRef } from "react";
-
+import Links from 'next/link'
 import { Transition } from "@headlessui/react";
 
 
@@ -61,7 +61,7 @@ import { Transition } from "@headlessui/react";
 										Testimonails
 									</Link>
 
-                  <a href='/Components/product' className='cursor-pointer hover:bg-blue-600 text-black hover:text-white px-3 py-2 rounded-md text-sm font-medium'>Products</a>
+               <Links  href='/Components/product'><a className='cursor-pointer hover:bg-blue-600 text-black hover:text-white px-3 py-2 rounded-md text-sm font-medium'> Products</a></Links>
 
 
 									<Link
@@ -175,7 +175,7 @@ import { Transition } from "@headlessui/react";
 								>
 									Specialization
 								</Link>
-                <a href='/Components/product' className='cursor-pointer hover:bg-blue-600 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium'>Products</a>
+                <Links  href='/Components/product'><a className='cursor-pointer hover:bg-blue-600 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium'> Products</a></Links>
 
 								<Link
 									href="/contact"
