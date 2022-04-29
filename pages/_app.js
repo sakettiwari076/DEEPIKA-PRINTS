@@ -76,7 +76,7 @@ const executeScroll = () => scrollToRef(myRef)
   
   
   <p className=' bgour6 text-xl text-white text-center
-  '>© 2021-22 Priyanka Press. All Rights Reserved.</p>
+  '>© 2021-22 Deepika Prints. All Rights Reserved.</p>
   <div className="w-full bgour6   text-center">
           <a className="text-indigo-500">Deepikaprints72gmail.com</a>
           <p className="leading-normal my-5 text-white">Flat No 452 , Adarsh Apartment
