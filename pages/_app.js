@@ -2,6 +2,8 @@ import '../styles/globals.css'
 import { createStore, applyMiddleware } from 'redux';
 import { persistStore } from 'redux-persist';
 import thunk from 'redux-thunk';
+import useSWR from 'swr'
+
 import '../public/whatsapp.png'
 import '../public/fb.png'
 import React, { useState, useRef } from "react";
@@ -276,7 +278,9 @@ const executeScroll = () => scrollToRef(myRef)
             </a>
           </span>
       </div>
+	  <a href='https://wa.me/917827102242?text='>
 	  <img src='whatsapp.png' className='h-14 imgour8'></img>
+	  </a>
       </div>
   )
 }
