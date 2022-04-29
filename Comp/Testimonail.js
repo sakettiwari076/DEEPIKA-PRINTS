@@ -5,7 +5,7 @@ import { Carousel } from "react-responsive-carousel";
 export default class Testimonials extends Component {
   render() {
     return (
-        <div className="">
+        <div className="" id="testimonials">
               <h1 className="font-bold text-center py-12 text-red-600 text-4xl ">TESTIMONIALS</h1>
 
       <Carousel

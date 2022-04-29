@@ -4,18 +4,25 @@ import { persistStore } from 'redux-persist';
 import thunk from 'redux-thunk';
 import '../public/whatsapp.png'
 import '../public/fb.png'
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import { Transition } from "@headlessui/react";
 import { Link } from "react-scroll";
 import Image from "next/image";
+const scrollRef = (ref) => window.scrollTo(0 , ref.current.offset.Top)
+
 function MyApp({ Component, pageProps }) {
   const [isOpen, setIsOpen] = useState(false);
+
+  const ScrollDemo = () => {
+const myRef = useRef(null)
+const executeScroll = () => scrollToRef(myRef)
+  }
 
   return(
     // NAVBAR 
 
     <div>
-  <nav className=" ournav  fixed w-full z-10">
+  <nav className=" ournav  fixed w-full z-10" >
 				<div className="w-full">
 					<div className="flex items-center h-20 w-full">
 						<div className="flex items-center  mx-20  justify-between w-full">
@@ -27,8 +34,8 @@ function MyApp({ Component, pageProps }) {
 							<div className="hidden md:block">
 								<div className="ml-10 flex items-baseline space-x-4">
 									<Link
-										activeClass="Home"
-										to="about"
+										activeClass=""
+										to="home"
 										smooth={true}
 										offset={50}
 										duration={500}
@@ -36,41 +43,32 @@ function MyApp({ Component, pageProps }) {
 									>
 										Home
 									</Link>
+
 									<Link
-										activeClass="about"
-										to="about"
+										activeClass=""
+										to="testimonials"
 										smooth={true}
 										offset={50}
 										duration={500}
 										className="cursor-pointer hover:bg-blue-600 text-black hover:text-white px-3 py-2 rounded-md text-sm font-medium"
 									>
-										About
-									</Link>
-									<Link
-										activeClass="work"
-										to="work"
-										smooth={true}
-										offset={50}
-										duration={500}
-										className="cursor-pointer hover:bg-blue-600 text-black hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-									>
-										Projects
+										Testimonails
 									</Link>
 
 									<Link
-										activeClass="Services"
-										to="work"
+										activeClass=""
+										to="ourspecialization"
 										smooth={true}
 										offset={50}
 										duration={500}
 										className="cursor-pointer hover:bg-blue-600 text-black hover:text-white px-3 py-2 rounded-md text-sm font-medium"
 									>
-										Services
+										Specialization
 									</Link>
 
 									<Link
-										activeClass="contact"
-										to="contact"
+										activeClass=""
+										to="contactus"
 										smooth={true}
 										offset={50}
 										duration={500}
@@ -145,7 +143,7 @@ function MyApp({ Component, pageProps }) {
 							>
 								<Link
 									href="/home"
-									activeClass="home"
+									activeClass=""
 									to="home"
 									smooth={true}
 									offset={50}
@@ -153,50 +151,41 @@ function MyApp({ Component, pageProps }) {
 									className="cursor-pointer hover:bg-blue-600 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium"
 								>
 									Home
-								</Link>
-								<Link
-									href="/about"
-									activeClass="about"
-									to="about"
-									smooth={true}
-									offset={50}
-									duration={500}
-									className="cursor-pointer hover:bg-blue-600 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-								>
-									About
+
+									
 								</Link>
 
 								<Link
-									href="/work"
-									activeClass="work"
-									to="work"
+									href="/testimonials"
+									activeClass=""
+									to="testimonials"
 									smooth={true}
 									offset={50}
 									duration={500}
 									className="cursor-pointer hover:bg-blue-600 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium"
 								>
-									Projects
+									Testimonails
 								</Link>
 								<Link
 									href="/services"
 									activeClass="services"
-									to="services"
+									to="ourspecialization"
 									smooth={true}
 									offset={50}
 									duration={500}
 									className="cursor-pointer hover:bg-blue-600 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium"
 								>
-									Services
+									Specialization
 								</Link>
 
 								<Link
 									href="/contact"
-									activeClass="work"
-									to="work"
+									activeClass=""
+									to="contactus"
 									smooth={true}
 									offset={50}
 									duration={500}
-									className="cursor-pointer hover:bg-blue-600 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+									className=" cursor-pointer hover:bg-blue-600 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium"
 								>
 									Contact
 								</Link>
@@ -207,7 +196,7 @@ function MyApp({ Component, pageProps }) {
 			</nav>
 
   <Component {...pageProps} />
-  <div className='  font-bold bgtest mt-12 text-red-600 text-center py-12 text-3xl' >
+  <div className='  font-bold bgtest mt-12 text-red-600 text-center py-12 text-3xl' id='contactus' >
   <h1 className='' id='contactus'>CONTACT US</h1>
   </div>
 
