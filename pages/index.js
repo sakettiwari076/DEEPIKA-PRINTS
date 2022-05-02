@@ -10,6 +10,8 @@ import { Link } from "react-scroll";
 import React, { useState, useRef } from "react";
 import Links from 'next/link'
 import { Transition } from "@headlessui/react";
+import Script from 'next/script'
+
 
 
 
@@ -19,6 +21,7 @@ import { Transition } from "@headlessui/react";
   
   return (
     <div className=' '>
+	<Script src="https://www.google-analytics.com/analytics.js" />
     <nav className=" ournav  fixed w-full z-10" >
 				<div className="w-full">
 					<div className="flex items-center h-20 w-full">
@@ -60,8 +63,7 @@ import { Transition } from "@headlessui/react";
 									>
 										Testimonails
 									</Link>
-
-               <Links  href='/Components/product'><a className='cursor-pointer hover:bg-blue-600 text-black hover:text-white px-3 py-2 rounded-md text-sm font-medium'> Products</a></Links>
+									<Links  href='/Components/product'><a className='cursor-pointer hover:bg-blue-600 text-black hover:text-white px-3 py-2 rounded-md text-sm font-medium'> Products</a></Links>
 
 
 									<Link

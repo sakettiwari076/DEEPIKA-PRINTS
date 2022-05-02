@@ -27,6 +27,12 @@ body {
     height:55rem;
 
 }
+.btnc {
+  position: absolute; 
+  inset: 0px auto auto 0px;
+   margin: 0px; 
+   transform: translate3d(391.2px, 681.6px, 0px);
+}
 .fontour3 {
     font-family: 'Akshar', sans-serif;
 }
