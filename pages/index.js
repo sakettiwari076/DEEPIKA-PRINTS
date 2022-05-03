@@ -28,10 +28,10 @@ import Script from 'next/script'
 						<div className="flex items-center  mx-20  justify-between w-full">
 							<div className="flex justify-center items-center flex-shrink-0 ">
 								<h1 className=" font-bold text-xl cursor-pointer">
-									DEEPIKA<span className="text-blue-500">PRINTS</span>
+								DEEPIKA<span className="text-blue-500">PRINTS</span>
 								</h1>
-							</div>
-							<div className="hidden md:block">
+							    </div>
+							    <div className="hidden md:block">
 								<div className="ml-10 flex items-baseline space-x-4">
 									<Link
 										activeClass=""
@@ -63,7 +63,7 @@ import Script from 'next/script'
 									>
 										Testimonails
 									</Link>
-									<Links  href='/Components/product'><a className='cursor-pointer hover:bg-blue-600 text-black hover:text-white px-3 py-2 rounded-md text-sm font-medium'> Products</a></Links>
+									<Links  href='/diariess'><a className='cursor-pointer hover:bg-blue-600 text-black hover:text-white px-3 py-2 rounded-md text-sm font-medium'> Diaries</a></Links>
 
 
 									<Link
@@ -177,7 +177,7 @@ import Script from 'next/script'
 								>
 									Specialization
 								</Link>
-                <Links  href='/Components/product'><a className='cursor-pointer hover:bg-blue-600 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium'> Products</a></Links>
+                <Links  href='/diariess'><a className='cursor-pointer hover:bg-blue-600 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium'> Products</a></Links>
 
 								<Link
 									href="/contact"
