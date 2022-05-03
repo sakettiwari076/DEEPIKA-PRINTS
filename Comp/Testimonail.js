@@ -6,7 +6,7 @@ export default class Testimonials extends Component {
   render() {
     return (
         <div className="" id="testimonials">
-              <h1 className="font-bold text-center py-12 text-red-600 text-4xl ">TESTIMONIALS</h1>
+              <h1 className="font-bold text-3xl text-center py-12 text-red-600 text-4xl ">TESTIMONIALS</h1>
 
       <Carousel
         showArrows={true}

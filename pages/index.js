@@ -148,7 +148,7 @@ import Script from 'next/script'
 									smooth={true}
 									offset={50}
 									duration={500}
-									className="cursor-pointer hover:bg-blue-600 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+									className="cursor-pointer hover:bg-blue-600 text-black hover:text-white block text-center py-2 rounded-md text-base font-medium"
 								>
 									Home
 
@@ -161,7 +161,7 @@ import Script from 'next/script'
 								smooth={true}
 								offset={50}
 								duration={500}
-								className="cursor-pointer hover:bg-blue-600 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+								className="cursor-pointer hover:bg-blue-600 text-black hover:text-white block text-center py-2 rounded-md text-base font-medium"
 							>
 								Specialization
 							</Link>
@@ -173,12 +173,12 @@ import Script from 'next/script'
 									smooth={true}
 									offset={50}
 									duration={500}
-									className="cursor-pointer hover:bg-blue-600 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+									className="cursor-pointer hover:bg-blue-600 text-black hover:text-white block text-center py-2 rounded-md text-base font-medium"
 								>
 									Testimonails
 								</Link>
 
-                <Links  href='/diariess'><a className='cursor-pointer hover:bg-blue-600 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium'> Diaries</a></Links>
+                <Links  href='/diariess'><a className='cursor-pointer hover:bg-blue-600 text-black hover:text-white block text-center py-2 rounded-md text-base font-medium'> Diaries</a></Links>
 
 								<Link
 									href="/contact"
@@ -187,7 +187,7 @@ import Script from 'next/script'
 									smooth={true}
 									offset={50}
 									duration={500}
-									className=" cursor-pointer hover:bg-blue-600 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+									className=" cursor-pointer hover:bg-blue-600  text-black hover:text-white block text-center py-2 rounded-md text-base font-medium"
 								>
 									Contact
 								</Link>
@@ -214,7 +214,7 @@ import Script from 'next/script'
     </div> 
     <h1 className='text-center font-bold pt-10 text-3xl text-red-600 decoration-violet-600  '>OUR SPECIALIZATION</h1>
 
-    <div className='  text-gray-900 py-28  grid lg:grid-cols-4 text-center pl-12  ' id='ourspecialization' >
+    <div className='  text-gray-900 py-14  grid lg:grid-cols-4 text-center pl-12  ' id='ourspecialization' >
   
     <div className='font-semibold py-5  fontour3'>
     <div className='flex justify-center'>
@@ -227,7 +227,7 @@ import Script from 'next/script'
     <div className='flex justify-center'>
     <img src='https://static.thenounproject.com/png/2724353-200.png' className=' prour pb-4 h-16  '/>
     </div>
-    <h1 className='text-3xl pr-8 '>Customized Gifts </h1>  <br></br> <p className='font-extralight pr-20 '> Gift for your loved ones
+    <h1 className='text-3xl pr-8 '>Customized Gifts </h1>  <br></br> <p className='font-extralight pr-20  '> Gift for your loved ones
     </p><br></br>
     </div>
     <div className='font-semibold py-5  fontour3'>
