@@ -154,6 +154,17 @@ import Script from 'next/script'
 
 									
 								</Link>
+								<Link
+								href="/services"
+								activeClass="services"
+								to="ourspecialization"
+								smooth={true}
+								offset={50}
+								duration={500}
+								className="cursor-pointer hover:bg-blue-600 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+							>
+								Specialization
+							</Link>
 
 								<Link
 									href="/testimonials"
@@ -166,18 +177,8 @@ import Script from 'next/script'
 								>
 									Testimonails
 								</Link>
-								<Link
-									href="/services"
-									activeClass="services"
-									to="ourspecialization"
-									smooth={true}
-									offset={50}
-									duration={500}
-									className="cursor-pointer hover:bg-blue-600 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-								>
-									Specialization
-								</Link>
-                <Links  href='/diariess'><a className='cursor-pointer hover:bg-blue-600 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium'> Products</a></Links>
+
+                <Links  href='/diariess'><a className='cursor-pointer hover:bg-blue-600 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium'> Diaries</a></Links>
 
 								<Link
 									href="/contact"
