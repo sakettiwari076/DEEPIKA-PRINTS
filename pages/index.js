@@ -252,21 +252,21 @@ import Frontpaged from '../Comp/Frontpaged'
     </div> 
 	<Frontpaged/>
 
-      <div className=' text-gray-900  effect6  bgour7 grid lg:grid-cols-4 text-center '>
-      <div className='font-semibold  py-5 text-2xl fontour3'>
-      100+ <br></br> Projects <br></br>
+      <div className=' text-gray-900 bg-blue-600   effect6  grid lg:grid-cols-4 text-center '>
+      <div className='font-semibold  py-5 text-2xl '>
+      120+ <br></br> Projects <br></br>
       Completed
       </div>
-        <div className='font-semibold  text-2xl py-5 fontour3'>
+        <div className='font-semibold  text-2xl py-5 '>
         100+ <br></br>Happy<br></br>
         Clients
         </div>
-        <div className='font-semibold text-2xl py-5 fontour3'>
-        100+ <br></br> Awards <br></br>
+        <div className='font-semibold text-2xl py-5 '>
+        50+ <br></br> Awards <br></br>
         Recieved
         </div>
-        <div className='font-semibold text-2xl py-5 fontour3'>
-        100+ <br></br> Cups Of <br></br>
+        <div className='font-semibold text-2xl py-5 '>
+        99+ <br></br> Cups Of <br></br>
         Coffee
         </div>
         </div>
