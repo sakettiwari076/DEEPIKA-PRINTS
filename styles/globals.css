@@ -77,8 +77,8 @@ background-color:blueviolet ;
   }
   
   .carousel .slide img {
-    width: 139px !important;
-    border-radius: 50%;
+    width: 500px !important;
+    
   }
   
   .myCarousel {
@@ -188,9 +188,17 @@ background-color:blueviolet ;
     }
   
     .carousel .slide img {
-      width: 24% !important;
-      border-radius: 50%;
+      width: 50% !important;
+      padding-top: 1.25rem;
+      border-radius: 2%;
     }
+    .c5i {
+      padding-top: 1.4rem;
+    }
+  }
+  .img99 {
+    height: 50vh;
+    border-radius: 0px;
   }
 .bgtest {
     background-color: #f3f3f3;

@@ -1,12 +1,13 @@
 import React, { Component } from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
+import "../public/b1.jpeg"
 
 export default class Testimonials extends Component {
   render() {
     return (
         <div className="" id="testimonials">
-              <h1 className="font-bold text-3xl text-center py-12 text-red-600 text-4xl ">TESTIMONIALS</h1>
+              <h1 className="font-bold text-3xl text-center py-12 text-blue-600  ">TESTIMONIALS</h1>
 
       <Carousel
         showArrows={true}
@@ -18,7 +19,6 @@ export default class Testimonials extends Component {
       >
 
         <div>
-          <img src="/images/shirley.png" />
           <div className="myCarousel">
             <h3>Shirley Fultz</h3>
             <h4>Designer</h4>

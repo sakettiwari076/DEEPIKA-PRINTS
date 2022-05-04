@@ -11,6 +11,7 @@ import React, { useState, useRef } from "react";
 import Links from 'next/link'
 import { Transition } from "@headlessui/react";
 import Script from 'next/script'
+import Frontpaged from '../Comp/Frontpaged'
 
 
 
@@ -64,6 +65,7 @@ import Script from 'next/script'
 										Testimonails
 									</Link>
 									<Links  href='/diariess'><a className='cursor-pointer hover:bg-blue-600 text-black hover:text-white px-3 py-2 rounded-md text-sm font-medium'> Diaries</a></Links>
+									<Links  href='/bottles'><a className='cursor-pointer hover:bg-blue-600 text-black hover:text-white block text-center py-2 rounded-md text-base font-medium'> Bottles</a></Links>
 
 
 									<Link
@@ -178,7 +180,9 @@ import Script from 'next/script'
 									Testimonails
 								</Link>
 
-                <Links  href='/diariess'><a className='cursor-pointer hover:bg-blue-600 text-black hover:text-white block text-center py-2 rounded-md text-base font-medium'> Diaries</a></Links>
+                
+				                <Links  href='/diariess'><a className='cursor-pointer hover:bg-blue-600 text-black hover:text-white block text-center py-2 rounded-md text-base font-medium'> Diaries</a></Links>
+				<Links  href='/bottles'><a className='cursor-pointer hover:bg-blue-600 text-black hover:text-white block text-center py-2 rounded-md text-base font-medium'> Bottles</a></Links>
 
 								<Link
 									href="/contact"
@@ -200,7 +204,7 @@ import Script from 'next/script'
     <div className="text-gray-600 body-font effect6  bgour3 pt-14" id='home'>
         <div className="container mx-auto flex  py-24 md:flex-row flex-col items-center">
       <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-        <p className="text-xl  text-black fontour textour6 mr-4  ">Make Every Happiness Possible With Deepika Prints , Join us to get the benefits of our awesome packages and the best <span className=  'font-extrabold'>Client .</span>  </p>
+        <p className="text-xl font-bold  text-black fontour textour6 mr-4  ">Make Every Happiness Possible With Deepika Prints , Join us to get the benefits of our awesome packages and the best <span className=  'font-extrabold'>Client .</span>  </p>
       <a href='https://www.indiamart.com/deepika-prints-delhi/profile.html'><button className="bg-blue-500 btn4 hover:bg-blue-700 text-white font-bold py-2 ml-8 mt-9 bigscreenb px-8 rounded-md">
   EXPLORE
 </button></a>  
@@ -209,10 +213,12 @@ import Script from 'next/script'
         <img className="object-cover  object-center rounded-3xl mb-7 " alt="hero" src="contact.png"
         />
       </div>
+
     </div>
+
   <a href='https://www.indiamart.com/deepika-prints-delhi/profile.html'><button className='bg-blue-500 text-white font-semibold px-9 py-2 smallscreenb rounded-md btn9'>EXPLORE</button></a>  
     </div> 
-    <h1 className='text-center font-bold pt-10 text-3xl text-red-600 decoration-violet-600  '>OUR SPECIALIZATION</h1>
+    <h1 className='text-center font-bold pt-10 text-3xl text-blue-600 decoration-violet-600  '>OUR SPECIALIZATION</h1>
 
     <div className='  text-gray-900 py-14  grid lg:grid-cols-4 text-center pl-12  ' id='ourspecialization' >
   
@@ -244,6 +250,8 @@ import Script from 'next/script'
     <h1 className='text-3xl pr-24  '>Supply Chain </h1>  <br></br> <p className='font-extralight prour8 '> Deliver Anywhere</p><br></br>
     </div>
     </div> 
+	<Frontpaged/>
+
       <div className=' text-gray-900  effect6  bgour7 grid lg:grid-cols-4 text-center '>
       <div className='font-semibold  py-5 text-2xl fontour3'>
       100+ <br></br> Projects <br></br>

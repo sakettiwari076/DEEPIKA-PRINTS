@@ -26,7 +26,7 @@ const executeScroll = () => scrollToRef(myRef)
   
 
   <Component {...pageProps} />
-  <div className='  font-bold bgtest mt-12 text-red-600 text-center py-12 text-3xl' id='contactus' >
+  <div className='  font-bold bgtest mt-12 text-blue-600 text-center py-12 text-3xl' id='contactus' >
   <h1 className='' id='contactus'>CONTACT US</h1>
   </div>
 
