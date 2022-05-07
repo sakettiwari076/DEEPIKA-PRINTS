@@ -300,3 +300,7 @@ padding-bottom: 4rem;
 .bg-navy{
   background: navy;
 }
+.position3 {
+  position: relative;
+  top: 4.8rem;
+}

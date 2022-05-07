@@ -210,7 +210,7 @@ import Frontpaged from '../Comp/Frontpaged'
 </button></a>  
       </div>
       <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6  ">
-        <img className="object-cover  object-center rounded-3xl mb-7 " alt="hero" src="contact.png"
+        <img className="object-cover position3  object-center rounded-3xl mb-7 " alt="hero" src="contact.png"
         />
       </div>
 
