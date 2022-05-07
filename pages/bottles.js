@@ -21,7 +21,7 @@ const product = () => {
   return (
     <div>
     
-    <h1 className='text-center py-3 text-3xl text-red-600 font-bold'>Bottles</h1>
+    <h1 className='text-center py-3 text-3xl txtnavy font-bold'>Bottles</h1>
        <a href='../'>
     <img src='https://www.kindpng.com/picc/m/78-780481_inside-page-left-back-button-back-button-png.png' className=' arrow '/>
     </a>

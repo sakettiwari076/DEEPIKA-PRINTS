@@ -83,7 +83,7 @@ import Frontpaged from '../Comp/Frontpaged'
 							<button
 								onClick={() => setIsOpen(!isOpen)}
 								type="button"
-								className="bg-blue-600 inline-flex items-center justify-center p-2 rounded-md text-white  hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-blue-800 focus:ring-white"
+									className="bg-navy inline-flex items-center justify-center p-2 rounded-md text-white  hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-blue-800 focus:ring-white"
 								aria-controls="mobile-menu"
 								aria-expanded="false"
 							>
