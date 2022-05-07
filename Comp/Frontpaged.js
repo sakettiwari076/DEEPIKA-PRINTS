@@ -21,7 +21,7 @@ export default class Frontpaged extends Component {
   render() {
     return (
         <div className="" id="">
-              <h1 className="font-bold text-3xl text-center  text-blue-600  ">FEAUTURED PRODUCTS</h1>
+              <h1 className="font-bold text-3xl text-center  txtnavy  ">FEAUTURED PRODUCTS</h1>
 
       <Carousel
         showArrows={true}
@@ -32,7 +32,7 @@ export default class Frontpaged extends Component {
         interval={6100}
       >
 
-<div className="c5i ptour0">
+<div className="c5i ptour0 img99">
 <img src="c5.jpeg"></img>
 
 </div>

@@ -7,7 +7,7 @@ export default class Testimonials extends Component {
   render() {
     return (
         <div className="" id="testimonials">
-              <h1 className="font-bold text-3xl text-center py-12 text-blue-600  ">TESTIMONIALS</h1>
+              <h1 className="font-bold text-3xl text-center py-12 txtnavy  ">TESTIMONIALS</h1>
 
       <Carousel
         showArrows={true}
@@ -19,38 +19,28 @@ export default class Testimonials extends Component {
       >
 
         <div>
-          <div className="myCarousel">
-            <h3>Shirley Fultz</h3>
-            <h4>Designer</h4>
+          <div className="myCarousel ">
+            <h3>Prabhat</h3>
+            <h4></h4>
             <p>
-              It's freeing to be able to catch up on customized news and not be
-              distracted by a social media element on the same site
+              The product quality was too good ! I'll always use DeepikaPrints for my Giftings.
             </p>
           </div>
         </div>
 
         <div>
-          <img src="/images/daniel.png" />
           <div className="myCarousel">
-            <h3>Daniel Keystone</h3>
-            <h4>Designer</h4>
+            <h3>Aryan Tiwari</h3>
+            <h4>Student</h4>
             <p>
-              The simple and intuitive design makes it easy for me use. I highly
-              recommend Fetch to my peers.
+              I got the products on time , I'm very happy with the service.
             </p>
           </div>
         </div>
 
         <div>
-          <img src="/images/theo.png" />
-          <div className="myCarousel">
-            <h3>Theo Sorel</h3>
-            <h4>Designer</h4>
-            <p>
-              I enjoy catching up with Fetch on my laptop, or on my phone when
-              I'm on the go!
-            </p>
-          </div>
+          
+        
         </div>
       </Carousel>
       </div>

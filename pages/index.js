@@ -14,8 +14,6 @@ import Script from 'next/script'
 import Frontpaged from '../Comp/Frontpaged'
 
 
-
-
  const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -23,13 +21,13 @@ import Frontpaged from '../Comp/Frontpaged'
   return (
     <div className=''>
 	<Script src="https://www.google-analytics.com/analytics.js" />
-    <nav className=" ournav  fixed w-full z-10" >
+    <nav className=" ournav  bgyl fixed w-full z-10" >
 				<div className="w-full">
-					<div className="flex items-center h-20 w-full">
+					<div className="flex bgyl items-center h-20 w-full">
 						<div className="flex items-center  mx-20  justify-between w-full">
 							<div className="flex justify-center items-center flex-shrink-0 ">
-								<h1 className=" font-bold text-xl cursor-pointer">
-								DEEPIKA<span className="text-blue-500">PRINTS</span>
+								<h1 className=" font-bold text-xl txtnavy cursor-pointer">
+								DEEPIKA<span className="txtnavy">PRINTS</span>
 								</h1>
 							    </div>
 							    <div className="hidden md:block ">
@@ -204,8 +202,9 @@ import Frontpaged from '../Comp/Frontpaged'
     <div className="text-gray-600 bg-navy effect6  bgour3 pt-14" id='home'>
         <div className="container  mx-auto flex  py-24 md:flex-row flex-col items-center">
       <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-        <p className="text-xl font-semibold  text-white  bodyfont9  textour6 mr-4 tracking-wider  ">Make Every Happiness Possible With Deepika Prints , Join us to get the benefits of our awesome packages and the best <span className=  ''>Client .</span>  </p>
-      <a href='https://www.indiamart.com/deepika-prints-delhi/profile.html'><button className="bg-blue-500 btn4 hover:bg-blue-700 text-white font-bold py-2 ml-8 mt-9 bigscreenb px-8 rounded-md">
+        <p className="text-xl font-semibold   text-white  bodyfont9  textour6 mr-4 tracking-wider  ">Make Every Happiness Possible With Deepika Prints , Join us to get the benefits of our awesome packages and the best Client .  </p>
+      <a href='https://www.indiamart.com/deepika-prints-delhi/profile.html'>
+	  <button className="bgyl btn4 hover:bg-orange-400 text-black font-bold py-2 ml-8 mt-9 bigscreenb px-8 rounded-md">
   EXPLORE
 </button></a>  
       </div>
@@ -216,9 +215,9 @@ import Frontpaged from '../Comp/Frontpaged'
 
     </div>
 
-  <a href='https://www.indiamart.com/deepika-prints-delhi/profile.html'><button className='bg-blue-500 text-white font-semibold px-9 py-2 smallscreenb rounded-md btn9'>EXPLORE</button></a>  
+  <a href='https://www.indiamart.com/deepika-prints-delhi/profile.html'><button className='bgyl text-black hover:bg-orange-400 font-semibold px-9 py-2 smallscreenb rounded-md btn9'>EXPLORE</button></a>  
     </div> 
-    <h1 className='text-center font-bold pt-10 text-3xl text-blue-600 decoration-violet-600  '>OUR SPECIALIZATION</h1>
+    <h1 className='text-center font-bold pt-10 text-3xl txtnavy decoration-violet-600  '>OUR SPECIALIZATION</h1>
 
     <div className='  text-gray-900 py-14  grid lg:grid-cols-4 text-center pl-12  ' id='ourspecialization' >
   
@@ -226,34 +225,34 @@ import Frontpaged from '../Comp/Frontpaged'
     <div className='flex justify-center'>
     <img src='https://static.thenounproject.com/png/2724353-200.png' className=' prour pb-4 h-16  '/>
     </div>
-    <h1 className='text-3xl pr-5 '>Corporate Giftings </h1>  <br></br> <p className='font-extralight pr-20 '> A Gift To Build Relations
+    <h1 className='text-3xl pr-5 txtnavy'>Corporate Giftings </h1>  <br></br> <p className='font-extralight pr-20 '> A Gift To Build Relations
     </p><br></br>
     </div>
     <div className='font-semibold py-5  fontour3'>
     <div className='flex justify-center'>
     <img src='https://static.thenounproject.com/png/2724353-200.png' className=' prour pb-4 h-16  '/>
     </div>
-    <h1 className='text-3xl pr-8 '>Customized Gifts </h1>  <br></br> <p className='font-extralight pr-20  '> Gift for your loved ones
-    </p><br></br>
-    </div>
-    <div className='font-semibold py-5  fontour3'>
-    <div className='flex justify-center'>
-    <img src='https://static.thenounproject.com/png/2724353-200.png' className=' prour pb-4 h-16  '/>
-    </div>
-    <h1 className='text-3xl  pr-5'>Event Management </h1>  <br></br> <p className='font-extralight pr-20 '> One Place Event Solution
+    <h1 className='text-3xl pr-8  txtnavy'>Customized Gifts </h1>  <br></br> <p className='font-extralight pr-20  '> Gift for your loved ones
     </p><br></br>
     </div>
     <div className='font-semibold py-5  fontour3'>
     <div className='flex justify-center '>
     <img src='https://static.thenounproject.com/png/2724353-200.png' className=' prour pb-4 h-16  '/>
     </div>
-    <h1 className='text-3xl pr-24  '>Supply Chain </h1>  <br></br> <p className='font-extralight prour8 '> Deliver Anywhere</p><br></br>
+    <h1 className='text-3xl txtnavy  pr-5'>Event Management </h1>  <br></br> <p className='font-extralight pr-20 '> One Place Event Solution
+    </p><br></br>
+    </div>
+    <div className='font-semibold py-5  fontour3'>
+    <div className='flex justify-center '>
+    <img src='https://static.thenounproject.com/png/2724353-200.png' className=' prour pb-4 h-16  '/>
+    </div>
+    <h1 className='text-3xl pr-24 txtnavy  '>Supply Chain </h1>  <br></br> <p className='font-extralight prour8 '> Deliver Anywhere</p><br></br>
     </div>
     </div> 
 	<Frontpaged/>
 
-      <div className=' text-gray-900 bg-blue-600   effect6  grid lg:grid-cols-4 text-center '>
-      <div className='font-semibold  py-5 text-2xl '>
+      <div className=' text bg-navy text-white  effect6  grid lg:grid-cols-4 text-center '>
+      <div className='font-semibold text-white py-5 text-2xl '>
       120+ <br></br> Projects <br></br>
       Completed
       </div>
