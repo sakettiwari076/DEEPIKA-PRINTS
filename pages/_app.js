@@ -22,7 +22,7 @@ const executeScroll = () => scrollToRef(myRef)
   return(
     // NAVBAR 
 
-    <div>
+    <div className=''>
   
 
   <Component {...pageProps} />

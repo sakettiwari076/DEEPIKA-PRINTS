@@ -9,6 +9,10 @@ import "../public/c4.jpeg"
 import "../public/c9.jpeg"
 import "../public/c10.jpeg"
 import "../public/c5.jpeg"
+import "../public/c6.jpeg"
+import "../public/dia4.jpeg"
+
+
 
 
 
@@ -27,27 +31,20 @@ export default class Frontpaged extends Component {
         autoPlay={true}
         interval={6100}
       >
-      <div className="image99 ">
-<img src="c4.jpeg"></img>
 
-
-</div>
-<div className="c5i">
+<div className="c5i ptour0">
 <img src="c5.jpeg"></img>
 
 </div>
 
-<div className="image99">
-<img src="c8.jpeg"></img>
 
-</div>
 <div className="image99">
-<img src="c2.jpeg"></img>
+<img src="dia4.jpeg"></img>
 
 </div>
 
 <div className="image99">
-<img src="b1.jpeg"></img>
+<img src="c6.jpeg"></img>
 
 </div>
 
@@ -55,29 +52,10 @@ export default class Frontpaged extends Component {
 <img src="c10.jpeg"></img>
 
 </div>
-
-<div className="image99">
-<img src="c3.jpeg"></img>
-
-</div>
-
-
-
-<div className="image99">
-<img src="c9.jpeg"></img>
-
-</div>
-
-
-
 <div className="image99">
 <img src="b1.jpeg"></img>
 
-</div>
-
-
-      
-        
+</div>  
       </Carousel>
       </div>
     );
