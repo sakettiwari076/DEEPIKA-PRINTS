@@ -1,4 +1,8 @@
+
+
+
 import Head from 'next/head'
+
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import '../public/frontpage.png'
@@ -64,6 +68,9 @@ import Frontpaged from '../Comp/Frontpaged'
 									</Link>
 									<Links  href='/diariess'><a className='cursor-pointer hover:bg-blue-600 text-black hover:text-white px-3 py-2 rounded-md text-sm font-medium'> Diaries</a></Links>
 									<Links  href='/bottles'><a className='cursor-pointer hover:bg-blue-600 text-black hover:text-white block text-center py-2 rounded-md text-base font-medium'> Bottles</a></Links>
+									
+									<Links  href='/Cup'><a className='cursor-pointer hover:bg-blue-600 text-black hover:text-white block text-center py-2 rounded-md text-base font-medium'> Cup</a></Links>
+									<Links  href='/Fillform'><a className='cursor-pointer hover:bg-blue-600 text-black hover:text-white block text-center py-2 rounded-md text-base font-medium'> One click</a></Links>
 
 
 									<Link
@@ -76,6 +83,7 @@ import Frontpaged from '../Comp/Frontpaged'
 									>
 										Contact
 									</Link>
+
 								</div>
 							</div>
 						</div>
@@ -180,7 +188,9 @@ import Frontpaged from '../Comp/Frontpaged'
 
                 
 				                <Links  href='/diariess'><a className=' bordernavrest cursor-pointer hover:bg-blue-600 text-black hover:text-white block text-center py-2 rounded-md text-base font-medium'> Diaries</a></Links>
-				<Links  href='/bottles'><a className='bordernavrest cursor-pointer hover:bg-blue-600 text-black hover:text-white block text-center py-2 rounded-md text-base font-medium'> Bottles</a></Links>
+				
+								<Links  href='/bottles'><a className='bordernavrest cursor-pointer hover:bg-blue-600 text-black hover:text-white block text-center py-2 rounded-md text-base font-medium'> Bottles</a></Links>
+				<Links  href='/Cup'><a className='bordernavrest cursor-pointer hover:bg-blue-600 text-black hover:text-white block text-center py-2 rounded-md text-base font-medium'> Cup</a></Links>
 
 								<Link
 									href="/contact"
@@ -214,8 +224,9 @@ import Frontpaged from '../Comp/Frontpaged'
       </div>
 
     </div>
+	
 
-  <a href='https://www.indiamart.com/deepika-prints-delhi/profile.html'><button className='bgyl text-black hover:bg-orange-400 font-semibold px-9 py-2 smallscreenb rounded-md btn9'>EXPLORE</button></a>  
+  <a href='https://www.indiamart.com/deepika-prints-delhi/profile.html'><button className='bgyl text-black hover:bg-yellow-200 font-semibold px-9 py-2 smallscreenb rounded-md btn9'>EXPLORE</button></a>  
     </div> 
     <h1 className='text-center font-bold pt-10 text-3xl txtnavy decoration-violet-600  '>OUR SPECIALIZATION</h1>
 
