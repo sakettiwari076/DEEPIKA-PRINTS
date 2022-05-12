@@ -38,7 +38,7 @@ import Frontpaged from '../Comp/Frontpaged'
 										smooth={true}
 										offset={50}
 										duration={500}
-										className="text-white cursor-pointer  font-semibold px-3 py-2 text-md hover:font-black"
+										className="cursor-pointer hover:bg-blue-600 text-black hover:text-white px-3 py-2 rounded-md text-sm font-medium"
 									>
 										Home
 									</Link>
@@ -148,7 +148,7 @@ import Frontpaged from '../Comp/Frontpaged'
 									smooth={true}
 									offset={50}
 									duration={500}
-									className="cursor-pointer hover:bg-blue-600 text-black hover:text-white block text-center py-2 rounded-md text-base font-medium"
+									className="cursor-pointer hover:bg-blue-600 text-black hover:text-white block text-center py-2 rounded-md text-base font-medium bordernavrest"
 								>
 									Home
 
@@ -161,7 +161,7 @@ import Frontpaged from '../Comp/Frontpaged'
 								smooth={true}
 								offset={50}
 								duration={500}
-								className="cursor-pointer hover:bg-blue-600 text-black hover:text-white block text-center py-2 rounded-md text-base font-medium"
+								className="cursor-pointer hover:bg-blue-600 text-black hover:text-white block text-center py-2 rounded-md text-base font-medium bordernavrest"
 							>
 								Specialization
 							</Link>
@@ -173,14 +173,14 @@ import Frontpaged from '../Comp/Frontpaged'
 									smooth={true}
 									offset={50}
 									duration={500}
-									className="cursor-pointer hover:bg-blue-600 text-black hover:text-white block text-center py-2 rounded-md text-base font-medium"
+									className="cursor-pointer hover:bg-blue-600 text-black hover:text-white block text-center py-2 rounded-md text-base font-medium bordernavrest"
 								>
 									Testimonails
 								</Link>
 
                 
-				                <Links  href='/diariess'><a className='cursor-pointer hover:bg-blue-600 text-black hover:text-white block text-center py-2 rounded-md text-base font-medium'> Diaries</a></Links>
-				<Links  href='/bottles'><a className='cursor-pointer hover:bg-blue-600 text-black hover:text-white block text-center py-2 rounded-md text-base font-medium'> Bottles</a></Links>
+				                <Links  href='/diariess'><a className=' bordernavrest cursor-pointer hover:bg-blue-600 text-black hover:text-white block text-center py-2 rounded-md text-base font-medium'> Diaries</a></Links>
+				<Links  href='/bottles'><a className='bordernavrest cursor-pointer hover:bg-blue-600 text-black hover:text-white block text-center py-2 rounded-md text-base font-medium'> Bottles</a></Links>
 
 								<Link
 									href="/contact"
@@ -189,7 +189,7 @@ import Frontpaged from '../Comp/Frontpaged'
 									smooth={true}
 									offset={50}
 									duration={500}
-									className=" cursor-pointer hover:bg-blue-600  text-black hover:text-white block text-center py-2 rounded-md text-base font-medium"
+									className=" cursor-pointer hover:bg-blue-600  text-black hover:text-white block text-center py-2 rounded-md text-base font-medium  bordernavrest"
 								>
 									Contact
 								</Link>
@@ -204,7 +204,7 @@ import Frontpaged from '../Comp/Frontpaged'
       <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
         <p className="text-xl font-semibold   text-white  bodyfont9  textour6 mr-4 tracking-wider  ">Make Every Happiness Possible With Deepika Prints , Join us to get the benefits of our awesome packages and the best Client .  </p>
       <a href='https://www.indiamart.com/deepika-prints-delhi/profile.html'>
-	  <button className="bgyl btn4 hover:bg-orange-400 text-black font-bold py-2 ml-8 mt-9 bigscreenb px-8 rounded-md">
+	  <button className="bgyl btn4 hover:bg-yellow-200 text-black font-bold py-2 ml-8 mt-9 bigscreenb px-8 rounded-md">
   EXPLORE
 </button></a>  
       </div>
