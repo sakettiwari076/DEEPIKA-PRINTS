@@ -233,7 +233,7 @@ padding-bottom: 4rem;
 
 .ournav {
   background-color: #f7f7f7b3 !important;
-
+color: white;
   backdrop-filter: blur(8px);
   box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.5); 
 }
@@ -309,7 +309,7 @@ padding-bottom: 4rem;
 }
 .position3 {
   position: relative;
-  top: 4.8rem;
+  top: 4rem;
 }
 .bordernav {
   border: black;
@@ -319,10 +319,11 @@ padding-bottom: 4rem;
     border-right: solid;
 }
 .bordernavrest {
+  border-radius: 0px;
   border-top: none;
   border-bottom: solid;
-  border-left: solid;
-  border-right: solid;
+  border-right: none;
+  border-left: none;
   border-width: thin;
 
 }

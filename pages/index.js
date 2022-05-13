@@ -25,13 +25,13 @@ import Frontpaged from '../Comp/Frontpaged'
   return (
     <div className=''>
 	<Script src="https://www.google-analytics.com/analytics.js" />
-    <nav className=" ournav  bgyl fixed w-full z-10" >
+    <nav className=" ournav   fixed w-full z-10" >
 				<div className="w-full">
-					<div className="flex bgyl items-center h-20 w-full">
+					<div className="flex bg-navy  text-white items-center h-20 w-full">
 						<div className="flex items-center  mx-20  justify-between w-full">
 							<div className="flex justify-center items-center flex-shrink-0 ">
-								<h1 className=" font-bold text-xl txtnavy cursor-pointer">
-								DEEPIKA<span className="txtnavy">PRINTS</span>
+								<h1 className=" font-extralight text-xl text-white cursor-pointer">
+								DEEPIKA<span className="text-white">PRINTS</span>
 								</h1>
 							    </div>
 							    <div className="hidden md:block ">
@@ -42,7 +42,7 @@ import Frontpaged from '../Comp/Frontpaged'
 										smooth={true}
 										offset={50}
 										duration={500}
-										className="cursor-pointer hover:bg-blue-600 text-black hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+										className="cursor-pointer hover:bg-blue-600 text-white hover:text-white px-3 py-2 rounded-md text-sm font-medium"
 									>
 										Home
 									</Link>
@@ -52,7 +52,7 @@ import Frontpaged from '../Comp/Frontpaged'
                   smooth={true}
                   offset={50}
                   duration={500}
-                  className="cursor-pointer hover:bg-blue-600 text-black hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                  className="cursor-pointer hover:bg-blue-600 text-white hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                 >
                   Specialization
                 </Link>
@@ -62,15 +62,15 @@ import Frontpaged from '../Comp/Frontpaged'
 										smooth={true}
 										offset={50}
 										duration={500}
-										className="cursor-pointer hover:bg-blue-600 text-black hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+										className="cursor-pointer hover:bg-blue-600 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
 									>
 										Testimonails
 									</Link>
-									<Links  href='/diariess'><a className='cursor-pointer hover:bg-blue-600 text-black hover:text-white px-3 py-2 rounded-md text-sm font-medium'> Diaries</a></Links>
-									<Links  href='/bottles'><a className='cursor-pointer hover:bg-blue-600 text-black hover:text-white block text-center py-2 rounded-md text-base font-medium'> Bottles</a></Links>
+									<Links  href='/diariess'><a className='cursor-pointer hover:bg-blue-600  hover:text-white px-3 py-2 rounded-md text-sm font-medium'> Diaries</a></Links>
+									<Links  href='/bottles'><a className='cursor-pointer hover:bg-blue-600  hover:text-white block text-center py-2 rounded-md text-base font-medium'> Bottles</a></Links>
 									
-									<Links  href='/Cup'><a className='cursor-pointer hover:bg-blue-600 text-black hover:text-white block text-center py-2 rounded-md text-base font-medium'> Cup</a></Links>
-									<Links  href='/Fillform'><a className='cursor-pointer hover:bg-blue-600 text-black hover:text-white block text-center py-2 rounded-md text-base font-medium'> One click</a></Links>
+									<Links  href='/Cup'><a className='cursor-pointer hover:bg-blue-600  hover:text-white block text-center py-2 rounded-md text-base font-medium'> Cup</a></Links>
+									<Links  href='/Fillform'><a className='cursor-pointer hover:bg-blue-600  hover:text-white block text-center py-2 rounded-md text-base font-medium'> One click</a></Links>
 
 
 									<Link
@@ -211,24 +211,24 @@ import Frontpaged from '../Comp/Frontpaged'
 				</Transition>
 			</nav>
     
-    <div className="text-gray-600 bg-navy effect6  bgour3 pt-14" id='home'>
-        <div className="container  mx-auto flex  py-24 md:flex-row flex-col items-center">
+    <div className="txtnavy effect6  bgour3 pt-14" id='home'>
+        <div className="container  mx-auto flex  pt-24 md:flex-row flex-col items-center">
       <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-        <p className="text-xl font-semibold   text-white  bodyfont9  textour6 mr-4 tracking-wider  ">Make Every Happiness Possible With Deepika Prints , Join us to get the benefits of our awesome packages and the best Client .  </p>
+        <p className="text-xl font-semibold    bodyfont9  textour6 mr-4 tracking-wider  "> <span className='font-semibold'> Make Every Happiness Possible With Deepika Prints ,</span>  Join us to get the benefits of our awesome packages and the best Client .  </p>
       <a href='https://www.indiamart.com/deepika-prints-delhi/profile.html'>
-	  <button className="bgyl btn4 hover:bg-yellow-200 text-black font-bold py-2 ml-8 mt-9 bigscreenb px-8 rounded-md">
+	  <button className="bg-navy btn4 hover:bg-blue-200 text-white font-bold py-2 ml-8 mt-9 bigscreenb px-8 rounded-md">
   EXPLORE
 </button></a>  
       </div>
-      <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6  ">
-        <img className="object-cover position3  object-center rounded-3xl mb-7 " alt="hero" src="contact.png"
+      <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 pb-0  ">
+        <img className="object-cover position3  object-center rounded-3xl mb-7 " alt="hero" src="ast.png"
         />
       </div>
 
     </div>
 	
 
-  <a href='https://www.indiamart.com/deepika-prints-delhi/profile.html'><button className='bgyl text-black hover:bg-yellow-200 font-semibold px-9 py-2 smallscreenb rounded-md btn9'>EXPLORE</button></a>  
+  <a href='https://www.indiamart.com/deepika-prints-delhi/profile.html'><button className='bg-navy text-white hover:bg-blue-200 font-normal space-x-3 px-9 py-2 smallscreenb rounded-md btn9'>EXPLORE</button></a>  
     </div> 
     <h1 className='text-center font-bold pt-10 text-3xl txtnavy decoration-violet-600  '>OUR SPECIALIZATION</h1>
 
