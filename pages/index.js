@@ -1,3 +1,6 @@
+import { Fragment } from 'react'
+import { Menu, Transition } from '@headlessui/react'
+import { ChevronDownIcon } from '@heroicons/react/solid'
 
 
 
@@ -13,10 +16,11 @@ import Testimonials from '../Comp/Testimonail'
 import { Link } from "react-scroll";
 import React, { useState, useRef } from "react";
 import Links from 'next/link'
-import { Transition } from "@headlessui/react";
 import Script from 'next/script'
 import Frontpaged from '../Comp/Frontpaged'
-
+function classNames(...classes) {
+	return classes.filter(Boolean).join(' ')
+  }
 
  const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -46,6 +50,85 @@ import Frontpaged from '../Comp/Frontpaged'
 									>
 										Home
 									</Link>
+									<Menu as="div" className="relative inline-block text-left">
+									<div>
+									  <Menu.Button className="inline-flex justify-center w-full rounded-md border border-gray-300 shadow-sm px-4 py-2 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500">
+										Options
+										<ChevronDownIcon className="-mr-1 ml-2 h-5 w-5" aria-hidden="true" />
+									  </Menu.Button>
+									</div>
+							  
+									<Transition
+									  as={Fragment}
+									  enter="transition ease-out duration-100"
+									  enterFrom="transform opacity-0 scale-95"
+									  enterTo="transform opacity-100 scale-100"
+									  leave="transition ease-in duration-75"
+									  leaveFrom="transform opacity-100 scale-100"
+									  leaveTo="transform opacity-0 scale-95"
+									>
+									  <Menu.Items className="origin-top-right absolute right-0 mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none">
+										<div className="py-1">
+										  <Menu.Item>
+											{({ active }) => (
+											  <a
+												href="#"
+												className={classNames(
+												  active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
+												  'block px-4 py-2 text-sm'
+												)}
+											  >
+												Account settings
+											  </a>
+											)}
+										  </Menu.Item>
+										  <Menu.Item>
+											{({ active }) => (
+											  <a
+												href="#"
+												className={classNames(
+												  active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
+												  'block px-4 py-2 text-sm'
+												)}
+											  >
+												Support
+											  </a>
+											)}
+										  </Menu.Item>
+										  <Menu.Item>
+											{({ active }) => (
+											  <a
+												href="#"
+												className={classNames(
+												  active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
+												  'block px-4 py-2 text-sm'
+												)}
+											  >
+												License
+											  </a>
+											)}
+										  </Menu.Item>
+										  <form method="POST" action="#">
+											<Menu.Item>
+											  {({ active }) => (
+												<button
+												  type="submit"
+												  className={classNames(
+													active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
+													'block w-full text-left px-4 py-2 text-sm'
+												  )}
+												>
+												  Sign out
+												</button>
+											  )}
+											</Menu.Item>
+										  </form>
+										</div>
+									  </Menu.Items>
+									</Transition>
+								  </Menu>
+								)
+							  
                   <Link
                   activeClass=""
                   to="ourspecialization"
@@ -185,13 +268,88 @@ import Frontpaged from '../Comp/Frontpaged'
 								>
 									Testimonails
 								</Link>
+								<Menu as="div" className="relative inline-block text-left">
+								<div>
+								  <Menu.Button className="inline-flex justify-center w-full rounded-md border border-gray-300 shadow-sm px-2 mx-20 py-2 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500">
+									Products
+									<ChevronDownIcon className="-mr-1 ml-2 h-5 w-5" aria-hidden="true" />
+								  </Menu.Button>
+								</div>
+						  
+								<Transition
+								  as={Fragment}
+								  enter="transition ease-out duration-100"
+								  enterFrom="transform opacity-0 scale-95"
+								  enterTo="transform opacity-100 scale-100"
+								  leave="transition ease-in duration-75"
+								  leaveFrom="transform opacity-100 scale-100"
+								  leaveTo="transform opacity-0 scale-95"
+								>
+								  <Menu.Items className="origin-top-right absolute right-0 mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none">
+									<div className="py-1">
+									  <Menu.Item>
+										{({ active }) => (
+										  // eslint-disable-next-line @next/next/no-html-link-for-pages
+										  <a
+											href="/diariess"
+											className={classNames(
+											  active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
+											  'block px-4 py-2 text-sm'
+											)}
+										  >
+											Diaries
+										  </a>
+										)}
+									  </Menu.Item>
+									  <Menu.Item>
+										{({ active }) => (
+										  // eslint-disable-next-line @next/next/no-html-link-for-pages
+										  <a
+											href="/Cup"
+											className={classNames(
+											  active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
+											  'block px-4 py-2 text-sm'
+											)}
+										  >
+											Cup
+										  </a>
+										)}
+									  </Menu.Item>
+									  <Menu.Item>
+										{({ active }) => (
+										  // eslint-disable-next-line @next/next/no-html-link-for-pages
+										  <a
+											href="/bottles"
+											className={classNames(
+											  active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
+											  'block px-4 py-2 text-sm'
+											)}
+										  >
+											Bottles
+										  </a>
+										)}
+									  </Menu.Item>
+									  <form method="POST" action="#">
+										<Menu.Item>
+										  {({ active }) => (
+											<button
+											  type="submit"
+											  className={classNames(
+												active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
+												'block w-full text-left px-4 py-2 text-sm'
+											  )}
+											>
+											  Comming soon...
+											</button>
+										  )}
+										</Menu.Item>
+									  </form>
+									</div>
+								  </Menu.Items>
+								</Transition>
+							  </Menu>
+							)			  
 
-                
-				                <Links  href='/diariess'><a className=' bordernavrest cursor-pointer hover:bg-blue-600 text-black hover:text-white block text-center py-2 rounded-md text-base font-medium'> Diaries</a></Links>
-				
-								<Links  href='/bottles'><a className='bordernavrest cursor-pointer hover:bg-blue-600 text-black hover:text-white block text-center py-2 rounded-md text-base font-medium'> Bottles</a></Links>
-				
-								<Links  href='/Cup'><a className='bordernavrest cursor-pointer hover:bg-blue-600 text-black hover:text-white block text-center py-2 rounded-md text-base font-medium'> Cup</a></Links>
 				<Links  href='/Fillform'><a className='bordernavrest cursor-pointer hover:bg-blue-600 text-black hover:text-white block text-center py-2 rounded-md text-base font-medium'> Fillform</a></Links>
 
 								<Link
@@ -205,12 +363,17 @@ import Frontpaged from '../Comp/Frontpaged'
 								>
 									Contact
 								</Link>
+
 							</div>
 						</div>
+						
 					)}
 				</Transition>
+
+				
 			</nav>
-    
+
+		
     <div className="txtnavy effect6  bgour3 pt-14" id='home'>
         <div className="container  mx-auto flex  pt-24 md:flex-row flex-col items-center">
       <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
@@ -220,7 +383,7 @@ import Frontpaged from '../Comp/Frontpaged'
   EXPLORE
 </button></a>  
       </div>
-      <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 pb-0  ">
+      <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6   ">
         <img className="object-cover position3  object-center rounded-3xl mb-7 " alt="hero" src="ast.png"
         />
       </div>
