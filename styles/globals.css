@@ -273,13 +273,15 @@ color: white;
 @media only screen and (min-width: 681px) {
   .btn9 {
     display: none;
+
   
   }
+
 }
 @media only screen and (max-width: 391px) {
   .btn9 {
-    position: relative;
-    bottom: 29rem;
+    position: absolute;
+    bottom: 30.4rem;
     /* margin-top: 8rem;
     margin-bottom: 0rem; */
 }
