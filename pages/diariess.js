@@ -1,25 +1,6 @@
 import React from 'react'
 import Link from 'react-scroll/modules/components/Link'
-import Image from 'next'
-import '../public/diaten.jpeg'
-import '../public/dian.jpeg'
-import '../public/diao.jpeg'
-import '../public/diase.jpeg'
-import '../public/diath.jpeg'
-import '../public/dias.jpeg'
-import '../public/diat.jpeg'
-import '../public/dia18.jpeg'
-import '../public/dia20.jpeg'
-import '../public/dia19.jpeg'
-import '../public/dia18.jpeg'
-import '../public/dia17.jpeg'
-import '../public/dia16.jpeg'
-import '../public/dia15.jpeg'
-import '../public/dia14.jpeg'
-import '../public/dia13.jpeg'
-import '../public/dia11.jpeg'
-import '../public/dia5.jpeg'
-import '../public/dia4.jpeg' 
+import Image from 'next' 
 
 const product = () => {
  
@@ -34,88 +15,92 @@ const product = () => {
 
 <div className='py-3'>
 
-<img src= "diaten.jpeg" />
+<img src= "diary1.jpeg" />
 
 
 </div>
 <div className='py-3'>
 
-<img src= "diao.jpeg" />
+<img src= "diary2.jpeg" />
 
 
 </div>
 <div className='py-3'>
 
-<img src= "diase.jpeg" />
+<img src= "diary3.jpeg" />
 
 
 </div>
 <div className='py-3'>
 
-<img src= "diath.jpeg" />
+<img src= "diary1.jpeg" />
 
 
 </div>
 <div className='py-3'>
 
-<img src= "dias.jpeg" />
+<img src= "diary4.jpeg" />
 
 
 </div>
 <div className='py-3'>
 
-<img src= "diat.jpeg" />
+<img src= "diary5.jpeg" />
 
 
 </div>
 <div className='py-3'>
 
-<img src= "dia18.jpeg" />
+<img src= "diary6.jpeg" />
 
 
 </div>
 <div className='py-3'>
 
-<img src= "dia17.jpeg" />
+<img src= "diary7.jpeg" />
 
 
 </div>
 <div className='py-3'>
 
-<img src= "dia16.jpeg" />
+<img src= "diary8.jpeg" />
 
 
 </div>
 <div className='py-3'>
 
-<img src= "dia15.jpeg" />
+<img src= "diary9.jpeg" />
+
+
+</div>
+
+<div className='py-3'>
+
+<img src= "diary10.jpeg" />
 
 
 </div>
 <div className='py-3'>
 
-<img src= "dia14.jpeg" />
+<img src= "diary11.jpeg" />
 
 
 </div>
 <div className='py-3'>
 
-<img src= "dia13.jpeg" />
+<img src= "diary12.jpeg" />
 
 
 </div>
 <div className='py-3'>
 
-<img src= "dia11.jpeg" />
+<img src= "diary13.jpeg" />
 
 
 </div>
-<div className='py-3'>
-
-<img src= "dia5.jpeg" />
 
 
-</div>
+
 <div className='py-3 flex justify-center mt-28'>
 
 <a href='' className='text-blue-400 underline font-bold text-2xl' >MORE</a>

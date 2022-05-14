@@ -10,7 +10,6 @@ import "../public/c9.jpeg"
 import "../public/c10.jpeg"
 import "../public/c5.jpeg"
 import "../public/c6.jpeg"
-import "../public/dia4.jpeg"
 
 
 
@@ -39,7 +38,7 @@ export default class Frontpaged extends Component {
 
 
 <div className="image99">
-<img src="dia4.jpeg"></img>
+<img src=""></img>
 
 </div>
 
