@@ -249,7 +249,7 @@ function classNames(...classes) {
 										  </a>
 										)}
 									  </Menu.Item>
-									  <form method="POST" action="pen">
+									  <form method="POST" action="/pen">
 										<Menu.Item>
 										  {({ active }) => (
 											<button
@@ -272,7 +272,6 @@ function classNames(...classes) {
 
 			
 							<Links  href='/Fillform'><a className='bordernavrest cursor-pointer hover:bg-blue-600 text-black hover:text-white block text-center py-2 rounded-md text-base font-medium'> Fillform</a></Links>
-				<Links  href='/pen'><a className='bordernavrest cursor-pointer hover:bg-blue-600 text-black hover:text-white block text-center py-2 rounded-md text-base font-medium'> Pens</a></Links>
 
 								<Link
 									href="/contact"
@@ -283,7 +282,7 @@ function classNames(...classes) {
 									duration={500}
 									className=" cursor-pointer hover:bg-blue-600  text-black hover:text-white block text-center py-2 rounded-md text-base font-medium  bordernavrest"
 								>
-									Contact
+									Contact us
 								</Link>
 
 							</div>
