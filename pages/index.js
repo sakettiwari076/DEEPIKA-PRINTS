@@ -248,7 +248,20 @@ function classNames(...classes) {
 											Bottles
 										  </a>
 										)}
-									  </Menu.Item>
+									  </Menu.Item>									  <Menu.Item>
+									  {({ active }) => (
+										// eslint-disable-next-line @next/next/no-html-link-for-pages
+										<a
+										  href="/Pen"
+										  className={classNames(
+											active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
+											'block px-4 py-2 text-sm'
+										  )}
+										>
+										  Pens
+										</a>
+									  )}
+									</Menu.Item>
 									  <form method="POST" action="/pen">
 										<Menu.Item>
 										  {({ active }) => (
@@ -259,7 +272,7 @@ function classNames(...classes) {
 												'block w-full text-left px-4 py-2 text-sm'
 											  )}
 											>
-											Pens
+											Soon..
 											</button>
 										  )}
 										</Menu.Item>
@@ -282,7 +295,7 @@ function classNames(...classes) {
 									duration={500}
 									className=" cursor-pointer hover:bg-blue-600  text-black hover:text-white block text-center py-2 rounded-md text-base font-medium  bordernavrest"
 								>
-									Contact us
+									Contact
 								</Link>
 
 							</div>

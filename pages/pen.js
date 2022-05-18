@@ -1,12 +1,11 @@
 import React from 'react'
 import Link from 'react-scroll/modules/components/Link'
 import Image from 'next'
-import '../public/cup1.jpeg'
-import '../public/cup2.jpeg'
 
 
 
-const product = () => {
+
+const pen = () => {
  
   return (
     <div>
@@ -94,4 +93,4 @@ const product = () => {
   )
 }
 
-export default product
+export default pen;
