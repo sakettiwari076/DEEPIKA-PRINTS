@@ -73,7 +73,9 @@ function classNames(...classes) {
 									
 									<Links  href='/cup'><a className='cursor-pointer hover:bg-blue-600  hover:text-white  text-center py-2 rounded-md text-base font-medium'> Mugs</a></Links>
 									
+								
 									<Links  href='/Fillform'><a className='cursor-pointer hover:bg-blue-600 hover:text-white px-3 py-2 rounded-md text-sm font-medium'> One click</a></Links>
+									<Links  href='/Pen'><a className='cursor-pointer hover:bg-blue-600 hover:text-white px-3 py-2 rounded-md text-sm font-medium'> Pens</a></Links>
                                  
 
 									<Link
@@ -211,13 +213,13 @@ function classNames(...classes) {
 										{({ active }) => (
 										  // eslint-disable-next-line @next/next/no-html-link-for-pages
 										  <a
-											href="/diariess"
+											href="/Pen"
 											className={classNames(
 											  active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
 											  'block px-4 py-2 text-sm'
 											)}
 										  >
-											Diaries
+											Pens
 										  </a>
 										)}
 									  </Menu.Item>
@@ -252,13 +254,13 @@ function classNames(...classes) {
 									  {({ active }) => (
 										// eslint-disable-next-line @next/next/no-html-link-for-pages
 										<a
-										  href="/Pen"
+										  href="/diariess"
 										  className={classNames(
 											active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
 											'block px-4 py-2 text-sm'
 										  )}
 										>
-										  Pens
+										  Diaries
 										</a>
 									  )}
 									</Menu.Item>
