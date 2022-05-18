@@ -1,11 +1,7 @@
 import { Fragment } from 'react'
 import { Menu, Transition } from '@headlessui/react'
 import { ChevronDownIcon } from '@heroicons/react/solid'
-
-
-
 import Head from 'next/head'
-
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import '../public/frontpage.png'

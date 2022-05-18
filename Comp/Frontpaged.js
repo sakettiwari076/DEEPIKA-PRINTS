@@ -20,7 +20,7 @@ export default class Frontpaged extends Component {
   render() {
     return (
         <div className="" id="">
-              <h1 className="font-bold text-3xl text-center  txtnavy  ">FEAUTURED PRODUCTS</h1>
+              <h1 className="font-bold text-3xl text-center  txtnavy  ">FEATURED PRODUCTS</h1>
 
       <Carousel
         showArrows={true}
