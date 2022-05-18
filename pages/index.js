@@ -72,8 +72,9 @@ function classNames(...classes) {
 									<Links  href='/bottles'><a className='cursor-pointer hover:bg-blue-600  hover:text-white  text-center py-2 rounded-md text-base font-medium'> Bottles</a></Links>
 									
 									<Links  href='/cup'><a className='cursor-pointer hover:bg-blue-600  hover:text-white  text-center py-2 rounded-md text-base font-medium'> Mugs</a></Links>
+									
 									<Links  href='/Fillform'><a className='cursor-pointer hover:bg-blue-600 hover:text-white px-3 py-2 rounded-md text-sm font-medium'> One click</a></Links>
-
+                                 
 
 									<Link
 										activeClass=""
@@ -248,7 +249,7 @@ function classNames(...classes) {
 										  </a>
 										)}
 									  </Menu.Item>
-									  <form method="POST" action="#">
+									  <form method="POST" action="pen">
 										<Menu.Item>
 										  {({ active }) => (
 											<button
@@ -269,7 +270,9 @@ function classNames(...classes) {
 							  </Menu>
 							)			  
 
-				<Links  href='/Fillform'><a className='bordernavrest cursor-pointer hover:bg-blue-600 text-black hover:text-white block text-center py-2 rounded-md text-base font-medium'> Fillform</a></Links>
+			
+							<Links  href='/Fillform'><a className='bordernavrest cursor-pointer hover:bg-blue-600 text-black hover:text-white block text-center py-2 rounded-md text-base font-medium'> Fillform</a></Links>
+				<Links  href='/pen'><a className='bordernavrest cursor-pointer hover:bg-blue-600 text-black hover:text-white block text-center py-2 rounded-md text-base font-medium'> Pens</a></Links>
 
 								<Link
 									href="/contact"
