@@ -17,39 +17,39 @@ const product = () => {
     </a>
 <div className='mt-8 grid lg:grid-cols-3 py-4 px-4'>
 
-<div className='py-3'>
+<div className='  py-3'>
 
 <img src= "mug1.jpeg" />
 
 
 </div>
-<div className='py-3'>
+<div className='py-3  '>
 
 <img src= "mug2.jpeg" />
 
 
 </div>
-<div className='py-3'>
+<div className='py-3 '>
 
 <img src= "mug3.jpeg" />
 
 
 </div>
-<div className='py-3'>
+<div className='py-3 '>
 
 <img src= "mjug4.jpeg" />
 
 
 </div>
 
-<div className='py-3'>
+<div className='py-3  '>
 
 <img src= "mug5.jpeg" />
 
 
 </div>
 
-<div className='py-3'>
+<div className='py-3 '>
 
 <img src= "cup3.jpeg" />
 

@@ -11,7 +11,7 @@ const product = () => {
        <a href='../'>
     <img src='https://www.kindpng.com/picc/m/78-780481_inside-page-left-back-button-back-button-png.png' className=' arrow '/>
     </a>
-<div className='mt-8 grid lg:grid-cols-3 py-4 px-4'>
+<div className='mt-8 grid md:grid-cols-3  py-4 px-4'>
 
 <div className='py-3'>
 

@@ -14,6 +14,18 @@
     background:orange;
 
 }
+.card {
+
+}
+.imghgt {
+  height: 25rem;
+}
+
+.imageproperty {
+  width: 20rem;
+  height: 20rem;
+
+}
 .effectback {
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
