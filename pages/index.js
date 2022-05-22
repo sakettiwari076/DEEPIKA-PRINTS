@@ -47,7 +47,100 @@ function classNames(...classes) {
 										Home
 									</Link>
 								
+									<Menu as="div" className="  relative inline-block text-left">
+									<div >
+										<Menu.Button className=" buttoncss inline-flex justify-center w-full  rounded-md  shadow-sm px-4 py-2  text-sm font-medium text-black hover:bg-blue-600 ">
+										Products
+										<ChevronDownIcon className="-mr-1 ml-2 h-5 w-5" aria-hidden="true" />
+									  </Menu.Button>
+									</div>
 							  
+									<Transition
+									  as={Fragment}
+									  enter="transition ease-out duration-100"
+									  enterFrom="transform opacity-0 scale-95"
+									  enterTo="transform opacity-100 scale-100"
+									  leave="transition ease-in duration-75"
+									  leaveFrom="transform opacity-100 scale-100"
+									  leaveTo="transform opacity-0 scale-95"
+									>
+									  <Menu.Items className="origin-top-right absolute right-0 mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none">
+										<div className="py-1">
+										  <Menu.Item>
+											{({ active }) => (
+											  // eslint-disable-next-line @next/next/no-html-link-for-pages
+											  <a
+												href="/myPen"
+												className={classNames(
+												  active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
+												  'block px-4 py-2 text-sm'
+												)}
+											  >
+												Pens
+											  </a>
+											)}
+										  </Menu.Item>
+										  <Menu.Item>
+											{({ active }) => (
+											  // eslint-disable-next-line @next/next/no-html-link-for-pages
+											  <a
+												href="/Cup"
+												className={classNames(
+												  active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
+												  'block px-4 py-2 text-sm'
+												)}
+											  >
+												Mugs
+											  </a>
+											)}
+										  </Menu.Item>
+										  <Menu.Item>
+											{({ active }) => (
+											  // eslint-disable-next-line @next/next/no-html-link-for-pages
+											  <a
+												href="/bottles"
+												className={classNames(
+												  active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
+												  'block px-4 py-2 text-sm'
+												)}
+											  >
+												Bottles
+											  </a>
+											)}
+										  </Menu.Item>									  <Menu.Item>
+										  {({ active }) => (
+											// eslint-disable-next-line @next/next/no-html-link-for-pages
+											<a
+											  href="/diariess"
+											  className={classNames(
+												active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
+												'block px-4 py-2 text-sm'
+											  )}
+											>
+											  Diaries
+											</a>
+										  )}
+										</Menu.Item>
+										  <form method="POST" action="#">
+											<Menu.Item>
+											  {({ active }) => (
+												<button
+												  type="submit"
+												  className={classNames(
+													active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
+													'block w-full text-left px-4 py-2 text-sm'
+												  )}
+												>
+												Soon..
+												</button>
+											  )}
+											</Menu.Item>
+										  </form>
+										</div>
+									  </Menu.Items>
+									</Transition>
+								  </Menu>
+										  
                   <Link
                   activeClass=""
                   to="ourspecialization"
@@ -56,7 +149,7 @@ function classNames(...classes) {
                   duration={500}
                   className="cursor-pointer hover:bg-blue-600 text-white hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                 >
-                  Specialization
+                  About us
                 </Link>
 									<Link
 										activeClass=""
@@ -68,14 +161,7 @@ function classNames(...classes) {
 									>
 										Testimonails
 									</Link>
-									<Links  href='/diariess'><a className='cursor-pointer hover:bg-blue-600  hover:text-white px-3 py-2 rounded-md text-sm font-medium'> Diaries</a></Links>
-									<Links  href='/bottles'><a className='cursor-pointer hover:bg-blue-600  hover:text-white  text-center py-2 rounded-md text-base font-medium'> Bottles</a></Links>
-									
-									<Links  href='/cup'><a className='cursor-pointer hover:bg-blue-600  hover:text-white  text-center py-2 rounded-md text-base font-medium'> Mugs</a></Links>
-									
-								
-									<Links  href='/Fillform'><a className='cursor-pointer hover:bg-blue-600 hover:text-white px-3 py-2 rounded-md text-sm font-medium'> One click</a></Links>
-									<Links  href='/Pen'><a className='cursor-pointer hover:bg-blue-600 hover:text-white px-3 py-2 rounded-md text-sm font-medium'> Pens</a></Links>
+
                                  
 
 									<Link
@@ -313,7 +399,7 @@ function classNames(...classes) {
     <div className="txtnavy effect6  bgour3 pt-14" id='home'>
         <div className="container  mx-auto flex  pt-24 md:flex-row flex-col items-center">
       <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-        <p className="text-xl font-semibold    bodyfont9  textour6 mr-4 tracking-wider  "> <span className='font-semibold'> We are the one stop solution to all the needs.</span>We deal in 12 category of products for personalized gift.  </p>
+        <p className="text-xl font-semibold leading-7 px-4    bodyfont9  mr-4 tracking-wider  text-justify ">  We are the one stop solution to all the needs We deal in 12 category of products for personalized gift.  </p>
       <a href='https://www.indiamart.com/deepika-prints-delhi/profile.html'>
 	  <button className="bg-navy btn4 hover:bg-blue-200 text-white font-bold py-2 ml-8 mt-9 bigscreenb px-8 rounded-md">
   EXPLORE
@@ -333,7 +419,7 @@ function classNames(...classes) {
   
     <div className=' py-5  fontour3'>
     <div className='flex justify-center'>
-	<p className='text-justify leading-7 '>We deals in 12 category of products for personalized giftings with very good percentage of repeated orders .
+	<p className='text-justify leading-8 '>We deals in 12 category of products for personalized giftings with very good percentage of repeated orders .
 	Our products includes Diaries , Pens , Keychaining , Personalized Pendrives , Bottles, T-shirt , Laptop bags , Jute bags , Scented candles , chocolates(Handmade) , Mugs , Corrugated Boxes . 
 	</p>
     </div>

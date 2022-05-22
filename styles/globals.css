@@ -108,7 +108,10 @@ background-color:blueviolet ;
     border: 1px solid #ddd;
     height: 286px;
   }
-  
+  .buttoncss {
+    background: border-box;
+    color: white;
+  }
   .carousel .control-dots {
     padding-left: 5px !important;
     outline: 0;
