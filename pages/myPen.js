@@ -1,96 +1,108 @@
 import React from 'react'
-import Link from 'react-scroll/modules/components/Link'
-import Image from 'next'
 
-
-
-
-const myPen = () => {
- 
+const bottles = () => {
   return (
     <div>
-    
-<h1 className='text-center py-5 text-3xl txtnavy font-bold'>Pens</h1>
-<a href='../'>
+    <a href='../'>
 <img src='https://www.kindpng.com/picc/m/78-780481_inside-page-left-back-button-back-button-png.png' className=' arrow '/>
     </a>
-<div className='mt-8 grid lg:grid-cols-3 py-4 px-4'>
+    <h1 className='text-center text-4xl py-7 text-blue-900 font-bold'>Bottles</h1>
+    <div className='mt-8 pt-14 grid lg:grid-cols-3 px-7 gap-10 '>
+    <div className='card rounded-2xl effectback '>
+    <img src='b1.jpeg' alt=' ' className='w-full imghgt  object-cover' /> 
+    <div className='m-4'>
+    <span className='font-bold'>5 Bean Chilli </span>
+    <span className='block text-gray-500 text-sm  '>Recipe my saket</span>
+    </div>
+    <div className='badge'>
+    
+    </div>
+    </div>
+    <div className='card rounded-2xl effectback  '>
+            <img src='b2.jpeg' alt=' ' className='w-full imghgt  object-cover' /> 
+    <div className='m-4'>
+    <span className='font-bold'>5 Bean Chilli </span>
+    <span className='block text-gray-500 text-sm '>Recipe my saket</span>
+    </div>
+    <div className='badge '>
+    
+    </div>
+    </div>
+    <div className='card rounded-2xl effectback '>
+    <img src='b3.jpeg' alt=' ' className='w-full imghgt   object-cover' /> 
+    <div className='m-4'>
+    <span className='font-bold'>5 Bean Chilli </span>
+    <span className='block text-gray-500 text-sm '>Recipe my saket</span>
+    </div>
+    <div className='badge'>
+          </div>
+    </div>
+    <div className='card rounded-2xl effectback'>
+    <img src='b4.jpeg' alt=' ' className='w-full imghgt  object-cover' /> 
+    <div className='m-4'>
+    <span className='font-bold'>5 Bean Chilli </span>
+    <span className='block text-gray-500 text-sm '>Recipe my saket</span>
+    </div>
+    <div className='badge'>
+    </div>
+    </div>
+    <div className='card rounded-2xl effectback'>
+    <img src='b5.jpeg' alt=' ' className='w-full imghgt  object-cover' /> 
+    <div className='m-4'>
+    <span className='font-bold'>5 Bean Chilli </span>
+    <span className='block text-gray-500 text-sm '>Recipe my saket</span>
+    </div>
+    <div className='badge '>
+    </div>
+    </div>
+    <div className='card rounded-2xl effectback'>
+    <img src='b6.jpeg' alt=' ' className='w-full imghgt  object-cover' /> 
+    <div className='m-4'>
+    <span className='font-bold'>5 Bean Chilli </span>
+    <span className='block text-gray-500 text-sm '>Recipe my saket</span>
+    </div>
+    <div className='badge'>
+    </div>
+    </div>
+    <div className='card rounded-2xl effectback'>
+    <img src='b7.jpeg' alt=' ' className='w-full imghgt   object-cover' /> 
+    <div className='m-4'>
+    <span className='font-bold'>5 Bean Chilli </span>
+    <span className='block text-gray-500 text-sm '>Recipe my saket</span>
+    </div>
+    <div className='badge'>
+   
+    </div>
+    </div>
+    <div className='card rounded-2xl effectback'>
+    <img src='b8.jpeg' alt=' ' className='w-full imghgt   object-cover' /> 
+    <div className='m-4'>
+    <span className='font-bold'>5 Bean Chilli </span>
+    <span className='block text-gray-500 text-sm '>Recipe my saket</span>
+    </div>
+    <div className='badge'>
+    </div>
+    
+    
+    </div>
+    <div className='card rounded-2xl effectback'>
+    <img src='b8.jpeg' alt=' ' className='w-full imghgt   object-cover' /> 
+    <div className='m-4'>
+    <span className='font-bold'>5 Bean Chilli </span>
+    <span className='block text-gray-500 text-sm '>Recipe my saket</span>
+    </div>
+    <div className='badge'>
+    </div>
+    </div>
 
-<div className='py-3'>
-
-<img src= "penn5.jpeg" />
-
-
-</div>
-<div className='py-3'>
-
-<img src= "penn6.jpeg" />
-
-
-</div>
-<div className='py-3'>
-
-<img src= "penn7.jpeg" />
-
-
-</div>
-<div className='py-3'>
-
-<img src= "penn8.jpeg" />
-
-
-</div>
-<div className='py-3'>
-
-<img src= "penn9.jpeg" />
-
-
-</div>
-<div className='py-3'>
-
-<img src= "penn10.jpeg" />
-
-
-</div>
-<div className='py-3'>
-
-<img src= "penn11.jpeg" />
-
-
-</div>
-<div className='py-3'>
-
-<img src= "penn12.jpeg" />
-
-
-</div>
-<div className='py-3'>
-
-<img src= "penn13.jpeg" />
-
-
-</div>
-<div className='py-3'>
-
-<img src= "penn14.jpeg" />
-
-
-</div>
-
-
-
-
-
-<div className='py-3 flex justify-center mt-28'>
-
-<a href='' className='text-blue-400 underline font-bold text-2xl' >MORE</a>
-
-</div>
-
-</div>
+    
+    
+    
+    
+    </div>
 </div>
 
   )
 }
 
-export default myPen 
+export default bottles 
