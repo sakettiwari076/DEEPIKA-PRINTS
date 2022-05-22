@@ -1,116 +1,135 @@
 import React from 'react'
-import Link from 'react-scroll/modules/components/Link'
-import Image from 'next' 
 
-const product = () => {
- 
+const bottles = () => {
   return (
     <div>
-    
-    <h1 className='text-center py-5 text-3xl txtnavy font-bold'>Diaries</h1>
-       <a href='../'>
-    <img src='https://www.kindpng.com/picc/m/78-780481_inside-page-left-back-button-back-button-png.png' className=' arrow '/>
+    <a href='../'>
+<img src='https://www.kindpng.com/picc/m/78-780481_inside-page-left-back-button-back-button-png.png' className=' arrow '/>
     </a>
-<div className='mt-8 grid md:grid-cols-3  py-4 px-4'>
+    <h1 className='text-center text-4xl py-7 text-blue-900 font-bold'>Bottles</h1>
+    <div className='mt-8  grid lg:grid-cols-3 px-7 gap-10 '>
+    <div className='card rounded-2xl effectback '>
+    <img src='diary1.jpeg' alt=' ' className='w-full imghgt  object-cover' /> 
+    <div className='m-4'>
+    <span className='font-bold'>Diary No 1 </span>
+    <span className='block text-gray-500 text-sm  '>ⓒ Deepika Prints</span>
+    </div>
+    <div className='badge'>
+    
+    </div>
+    </div>
+    <div className='card rounded-2xl effectback  '>
+            <img src='diary2.jpeg' alt=' ' className='w-full imghgt  object-cover' /> 
+    <div className='m-4'>
+    <span className='font-bold'>Diary No 1 </span>
+    <span className='block text-gray-500 text-sm '>ⓒ Deepika Prints</span>
+    </div>
+    <div className='badge '>
+    
+    </div>
+    </div>
+    <div className='card rounded-2xl effectback '>
+    <img src='diary3.jpeg' alt=' ' className='w-full imghgt   object-cover' /> 
+    <div className='m-4'>
+    <span className='font-bold'>Diary No 1 </span>
+    <span className='block text-gray-500 text-sm '>ⓒ Deepika Prints</span>
+    </div>
+    <div className='badge'>
+          </div>
+    </div>
+    <div className='card rounded-2xl effectback'>
+    <img src='diary4.jpeg' alt=' ' className='w-full imghgt  object-cover' /> 
+    <div className='m-4'>
+    <span className='font-bold'>Bottle No 1 </span>
+    <span className='block text-gray-500 text-sm '>ⓒ Deepika Prints</span>
+    </div>
+    <div className='badge'>
+    </div>
+    </div>
+    <div className='card rounded-2xl effectback'>
+    <img src='diary5.jpeg' alt=' ' className='w-full imghgt  object-cover' /> 
+    <div className='m-4'>
+    <span className='font-bold'>Diary No 1 </span>
+    <span className='block text-gray-500 text-sm '>ⓒ Deepika Prints</span>
+    </div>
+    <div className='badge '>
+    </div>
+    </div>
+    <div className='card rounded-2xl effectback'>
+    <img src='diary6.jpeg' alt=' ' className='w-full imghgt  object-cover' /> 
+    <div className='m-4'>
+    <span className='font-bold'>Diary No 2 </span>
+    <span className='block text-gray-500 text-sm '>ⓒ Deepika Prints</span>
+    </div>
+    <div className='badge'>
+    </div>
+    </div>
+    <div className='card rounded-2xl effectback'>
+    <img src='diary7.jpeg' alt=' ' className='w-full imghgt   object-cover' /> 
+    <div className='m-4'>
+    <span className='font-bold'>Diary No 3 </span>
+    <span className='block text-gray-500 text-sm '>ⓒ Deepika Prints</span>
+    </div>
+    <div className='badge'>
+   
+    </div>
+    </div>
+    <div className='card rounded-2xl effectback'>
+    <img src='diary8.jpeg' alt=' ' className='w-full imghgt   object-cover' /> 
+    <div className='m-4'>
+    <span className='font-bold'> Diary No 4</span>
+    <span className='block text-gray-500 text-sm '>ⓒ Deepika Prints</span>
+    </div>
+    <div className='badge'>
+    </div>
+    
+    
+    </div>
+    <div className='card rounded-2xl effectback'>
+    <img src='diary9.jpeg' alt=' ' className='w-full imghgt   object-cover' /> 
+    <div className='m-4'>
+    <span className='font-bold'>Diary No 5 </span>
+    <span className='block text-gray-500 text-sm '>ⓒ Deepika Prints</span>
+    </div>
+    <div className='badge'>
+    </div>
+    </div>
+    <div className='card rounded-2xl effectback'>
+    <img src='diary9.jpeg' alt=' ' className='w-full imghgt   object-cover' /> 
+    <div className='m-4'>
+    <span className='font-bold'>Diary No 5 </span>
+    <span className='block text-gray-500 text-sm '>ⓒ Deepika Prints</span>
+    </div>
+    <div className='badge'>
+    </div>
+    </div>
+    <div className='card rounded-2xl effectback'>
+    <img src='diary10.jpeg' alt=' ' className='w-full imghgt   object-cover' /> 
+    <div className='m-4'>
+    <span className='font-bold'>Diary No 5 </span>
+    <span className='block text-gray-500 text-sm '>ⓒ Deepika Prints</span>
+    </div>
+    <div className='badge'>
+    </div>
+    </div>
+    <div className='card rounded-2xl effectback'>
+    <img src='diary11.jpeg' alt=' ' className='w-full imghgt   object-cover' /> 
+    <div className='m-4'>
+    <span className='font-bold'>Diary No 5 </span>
+    <span className='block text-gray-500 text-sm '>ⓒ Deepika Prints</span>
+    </div>
+    <div className='badge'>
+    </div>
+    </div>
 
-<div className='py-3'>
-
-<img src= "diary1.jpeg" />
-
-
-</div>
-<div className='py-3'>
-
-<img src= "diary2.jpeg" />
-
-
-</div>
-<div className='py-3'>
-
-<img src= "diary3.jpeg" />
-
-
-</div>
-<div className='py-3'>
-
-<img src= "diary1.jpeg" />
-
-
-</div>
-<div className='py-3'>
-
-<img src= "diary4.jpeg" />
-
-
-</div>
-<div className='py-3'>
-
-<img src= "diary5.jpeg" />
-
-
-</div>
-<div className='py-3'>
-
-<img src= "diary6.jpeg" />
-
-
-</div>
-<div className='py-3'>
-
-<img src= "diary7.jpeg" />
-
-
-</div>
-<div className='py-3'>
-
-<img src= "diary8.jpeg" />
-
-
-</div>
-<div className='py-3'>
-
-<img src= "diary9.jpeg" />
-
-
-</div>
-
-<div className='py-3'>
-
-<img src= "diary10.jpeg" />
-
-
-</div>
-<div className='py-3'>
-
-<img src= "diary11.jpeg" />
-
-
-</div>
-<div className='py-3'>
-
-<img src= "diary12.jpeg" />
-
-
-</div>
-<div className='py-3'>
-
-<img src= "diary13.jpeg" />
-
-
-</div>
-
-
-
-<div className='py-3 flex justify-center mt-28'>
-
-<a href='' className='text-blue-400 underline font-bold text-2xl' >MORE</a>
-
-</div>
-
-</div>
+    
+    
+    
+    
+    </div>
 </div>
 
   )
 }
 
-export default product
+export default bottles 
