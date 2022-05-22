@@ -353,12 +353,12 @@ padding-right: 8.3rem;
 .btn4 {
   display: none;
 }
-
+/* mobile btn  */
 .btn9 {
 bottom: 23rem;
 
 position: absolute;
-margin-left: 2rem;
+margin-left: 1.2rem;
 }
 }
 @media only screen and (min-width: 681px) {

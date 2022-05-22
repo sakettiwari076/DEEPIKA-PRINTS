@@ -419,7 +419,7 @@ function classNames(...classes) {
   
     <div className=' py-5  fontour3'>
     <div className='flex justify-center'>
-	<p className='text-justify leading-8 '>We deals in 12 category of products for personalized giftings with very good percentage of repeated orders .
+	<p className='text-justify  '>We deals in 12 category of products for personalized giftings with very good percentage of repeated orders .
 	Our products includes Diaries , Pens , Keychaining , Personalized Pendrives , Bottles, T-shirt , Laptop bags , Jute bags , Scented candles , chocolates(Handmade) , Mugs , Corrugated Boxes . 
 	</p>
     </div>

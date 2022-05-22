@@ -2,6 +2,11 @@ import React from 'react'
 
 const key = () => {
   return (
+      <div>
+    <h1 className='text-center text-4xl py-7 text-blue-900 font-bold'>Bottles</h1>
+    <a href='../'>
+    <img src='https://www.kindpng.com/picc/m/58-583580_estrela-logo-back-button-icon-png-transparent-png.png' className=' arrow h-52'/>
+        </a>
     <div className='mt-8 pt-14 grid lg:grid-cols-3 gap-10 '>
     <div className='card rounded-2xl effectback '>
     <img src='b1.jpeg' alt=' ' className='w-full imghgt  object-cover' /> 
@@ -96,7 +101,7 @@ const key = () => {
     
     </div>
 
-
+    </div>
   )
 }
 
