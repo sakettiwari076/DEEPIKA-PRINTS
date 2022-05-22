@@ -176,7 +176,7 @@ function classNames(...classes) {
 								duration={500}
 								className="cursor-pointer hover:bg-blue-600 text-black hover:text-white block text-center py-2 rounded-md text-base font-medium bordernavrest"
 							>
-								About us
+								About
 							</Link>
 
 								<Link
@@ -329,17 +329,17 @@ function classNames(...classes) {
     </div> 
     <h1 className='text-center font-bold pt-10 text-3xl txtnavy decoration-violet-600  '>ABOUT US</h1>
 
-    <div className='  text-gray-900 py-14  grid lg:grid-cols-4 text-center pl-12  ' id='ourspecialization' >
+    <div className='  text-gray-900 py-8  grid lg:grid-cols-1 text-center px-8  ' id='ourspecialization' >
   
     <div className=' py-5  fontour3'>
     <div className='flex justify-center'>
-	<p className='text-justify leading-7 pr-8'>We deals in 12 category of products for personalized giftings with very good percentage of repeated orders .
+	<p className='text-justify leading-7 '>We deals in 12 category of products for personalized giftings with very good percentage of repeated orders .
 	Our products includes Diaries , Pens , Keychaining , Personalized Pendrives , Bottles, T-shirt , Laptop bags , Jute bags , Scented candles , chocolates(Handmade) , Mugs , Corrugated Boxes . 
 	</p>
     </div>
     </div>
     </div> 
-      <div className=' text bg-navy text-white  effect6  grid lg:grid-cols-4 text-center '>
+      <div className=' text bg-navy text-white  effect6  grid lg:grid-cols-3 text-center '>
       <div className='font-semibold text-white py-6 text-2xl '>
       Catered to <br></br> 70+ corporates <br></br>
       

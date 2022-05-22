@@ -19,7 +19,7 @@ export default class Testimonials extends Component {
       >
 
         <div>
-          <div className="myCarousel ">
+          <div className="myCarousel effectback ">
             <h3>Prabhat</h3>
             <h4></h4>
             <p>
@@ -29,7 +29,7 @@ export default class Testimonials extends Component {
         </div>
 
         <div>
-          <div className="myCarousel">
+          <div className="myCarousel  effectback">
             <h3>Aryan Tiwari</h3>
             <h4>Student</h4>
             <p>
@@ -38,10 +38,7 @@ export default class Testimonials extends Component {
           </div>
         </div>
 
-        <div>
-          
         
-        </div>
       </Carousel>
       </div>
     );
