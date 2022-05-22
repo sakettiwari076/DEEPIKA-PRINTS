@@ -176,7 +176,7 @@ function classNames(...classes) {
 								duration={500}
 								className="cursor-pointer hover:bg-blue-600 text-black hover:text-white block text-center py-2 rounded-md text-base font-medium bordernavrest"
 							>
-								Specialization
+								About us
 							</Link>
 
 								<Link
@@ -313,73 +313,45 @@ function classNames(...classes) {
     <div className="txtnavy effect6  bgour3 pt-14" id='home'>
         <div className="container  mx-auto flex  pt-24 md:flex-row flex-col items-center">
       <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-        <p className="text-xl font-semibold    bodyfont9  textour6 mr-4 tracking-wider  "> <span className='font-semibold'> Make Every Happiness Possible With Deepika Prints ,</span>  Join us to get the benefits of our awesome packages and the best Client .  </p>
+        <p className="text-xl font-semibold    bodyfont9  textour6 mr-4 tracking-wider  "> <span className='font-semibold'> We are the one stop solution to all the needs.</span>We deal in 12 category of products for personalized gift.  </p>
       <a href='https://www.indiamart.com/deepika-prints-delhi/profile.html'>
 	  <button className="bg-navy btn4 hover:bg-blue-200 text-white font-bold py-2 ml-8 mt-9 bigscreenb px-8 rounded-md">
   EXPLORE
 </button></a>  
       </div>
       <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6   ">
-        <img className="object-cover position3  object-center rounded-3xl mb-7 " alt="hero" src="ast.png"
-        />
+        <img className="object-cover position3  object-center rounded-3xl mb-7 " alt="hero" src="ast.png" />
       </div>
-
     </div>
 	
 
   <a href='https://www.indiamart.com/deepika-prints-delhi/profile.html'><button className='bg-navy text-white hover:bg-blue-200 font-normal space-x-3 px-9 py-2 smallscreenb rounded-md btn9'>EXPLORE</button></a>  
     </div> 
-    <h1 className='text-center font-bold pt-10 text-3xl txtnavy decoration-violet-600  '>OUR SPECIALIZATION</h1>
+    <h1 className='text-center font-bold pt-10 text-3xl txtnavy decoration-violet-600  '>ABOUT US</h1>
 
     <div className='  text-gray-900 py-14  grid lg:grid-cols-4 text-center pl-12  ' id='ourspecialization' >
   
-    <div className='font-semibold py-5  fontour3'>
+    <div className=' py-5  fontour3'>
     <div className='flex justify-center'>
-    <img src='https://static.thenounproject.com/png/2724353-200.png' className=' prour pb-4 h-16  '/>
+	<p className='text-justify leading-7 pr-8'>We deals in 12 category of products for personalized giftings with very good percentage of repeated orders .
+	Our products includes Diaries , Pens , Keychaining , Personalized Pendrives , Bottles, T-shirt , Laptop bags , Jute bags , Scented candles , chocolates(Handmade) , Mugs , Corrugated Boxes . 
+	</p>
     </div>
-    <h1 className='text-3xl pr-5 txtnavy'>Corporate Giftings </h1>  <br></br> <p className='font-extralight pr-20 '> A Gift To Build Relations
-    </p><br></br>
-    </div>
-    <div className='font-semibold py-5  fontour3'>
-    <div className='flex justify-center'>
-    <img src='https://static.thenounproject.com/png/2724353-200.png' className=' prour pb-4 h-16  '/>
-    </div>
-    <h1 className='text-3xl pr-8  txtnavy'>Customized Gifts </h1>  <br></br> <p className='font-extralight pr-20  '> Gift for your loved ones
-    </p><br></br>
-    </div>
-    <div className='font-semibold py-5  fontour3'>
-    <div className='flex justify-center '>
-    <img src='https://static.thenounproject.com/png/2724353-200.png' className=' prour pb-4 h-16  '/>
-    </div>
-    <h1 className='text-3xl txtnavy  pr-5'>Event Management </h1>  <br></br> <p className='font-extralight pr-20 '> One Place Event Solution
-    </p><br></br>
-    </div>
-    <div className='font-semibold py-5  fontour3'>
-    <div className='flex justify-center '>
-    <img src='https://static.thenounproject.com/png/2724353-200.png' className=' prour pb-4 h-16  '/>
-    </div>
-    <h1 className='text-3xl pr-24 txtnavy  '>Supply Chain </h1>  <br></br> <p className='font-extralight prour8 '> Deliver Anywhere</p><br></br>
     </div>
     </div> 
-	<Frontpaged/>
-
       <div className=' text bg-navy text-white  effect6  grid lg:grid-cols-4 text-center '>
-      <div className='font-semibold text-white py-5 text-2xl '>
-      120+ <br></br> Projects <br></br>
-      Completed
+      <div className='font-semibold text-white py-6 text-2xl '>
+      Catered to <br></br> 70+ corporates <br></br>
+      
       </div>
-        <div className='font-semibold  text-2xl py-5 '>
-        100+ <br></br>Happy<br></br>
-        Clients
+        <div className='font-semibold  text-2xl py-6 '>
+        Delivered to <br></br>5000+ end users<br></br>
         </div>
-        <div className='font-semibold text-2xl py-5 '>
-        50+ <br></br> Awards <br></br>
-        Recieved
+        <div className='font-semibold text-2xl py-6 '>
+        Repeated orders<br></br> ~70% <br></br>
+
         </div>
-        <div className='font-semibold text-2xl py-5 '>
-        99+ <br></br> Cups Of <br></br>
-        Coffee
-        </div>
+
         </div>
       <Testimonials/>
 
