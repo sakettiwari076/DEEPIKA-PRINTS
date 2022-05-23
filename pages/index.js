@@ -336,7 +336,8 @@ function classNames(...classes) {
 											Bottles
 										  </a>
 										)}
-									  </Menu.Item>									  <Menu.Item>
+									  </Menu.Item>		
+							        <Menu.Item>
 									  {({ active }) => (
 										// eslint-disable-next-line @next/next/no-html-link-for-pages
 										<a
@@ -350,6 +351,90 @@ function classNames(...classes) {
 										</a>
 									  )}
 									</Menu.Item>
+									<Menu.Item>
+									{({ active }) => (
+									  // eslint-disable-next-line @next/next/no-html-link-for-pages
+									  <a
+										href="/tshirt"
+										className={classNames(
+										  active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
+										  'block px-4 py-2 text-sm'
+										)}
+									  >
+										Tshirt
+									  </a>
+									)}
+								  </Menu.Item>
+								  <Menu.Item>
+								  {({ active }) => (
+									// eslint-disable-next-line @next/next/no-html-link-for-pages
+									<a
+									  href="/pendrives"
+									  className={classNames(
+										active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
+										'block px-4 py-2 text-sm'
+									  )}
+									>
+									  Customized Pendrives
+									</a>
+								  )}
+								</Menu.Item>
+								<Menu.Item>
+								{({ active }) => (
+								  // eslint-disable-next-line @next/next/no-html-link-for-pages
+								  <a
+									href="/jutebags"
+									className={classNames(
+									  active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
+									  'block px-4 py-2 text-sm'
+									)}
+								  >
+									Jutebags
+								  </a>
+								)}
+							  </Menu.Item>
+							  <Menu.Item>
+							  {({ active }) => (
+								// eslint-disable-next-line @next/next/no-html-link-for-pages
+								<a
+								  href="/laptopbags"
+								  className={classNames(
+									active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
+									'block px-4 py-2 text-sm'
+								  )}
+								>
+								  Laptop Bags
+								</a>
+							  )}
+							</Menu.Item>
+							<Menu.Item>
+							{({ active }) => (
+							  // eslint-disable-next-line @next/next/no-html-link-for-pages
+							  <a
+								href="/scantedcandles"
+								className={classNames(
+								  active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
+								  'block px-4 py-2 text-sm'
+								)}
+							  >
+								Scented candles
+							  </a>
+							)}
+						  </Menu.Item>
+						  <Menu.Item>
+						  {({ active }) => (
+							// eslint-disable-next-line @next/next/no-html-link-for-pages
+							<a
+							  href="/key"
+							  className={classNames(
+								active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
+								'block px-4 py-2 text-sm'
+							  )}
+							>
+							  Keys
+							</a>
+						  )}
+						</Menu.Item>
 									  <form method="POST" action="#">
 										<Menu.Item>
 										  {({ active }) => (
@@ -399,7 +484,7 @@ function classNames(...classes) {
     <div className="txtnavy effect6  bgour3 pt-14" id='home'>
         <div className="container  mx-auto flex  pt-24 md:flex-row flex-col items-center">
       <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-        <p className="text-xl font-semibold leading-7 px-4    bodyfont9  mr-4 tracking-wider  text-justify lg:text-2xl lg:space-x-2 lg:font-semibold">  We are the one stop solution to all the needs We deal in 12 category of products for personalized gift.  </p>
+        <p className="text-xl font-semibold  px-4    bodyfont9  mr-4 tracking-wider sm:font-semibold text-justify lg:text-2xl lg:space-x-2 lg:font-semibold">  We are the one stop solution to all the needs We deal in 12 category of products for personalized gift.  </p>
       <a href='https://www.indiamart.com/deepika-prints-delhi/profile.html'>
 	  <button className="bg-navy btn4 hover:bg-blue-200 text-white font-bold py-2 ml-8 mt-9 bigscreenb px-8 rounded-md">
   EXPLORE
