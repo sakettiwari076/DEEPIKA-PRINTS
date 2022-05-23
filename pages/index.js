@@ -6,14 +6,11 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import '../public/frontpage.png'
 import '../public/bat.png'
-import Navbar from '../Comp/Navbar'
-import Footer from '../Comp/Footer'
 import Testimonials from '../Comp/Testimonail'
 import { Link } from "react-scroll";
 import React, { useState, useRef } from "react";
 import Links from 'next/link'
 import Script from 'next/script'
-import Frontpaged from '../Comp/Frontpaged'
 function classNames(...classes) {
 	return classes.filter(Boolean).join(' ')
   }

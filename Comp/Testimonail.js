@@ -23,7 +23,7 @@ export default class Testimonials extends Component {
             <h3>Prabhat</h3>
             <h4></h4>
             <p>
-              The product quality was too good ! I'll always use DeepikaPrints for my Giftings.
+              The product quality was too good ! Ill always use DeepikaPrints for my Giftings.
             </p>
           </div>
         </div>
@@ -33,7 +33,7 @@ export default class Testimonials extends Component {
             <h3>Aryan Tiwari</h3>
             <h4>Student</h4>
             <p>
-              I got the products on time , I'm very happy with the service.
+              I got the products on time , Im very happy with the service.
             </p>
           </div>
         </div>
