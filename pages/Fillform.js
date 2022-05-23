@@ -4,7 +4,7 @@ const Fillform = () => {
   return (
     <div>
         
-    <h1 className='text-center text-4xl py-7 text-blue-900 font-bold'>Bottles</h1>
+    <h1 className='text-center text-4xl py-7 text-blue-900 font-bold'>One click</h1>
     <a href='../'>
     <img src='https://www.kindpng.com/picc/m/58-583580_estrela-logo-back-button-icon-png-transparent-png.png' className=' arrow h-52'/>
         </a>

@@ -399,7 +399,7 @@ function classNames(...classes) {
     <div className="txtnavy effect6  bgour3 pt-14" id='home'>
         <div className="container  mx-auto flex  pt-24 md:flex-row flex-col items-center">
       <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-        <p className="text-xl font-semibold leading-7 px-4    bodyfont9  mr-4 tracking-wider  text-justify ">  We are the one stop solution to all the needs We deal in 12 category of products for personalized gift.  </p>
+        <p className="text-xl font-semibold leading-7 px-4    bodyfont9  mr-4 tracking-wider  text-justify lg:text-2xl lg:space-x-2 lg:font-semibold">  We are the one stop solution to all the needs We deal in 12 category of products for personalized gift.  </p>
       <a href='https://www.indiamart.com/deepika-prints-delhi/profile.html'>
 	  <button className="bg-navy btn4 hover:bg-blue-200 text-white font-bold py-2 ml-8 mt-9 bigscreenb px-8 rounded-md">
   EXPLORE
@@ -419,7 +419,7 @@ function classNames(...classes) {
   
     <div className=' py-5  fontour3'>
     <div className='flex justify-center'>
-	<p className='text-justify  '>We deals in 12 category of products for personalized giftings with very good percentage of repeated orders .
+	<p className='text-justify lg:text-2xl lg:px-48 lg:font-semibold'>We deals in 12 category of products for personalized giftings with very good percentage of repeated orders .
 	Our products includes Diaries , Pens , Keychaining , Personalized Pendrives , Bottles, T-shirt , Laptop bags , Jute bags , Scented candles , chocolates(Handmade) , Mugs , Corrugated Boxes . 
 	</p>
     </div>

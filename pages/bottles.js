@@ -3,10 +3,11 @@ import React from 'react'
 const bottles = () => {
   return (
     <div>
-    <a href='../'>
-<img src='https://www.kindpng.com/picc/m/78-780481_inside-page-left-back-button-back-button-png.png' className=' arrow '/>
-    </a>
     <h1 className='text-center text-4xl py-7 text-blue-900 font-bold'>Bottles</h1>
+
+    <a href='../'>
+<img src='https://www.kindpng.com/picc/m/58-583580_estrela-logo-back-button-icon-png-transparent-png.png' className=' arrow '/>
+    </a>
     <div className='mt-8  grid lg:grid-cols-3 px-7 gap-10 '>
     <div className='card rounded-2xl effectback '>
     <img src='b1.jpeg' alt=' ' className='w-full imghgt  object-cover' /> 
