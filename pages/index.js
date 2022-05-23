@@ -121,6 +121,90 @@ function classNames(...classes) {
 											</a>
 										  )}
 										</Menu.Item>
+										<Menu.Item>
+										{({ active }) => (
+										  // eslint-disable-next-line @next/next/no-html-link-for-pages
+										  <a
+											href="/tshirt"
+											className={classNames(
+											  active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
+											  'block px-4 py-2 text-sm'
+											)}
+										  >
+											Tshirt
+										  </a>
+										)}
+									  </Menu.Item>
+									  <Menu.Item>
+									  {({ active }) => (
+										// eslint-disable-next-line @next/next/no-html-link-for-pages
+										<a
+										  href="/pendrives"
+										  className={classNames(
+											active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
+											'block px-4 py-2 text-sm'
+										  )}
+										>
+										  Customized Pendrives
+										</a>
+									  )}
+									</Menu.Item>
+									<Menu.Item>
+									{({ active }) => (
+									  // eslint-disable-next-line @next/next/no-html-link-for-pages
+									  <a
+										href="/jutebags"
+										className={classNames(
+										  active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
+										  'block px-4 py-2 text-sm'
+										)}
+									  >
+										Jutebags
+									  </a>
+									)}
+								  </Menu.Item>
+								  <Menu.Item>
+								  {({ active }) => (
+									// eslint-disable-next-line @next/next/no-html-link-for-pages
+									<a
+									  href="/laptopbags"
+									  className={classNames(
+										active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
+										'block px-4 py-2 text-sm'
+									  )}
+									>
+									  Laptop Bags
+									</a>
+								  )}
+								</Menu.Item>
+								<Menu.Item>
+								{({ active }) => (
+								  // eslint-disable-next-line @next/next/no-html-link-for-pages
+								  <a
+									href="/scentedcandles"
+									className={classNames(
+									  active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
+									  'block px-4 py-2 text-sm'
+									)}
+								  >
+									Scented candles
+								  </a>
+								)}
+							  </Menu.Item>
+							  <Menu.Item>
+							  {({ active }) => (
+								// eslint-disable-next-line @next/next/no-html-link-for-pages
+								<a
+								  href="/key"
+								  className={classNames(
+									active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
+									'block px-4 py-2 text-sm'
+								  )}
+								>
+								  Keys
+								</a>
+							  )}
+							</Menu.Item>
 										  <form method="POST" action="#">
 											<Menu.Item>
 											  {({ active }) => (
@@ -411,7 +495,7 @@ function classNames(...classes) {
 							{({ active }) => (
 							  // eslint-disable-next-line @next/next/no-html-link-for-pages
 							  <a
-								href="/scantedcandles"
+								href="/scentedcandles"
 								className={classNames(
 								  active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
 								  'block px-4 py-2 text-sm'
