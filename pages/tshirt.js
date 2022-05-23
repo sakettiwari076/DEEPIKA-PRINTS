@@ -1,6 +1,6 @@
 import React from 'react'
 
-const cup = () => {
+const tshirt = () => {
   return (
     <div>
    
@@ -95,4 +95,4 @@ const cup = () => {
   )
 }
 
-export default cup
+export default tshirt
