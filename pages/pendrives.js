@@ -1,6 +1,6 @@
 import React from 'react'
 
-const cup = () => {
+const pendrives = () => {
   return (
     <div>
    
@@ -57,4 +57,4 @@ const cup = () => {
   )
 }
 
-export default cup
+export default pendrives

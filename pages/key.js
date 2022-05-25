@@ -1,6 +1,6 @@
 import React from 'react'
 
-const bottles = () => {
+const key = () => {
   return (
     <div>
    
@@ -96,4 +96,4 @@ const bottles = () => {
   )
 }
 
-export default bottles 
+export default key

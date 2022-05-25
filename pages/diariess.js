@@ -1,12 +1,12 @@
 import React from 'react'
 
-const bottles = () => {
+const diaries = () => {
   return (
     <div>
    
     <h1 className='text-center text-4xl py-7 text-blue-900 font-bold'>Diaries</h1>
     <a href='../'>
-    <img src='https://www.kindpng.com/picc/m/58-583580_estrela-logo-back-button-icon-png-transparent-png.png' className=' arrow h-52'/>
+    <img src='back1.png' className=' arrow h-52'/>
         </a>
 
     <div className='mt-8  grid lg:grid-cols-3 px-7 gap-10 '>
@@ -217,4 +217,4 @@ const bottles = () => {
   )
 }
 
-export default bottles 
+export default diaries

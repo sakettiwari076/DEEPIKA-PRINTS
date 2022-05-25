@@ -1,12 +1,11 @@
 import React, { Component } from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
-import "../public/b1.jpeg"
 
 export default class Testimonials extends Component {
   render() {
     return (
-        <div className="" id="testimonials">
+        <div className="" id="">
               <h1 className="font-bold text-3xl text-center py-12 txtnavy  ">TESTIMONIALS</h1>
 
       <Carousel

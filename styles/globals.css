@@ -37,7 +37,7 @@
   position: relative;
   bottom: 3.9rem;
   left: 1rem;
-  height: 2.38rem;
+  height: 1.5rem;
 }
 .fontour {
   font-family: 'Cutive Mono', monospace;
@@ -216,6 +216,7 @@ background-color:blueviolet ;
     border-right: solid;
 }
 .bordernavrest {
+  
   border-radius: 0px;
   border-top: none;
   border-bottom: solid;
@@ -318,6 +319,10 @@ padding-top: 4rem;
 padding-bottom: 4rem;
 
 }
+.position3 {
+  position: relative;
+  top: 4rem;
+}
 
 }
 
@@ -355,7 +360,7 @@ padding-right: 8.3rem;
 }
 /* mobile btn  */
 .btn9 {
-bottom: 23rem;
+bottom: 24rem;
 
 position: absolute;
 margin-left: 1.2rem;
@@ -369,7 +374,7 @@ margin-left: 1.2rem;
 @media only screen and (max-width: 391px) {
 .btn9 {
   position: absolute;
-  bottom: 21rem;
+  bottom: 23rem;
   /* margin-top: 8rem;
   margin-bottom: 0rem; */
 }

@@ -1,6 +1,6 @@
 import React from 'react'
 
-const candles = () => {
+const scentedcandles = () => {
   return (
     <div>
    
@@ -44,4 +44,4 @@ const candles = () => {
   )
 }
 
-export default candles
+export default scentedcandles;

@@ -26,11 +26,11 @@ const executeScroll = () => scrollToRef(myRef)
   
 
   <Component {...pageProps} />
-  <div className='  font-bold bgtest mt-12 txtnavy text-center py-12 text-3xl' id='contactus' >
+  <div className='  font-bold bgtest mt-12 txtnavy text-center py-12 text-3xl' id='' >
   <h1 className='' id='contactus'>CONTACT US</h1>
   </div>
 
-  <div className="text-gray-600 bgtest  text-2xl body-font relative">
+  <div className="text-gray-600 bgtest  text-2xl body-font relative" id='contactus'>
 <div className="container px-5 py-12 mx-auto flex sm:flex-nowrap flex-wrap">
   <div className="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
     <iframe width="100%" height="100%" className="absolute inset-0" frameBorder="0" title="map" marginHeight="0" marginWidth="0" scrolling="no"  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14012.014268470783!2d77.0619035!3d28.5996698!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x983aaecf13f656a0!2sAdarsh%20Apartment%2C%20Sector%203%2C%20Pocket%2016%2C%20Dwarka!5e0!3m2!1sen!2sin!4v1651079425095!5m2!1sen!2sin "loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe>
@@ -78,7 +78,7 @@ const executeScroll = () => scrollToRef(myRef)
   <p className=' bgour6 text-xl text-white text-center
   '>© 2021-22 Deepika Prints. All Rights Reserved.</p>
   <div className="w-full bgour6   text-center">
-          <a className="text-white">Deepikaprints7gmail.com</a>
+          <a className="text-white">Deepikaprints7@gmail.com</a>
           <p className="leading-normal my-5 text-white">Flat No 452 , Adarsh Apartment
             <br></br>Pocket-16 , Sector 3 , Delhi , 110075
           </p>

@@ -4,7 +4,7 @@ const tshirt = () => {
   return (
     <div>
    
-    <h1 className='text-center text-4xl py-7 text-blue-900 font-bold'>Tshirts</h1>
+    <h1 className='text-center text-4xl py-7 text-blue-900 font-bold'>T-shirts</h1>
     <a href='../'>
     <img src='back1.png' className=' arrow h-52'/>
         </a>

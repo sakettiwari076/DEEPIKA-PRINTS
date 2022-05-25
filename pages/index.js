@@ -43,6 +43,16 @@ function classNames(...classes) {
 									>
 										Home
 									</Link>
+									<Link
+									activeClass=""
+									to="aboutus"
+									smooth={true}
+									offset={50}
+									duration={500}
+									className="cursor-pointer hover:bg-blue-600 text-white hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+								  >
+									About us
+								  </Link>
 								
 									<Menu as="div" className="  relative inline-block text-left">
 									<div >
@@ -142,7 +152,7 @@ function classNames(...classes) {
 											'block px-4 py-2 text-sm'
 										  )}
 										>
-										  Customized Pendrives
+										   Pendrives
 										</a>
 									  )}
 									</Menu.Item>
@@ -212,7 +222,7 @@ function classNames(...classes) {
 													'block w-full text-left px-4 py-2 text-sm'
 												  )}
 												>
-												Soon..
+
 												</button>
 											  )}
 											</Menu.Item>
@@ -222,16 +232,7 @@ function classNames(...classes) {
 									</Transition>
 								  </Menu>
 										  
-                  <Link
-                  activeClass=""
-                  to="ourspecialization"
-                  smooth={true}
-                  offset={50}
-                  duration={500}
-                  className="cursor-pointer hover:bg-blue-600 text-white hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                >
-                  About us
-                </Link>
+
 									<Link
 										activeClass=""
 										to="testimonials"
@@ -337,7 +338,7 @@ function classNames(...classes) {
 								<Link
 								href="/services"
 								activeClass="services"
-								to="ourspecialization"
+								to="aboutus"
 								smooth={true}
 								offset={50}
 								duration={500}
@@ -355,11 +356,13 @@ function classNames(...classes) {
 									duration={500}
 									className="cursor-pointer hover:bg-blue-600 text-black hover:text-white block text-center py-2 rounded-md text-base font-medium bordernavrest"
 								>
-									Testimonails
+									Testimonials
 								</Link>
-								<Menu as="div" className="relative inline-block text-left">
-								<div >
-									<Menu.Button className=" inline-flex justify-center w-full mx-16 rounded-md border border-gray-300 shadow-sm px-4 py-2 bg-white text-sm font-medium text-black hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500">
+
+								<div className='flex justify-center bordernavrest text-black'>
+								<Menu as="div" className="relative inline-block  text-left">
+								<div className='' >
+									<Menu.Button className=" inline-flex justify-center w-full   px-2 py-2 text-black text-sm font-medium ">
 									Products
 									<ChevronDownIcon className="-mr-1 ml-2 h-5 w-5" aria-hidden="true" />
 								  </Menu.Button>
@@ -456,7 +459,7 @@ function classNames(...classes) {
 										'block px-4 py-2 text-sm'
 									  )}
 									>
-									  Customized Pendrives
+									   Pendrives
 									</a>
 								  )}
 								</Menu.Item>
@@ -526,7 +529,7 @@ function classNames(...classes) {
 												'block w-full text-left px-4 py-2 text-sm'
 											  )}
 											>
-											Soon..
+
 											</button>
 										  )}
 										</Menu.Item>
@@ -535,10 +538,10 @@ function classNames(...classes) {
 								  </Menu.Items>
 								</Transition>
 							  </Menu>
-							)			  
+							  </div>
+								  
 
 			
-							<Links  href='/Fillform'><a className='bordernavrest cursor-pointer hover:bg-blue-600 text-black hover:text-white block text-center py-2 rounded-md text-base font-medium'> Fillform</a></Links>
 
 								<Link
 									href="/contact"
@@ -554,7 +557,6 @@ function classNames(...classes) {
 
 							</div>
 						</div>
-						
 					)}
 				</Transition>
 
@@ -565,41 +567,41 @@ function classNames(...classes) {
     <div className="txtnavy effect6  bgour3 pt-14" id='home'>
         <div className="container  mx-auto flex  pt-24 md:flex-row flex-col items-center">
       <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-        <p className="text-xl font-semibold  px-4    bodyfont9  mr-4 tracking-wider sm:font-semibold text-justify lg:text-2xl lg:space-x-2 lg:font-semibold">  We are the one stop solution to all the needs We deal in 12 category of products for personalized gift.  </p>
+        <p className="text-xl font-semibold  px-4    bodyfont9  mr-4 tracking-wider sm:font-semibold text-justify  lg:space-x-2 lg:text-3xl  lg:font-semibold">  We are the one stop solution to all the needs We deal in 12 category of products for personalized gift.  </p>
       <a href='https://www.indiamart.com/deepika-prints-delhi/profile.html'>
 	  <button className="bg-navy btn4 hover:bg-blue-200 text-white font-bold py-2 ml-8 mt-9 bigscreenb px-8 rounded-md">
-  EXPLORE
+  EXPLORE 
 </button></a>  
       </div>
       <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6   ">
-        <img className="object-cover position3  object-center rounded-3xl mb-7 " alt="hero" src="ast.png" />
+        <img className="object-cover position3  object-center rounded-3xl mb-7 " alt="hero" src="man.png" />
       </div>
     </div>
 	
-
+<div className='' id='aboutus' > </div>
   <a href='https://www.indiamart.com/deepika-prints-delhi/profile.html'><button className='bg-navy text-white hover:bg-blue-200 font-normal space-x-3 px-9 py-2 smallscreenb rounded-md btn9'>EXPLORE</button></a>  
     </div> 
     <h1 className='text-center font-bold pt-10 text-3xl txtnavy decoration-violet-600  '>ABOUT US</h1>
 
-    <div className='  text-gray-900 py-8  grid lg:grid-cols-1 text-center px-8  ' id='ourspecialization' >
+    <div className='  text-gray-900 py-8  grid lg:grid-cols-1 text-center px-8  ' id='' >
   
     <div className=' py-5  fontour3'>
     <div className='flex justify-center'>
-	<p className='text-justify lg:text-2xl lg:px-48 lg:font-semibold'>We deals in 12 category of products for personalized giftings with very good percentage of repeated orders .
+	<p className='text-justify lg:text-2xl lg:leading-10 lg:px-48 lg:font-medium'>We deals in 12 category of products for personalized giftings with very good percentage of repeated orders .
 	Our products includes Diaries , Pens , Keychaining , Personalized Pendrives , Bottles, T-shirt , Laptop bags , Jute bags , Scented candles , chocolates(Handmade) , Mugs , Corrugated Boxes . 
 	</p>
     </div>
     </div>
     </div> 
-      <div className=' text bg-navy text-white  effect6  grid lg:grid-cols-3 text-center '>
-      <div className='font-semibold text-white py-6 text-2xl '>
+      <div className=' text bg-navy text-white  effect6 lg:py-14 lg:text-3xl grid lg:grid-cols-3 text-center '>
+      <div className='font-semibold text-white py-6  text-2xl '>
       Catered to <br></br> 70+ corporates <br></br>
       
       </div>
         <div className='font-semibold  text-2xl py-6 '>
         Delivered to <br></br>5000+ end users<br></br>
         </div>
-        <div className='font-semibold text-2xl py-6 '>
+        <div className='font-semibold text-2xl py-6 ' id='testimonials'>
         Repeated orders<br></br> ~70% <br></br>
 
         </div>
