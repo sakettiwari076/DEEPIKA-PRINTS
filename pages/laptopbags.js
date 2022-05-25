@@ -9,9 +9,9 @@ const laptopbags = () => {
     <img src='back1.png' className=' arrow h-52'/>
         </a>
 
-    <div className='mt-8  grid lg:grid-cols-3 px-7 gap-10 '>
+    <div className='mt-8  grid  lg:grid-cols-3 px-7 gap-10 '>
     <div className='card rounded-2xl effectback'>
-    <img src='bag1.jpeg' alt=' ' className='w-full imghgt  object-cover' /> 
+    <img src='bag1.jpeg' alt=' ' className='w-full imghgt   object-cover' /> 
     <div className='m-4'>
     <span className='font-bold'>Laptopbag No 1 </span>
     <span className='block text-gray-500 text-sm '>ⓒ Deepika Prints</span>
@@ -59,37 +59,7 @@ const laptopbags = () => {
     </div>
     </div>
    
-   
-    <div className='card rounded-2xl effectback '>
-    <img src='bag6.jpeg' alt=' ' className='w-full imghgt  object-cover' /> 
-    <div className='m-4'>
-    <span className='font-bold'>Laptopbag No 6 </span>
-    <span className='block text-gray-500 text-sm  '>ⓒ Deepika Prints</span>
-    </div>
-    <div className='badge'>
-    
-    </div>
-    </div>
-    <div className='card rounded-2xl effectback  '>
-            <img src='bag7.jpeg' alt=' ' className='w-full imghgt  object-cover' /> 
-    <div className='m-4'>
-    <span className='font-bold'>Laptopbag No 7</span>
-    <span className='block text-gray-500 text-sm '>ⓒ Deepika Prints</span>
-    </div>
-    <div className='badge '>
-    
-    </div>
-    </div>
-    <div className='card rounded-2xl effectback '>
-    <img src='bag8.jpeg' alt=' ' className='w-full imghgt   object-cover' /> 
-    <div className='m-4'>
-    <span className='font-bold'>Laptopbag No 8 </span>
-    <span className='block text-gray-500 text-sm '>ⓒ Deepika Prints</span>
-    </div>
-    <div className='badge'>
-          </div>
-    </div>
-    
+  
     </div>
 </div>
   )

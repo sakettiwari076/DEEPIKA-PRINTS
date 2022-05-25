@@ -6,7 +6,7 @@ const jutebags = () => {
    
     <h1 className='text-center text-4xl py-7 text-blue-900 font-bold'>Jute bags</h1>
     <a href='../'>
-    <img src='back1.png' className=' arrow h-1'/>
+    <img src='back1.png' className=' arrow '/>
         </a>
 
     <div className='mt-8  grid lg:grid-cols-3 px-7 gap-10 '>

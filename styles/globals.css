@@ -197,6 +197,14 @@ background-color:blueviolet ;
 .bodyfont9 {
   font-family: 'Cutive Mono', monospace;
 }
+.logo{
+position: relative;
+right: 3rem;
+}
+.deepikaprints {
+  position: relative;
+  right: 2rem;
+}
 
 
 .bg-navy{

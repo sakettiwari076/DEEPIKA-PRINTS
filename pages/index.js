@@ -24,14 +24,16 @@ function classNames(...classes) {
 	<Script src="https://www.google-analytics.com/analytics.js" />
     <nav className=" ournav   fixed w-full z-10" >
 				<div className="w-full">
-					<div className="flex bg-navy  text-white items-center h-20 w-full">
+					<div className="flex bg-navy lg:py-12  text-white items-center h-20 w-full">
 						<div className="flex items-center  mx-20  justify-between w-full">
 							<div className="flex justify-center items-center flex-shrink-0 ">
-								<h1 className=" font-extralight text-xl text-white cursor-pointer">
-								DEEPIKA<span className="text-white">PRINTS</span>
+							<img src='logo.jpeg ' className='w-14 logo rounded-full '/>
+				
+								<h1 className=" font-extralight text-xl deepikaprints text-white cursor-pointer">
+								DEEPIKA<span className="text-white ">PRINTS</span>
 								</h1>
 							    </div>
-							    <div className="hidden md:block ">
+							    <div className="hidden  md:block ">
 								<div className="ml-10 flex items-baseline space-x-4">
 									<Link
 										activeClass=""
@@ -39,7 +41,7 @@ function classNames(...classes) {
 										smooth={true}
 										offset={50}
 										duration={500}
-										className="cursor-pointer hover:bg-blue-600 text-white hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+										className="cursor-pointer hover:bg-blue-600 text-white hover:text-white lg:text-2xl px-3 py-2 rounded-md  text-sm font-normal"
 									>
 										Home
 									</Link>
@@ -49,14 +51,14 @@ function classNames(...classes) {
 									smooth={true}
 									offset={50}
 									duration={500}
-									className="cursor-pointer hover:bg-blue-600 text-white hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+									className="cursor-pointer hover:bg-blue-600 lg:text-2xl text-white hover:text-white px-3 py-2 rounded-md text-sm font-normal"
 								  >
 									About us
 								  </Link>
 								
 									<Menu as="div" className="  relative inline-block text-left">
 									<div >
-										<Menu.Button className=" buttoncss inline-flex justify-center w-full  rounded-md  shadow-sm px-4 py-2  text-sm font-medium text-black hover:bg-blue-600 ">
+										<Menu.Button className=" buttoncss inline-flex justify-center w-full lg:text-2xl rounded-md  shadow-sm px-4 py-2  text-sm font-normal text-black hover:bg-blue-600 ">
 										Products
 										<ChevronDownIcon className="-mr-1 ml-2 h-5 w-5" aria-hidden="true" />
 									  </Menu.Button>
@@ -188,6 +190,20 @@ function classNames(...classes) {
 								{({ active }) => (
 								  // eslint-disable-next-line @next/next/no-html-link-for-pages
 								  <a
+									href="/chocolates"
+									className={classNames(
+									  active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
+									  'block px-4 py-2 text-sm'
+									)}
+								  >
+									Chocolates
+								  </a>
+								)}
+							  </Menu.Item>
+								<Menu.Item>
+								{({ active }) => (
+								  // eslint-disable-next-line @next/next/no-html-link-for-pages
+								  <a
 									href="/scentedcandles"
 									className={classNames(
 									  active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
@@ -239,7 +255,7 @@ function classNames(...classes) {
 										smooth={true}
 										offset={50}
 										duration={500}
-										className="cursor-pointer hover:bg-blue-600 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+										className="cursor-pointer lg:text-2xl hover:bg-blue-600 hover:text-white px-3 py-2 rounded-md text-sm font-normal"
 									>
 										Testimonails
 									</Link>
@@ -252,7 +268,7 @@ function classNames(...classes) {
 										smooth={true}
 										offset={50}
 										duration={500}
-										className="cursor-pointer bg-blue-600 text-white px-3 py-2 rounded-md text-sm font-medium hover:bg-black"
+										className="cursor-pointer lg:text-2xl bg-blue-600 text-white px-3 py-2 rounded-md text-sm font-normal hover:bg-black"
 									>
 										Contact
 									</Link>
@@ -264,7 +280,7 @@ function classNames(...classes) {
 							<button
 								onClick={() => setIsOpen(!isOpen)}
 								type="button"
-									className="bg-navy inline-flex items-center justify-center p-2 rounded-md text-white   focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-blue-800 focus:ring-white"
+									className="bg-navy inline-flex items-center justify-center p-2 rounded-md text-white lg:text-2xl    focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-blue-800 focus:ring-white"
 								aria-controls="mobile-menu"
 								aria-expanded="false"
 							>
@@ -492,6 +508,20 @@ function classNames(...classes) {
 							  )}
 							</Menu.Item>
 							<Menu.Item>
+							  {({ active }) => (
+								// eslint-disable-next-line @next/next/no-html-link-for-pages
+								<a
+								  href="/chocolates"
+								  className={classNames(
+									active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
+									'block px-4 py-2 text-sm'
+								  )}
+								>
+								  Chocolates
+								</a>
+							  )}
+							</Menu.Item>
+							<Menu.Item>
 							{({ active }) => (
 							  // eslint-disable-next-line @next/next/no-html-link-for-pages
 							  <a
@@ -567,7 +597,7 @@ function classNames(...classes) {
     <div className="txtnavy effect6  bgour3 pt-14" id='home'>
         <div className="container  mx-auto flex  pt-24 md:flex-row flex-col items-center">
       <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-        <p className="text-xl font-semibold  px-4    bodyfont9  mr-4 tracking-wider sm:font-semibold text-justify  lg:space-x-2 lg:text-3xl  lg:font-semibold">  We are the one stop solution to all the needs We deal in 12 category of products for personalized gift.  </p>
+        <p className="text-xl   px-4    bodyfont9  mr-4 tracking-wider sm:font-bold font-bold text-justify  lg:space-x-2 lg:text-3xl  lg:font-semibold">  We are the one stop solution to all the needs We deal in 12 category of products for personalized gift.  </p>
       <a href='https://www.indiamart.com/deepika-prints-delhi/profile.html'>
 	  <button className="bg-navy btn4 hover:bg-blue-200 text-white font-bold py-2 ml-8 mt-9 bigscreenb px-8 rounded-md">
   EXPLORE 
@@ -587,7 +617,7 @@ function classNames(...classes) {
   
     <div className=' py-5  fontour3'>
     <div className='flex justify-center'>
-	<p className='text-justify lg:text-2xl lg:leading-10 lg:px-48 lg:font-medium'>We deals in 12 category of products for personalized giftings with very good percentage of repeated orders .
+	<p className='text-justify lg:text-2xl lg:leading-7 lg:px-48 lg:font-medium text-gray-900'>We deals in 12 category of products for personalized giftings with very good percentage of repeated orders .
 	Our products includes Diaries , Pens , Keychaining , Personalized Pendrives , Bottles, T-shirt , Laptop bags , Jute bags , Scented candles , chocolates(Handmade) , Mugs , Corrugated Boxes . 
 	</p>
     </div>
