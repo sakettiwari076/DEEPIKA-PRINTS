@@ -200,6 +200,20 @@ function classNames(...classes) {
 								  </a>
 								)}
 							  </Menu.Item>
+							  <Menu.Item>
+							{({ active }) => (
+							  // eslint-disable-next-line @next/next/no-html-link-for-pages
+							  <a
+								href="/corrugatedboxes"
+								className={classNames(
+								  active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
+								  'block px-4 py-2 text-sm'
+								)}
+							  >
+								Corrugated Boxes
+							  </a>
+							)}
+						  </Menu.Item>
 								<Menu.Item>
 								{({ active }) => (
 								  // eslint-disable-next-line @next/next/no-html-link-for-pages
@@ -375,7 +389,7 @@ function classNames(...classes) {
 									Testimonials
 								</Link>
 
-								<div className='flex justify-center bordernavrest text-black'>
+								<div className='flex justify-center bordernavrest font-medium text-black'>
 								<Menu as="div" className="relative inline-block  text-left">
 								<div className='' >
 									<Menu.Button className=" inline-flex justify-center w-full   px-2 py-2 text-black text-sm font-medium ">
@@ -411,7 +425,7 @@ function classNames(...classes) {
 									  </Menu.Item>
 									  <Menu.Item>
 										{({ active }) => (
-										  // eslint-disable-next-line @next/next/no-html-link-for-pages
+										  // eslint-disable-next-line @next/next/no-html-link-for-pages 
 										  <a
 											href="/Cup"
 											className={classNames(
@@ -508,6 +522,20 @@ function classNames(...classes) {
 							  )}
 							</Menu.Item>
 							<Menu.Item>
+							{({ active }) => (
+							  // eslint-disable-next-line @next/next/no-html-link-for-pages
+							  <a
+								href="/corrugatedboxes"
+								className={classNames(
+								  active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
+								  'block px-4 py-2 text-sm'
+								)}
+							  >
+								Corrugated Boxes
+							  </a>
+							)}
+						  </Menu.Item>
+							<Menu.Item>
 							  {({ active }) => (
 								// eslint-disable-next-line @next/next/no-html-link-for-pages
 								<a
@@ -595,7 +623,7 @@ function classNames(...classes) {
 
 		
     <div className="txtnavy effect6  bgour3 pt-14" id='home'>
-        <div className="container  mx-auto flex  pt-24 md:flex-row flex-col items-center">
+        <div className="container lg:mt-11 sm:mt-6 mx-auto flex  pt-24 md:flex-row flex-col items-center">
       <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
         <p className="text-xl   px-4    bodyfont9  mr-4 tracking-wider sm:font-bold font-bold text-justify  lg:space-x-2 lg:text-3xl  lg:font-semibold">  We are the one stop solution to all the needs We deal in 12 category of products for personalized gift.  </p>
       <a href='https://www.indiamart.com/deepika-prints-delhi/profile.html'>
