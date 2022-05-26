@@ -41,7 +41,7 @@ function classNames(...classes) {
 										smooth={true}
 										offset={50}
 										duration={500}
-										className="cursor-pointer hover:bg-blue-600 text-white hover:text-white lg:text-2xl px-3 py-2 rounded-md  text-sm font-normal"
+										className="cursor-pointer hover:bg-blue-600 text-white hover:text-white lg:text-xl px-3 py-2 rounded-md  text-sm font-normal"
 									>
 										Home
 									</Link>
@@ -51,14 +51,14 @@ function classNames(...classes) {
 									smooth={true}
 									offset={50}
 									duration={500}
-									className="cursor-pointer hover:bg-blue-600 lg:text-2xl text-white hover:text-white px-3 py-2 rounded-md text-sm font-normal"
+									className="cursor-pointer hover:bg-blue-600 lg:text-xl text-white hover:text-white px-3 py-2 rounded-md text-sm font-normal"
 								  >
 									About us
 								  </Link>
 								
 									<Menu as="div" className="  relative inline-block text-left">
 									<div >
-										<Menu.Button className=" buttoncss inline-flex justify-center w-full lg:text-2xl rounded-md  shadow-sm px-4 py-2  text-sm font-normal text-black hover:bg-blue-600 ">
+										<Menu.Button className=" buttoncss inline-flex justify-center w-full lg:text-xl rounded-md  shadow-sm px-4 py-2  text-sm font-normal text-black hover:bg-blue-600 ">
 										Products
 										<ChevronDownIcon className="-mr-1 ml-2 h-5 w-5" aria-hidden="true" />
 									  </Menu.Button>
@@ -269,9 +269,9 @@ function classNames(...classes) {
 										smooth={true}
 										offset={50}
 										duration={500}
-										className="cursor-pointer lg:text-2xl hover:bg-blue-600 hover:text-white px-3 py-2 rounded-md text-sm font-normal"
+										className="cursor-pointer lg:text-xl hover:bg-blue-600 hover:text-white px-3 py-2 rounded-md text-sm font-normal"
 									>
-										Testimonails
+										Testimonials
 									</Link>
 
                                  
@@ -282,7 +282,7 @@ function classNames(...classes) {
 										smooth={true}
 										offset={50}
 										duration={500}
-										className="cursor-pointer lg:text-2xl bg-blue-600 text-white px-3 py-2 rounded-md text-sm font-normal hover:bg-black"
+										className="cursor-pointer lg:text-xl bg-blue-600 text-white px-3 py-2 rounded-md text-sm font-normal hover:bg-black"
 									>
 										Contact
 									</Link>
@@ -625,14 +625,14 @@ function classNames(...classes) {
     <div className="txtnavy effect6  bgour3 pt-14" id='home'>
         <div className="container lg:mt-11 sm:mt-6 mx-auto flex  pt-24 md:flex-row flex-col items-center">
       <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-        <p className="text-xl   px-4    bodyfont9  mr-4 tracking-wider sm:font-bold font-bold text-justify  lg:space-x-2 lg:text-3xl  lg:font-semibold">  We are the one stop solution to all the needs We deal in 12 category of products for personalized gift.  </p>
+        <p className="text-xl   px-4    bodyfont9  mr-4 tracking-wider sm:font-bold font-bold text-justify  lg:space-x-2 lg:text-3xl lg:pt-28 lg:font-semibold">  We are the one stop solution to all the needs We deal in 12 category of products for personalized gift.  </p>
       <a href='https://www.indiamart.com/deepika-prints-delhi/profile.html'>
-	  <button className="bg-navy btn4 hover:bg-blue-200 text-white font-bold py-2 ml-8 mt-9 bigscreenb px-8 rounded-md">
+	  <button className="bg-navy btn4 hover:bg-blue-200 lg:px-12 lg:py-3 rounded-lg text-white font-bold py-2 ml-8 mt-9 bigscreenb px-8 rounded-md">
   EXPLORE 
 </button></a>  
       </div>
       <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6   ">
-        <img className="object-cover position3  object-center rounded-3xl mb-7 " alt="hero" src="man.png" />
+        <img className="object-cover position3 lg:pt-12  object-center rounded-3xl mb-7 " alt="hero" src="man.png" />
       </div>
     </div>
 	
