@@ -5,8 +5,8 @@ import { Carousel } from "react-responsive-carousel";
 export default class Testimonials extends Component {
   render() {
     return (
-        <div className="" id="">
-              <h1 className="font-bold text-3xl text-center py-12 txtnavy  ">TESTIMONIALS</h1>
+        <div className=" " id="">
+              <h1 className="font-bold text-3xl text-center py-12 txtnavy  lg:text-4xl ">TESTIMONIALS</h1>
 
       <Carousel
         showArrows={true}
@@ -18,7 +18,7 @@ export default class Testimonials extends Component {
       >
 
         <div>
-          <div className="myCarousel effectback ">
+          <div className="myCarousel width100 effectback ">
             <h3>Prabhat</h3>
             <h4></h4>
             <p>
@@ -28,7 +28,7 @@ export default class Testimonials extends Component {
         </div>
 
         <div>
-          <div className="myCarousel  effectback">
+          <div className="myCarousel width100 effectback">
             <h3>Aryan Tiwari</h3>
             <h4>Student</h4>
             <p>

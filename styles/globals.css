@@ -197,6 +197,9 @@ background-color:blueviolet ;
 .bodyfont9 {
   font-family: 'Cutive Mono', monospace;
 }
+.width100 {
+  width: 100%;
+}
 .logo{
 position: relative;
 right: 3rem;
