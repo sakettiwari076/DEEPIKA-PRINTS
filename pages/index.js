@@ -60,7 +60,7 @@ function classNames(...classes) {
 									<div >
 										<Menu.Button className=" buttoncss inline-flex justify-center w-full lg:text-xl rounded-md  shadow-sm px-4 py-2  text-sm font-normal text-black hover:bg-blue-600 ">
 										Products
-										<ChevronDownIcon className="-mr-1 ml-2 h-5 w-5" aria-hidden="true" />
+										<ChevronDownIcon className="" aria-hidden="true" />
 									  </Menu.Button>
 									</div>
 							  
@@ -359,7 +359,7 @@ function classNames(...classes) {
 									smooth={true}
 									offset={50}
 									duration={500}
-									className="cursor-pointer hover:bg-blue-600 text-black hover:text-white block text-center py-2 rounded-md text-base font-medium bordernavrest"
+									className="cursor-pointer hover:bg-blue-600  text-black hover:text-white block text-center py-2 rounded-md text-base font-medium bordernavrest"
 								>
 									Home
 
@@ -625,14 +625,14 @@ function classNames(...classes) {
     <div className="txtnavy effect6  bgour3 pt-14" id='home'>
         <div className="container lg:mt-11 sm:mt-6 mx-auto flex  pt-24 md:flex-row flex-col items-center">
       <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-        <p className="text-xl   px-4    bodyfont9  mr-4 tracking-wider sm:font-bold font-bold text-justify lg:px-24 lg:space-x-2 lg:text-3xl lg:pt-28 lg:font-semibold">  We are the one stop solution to all the needs We deal in 12 category of products for personalized gift.  </p>
+        <p className="text-xl   px-4    bodyfont9  mr-4 tracking-wider sm:font-bold font-bold text-justify  lg:space-x-2 lg:text-3xl lg:pt-28  lg:font-semibold">  We are the one stop solution to all the needs We deal in 12 category of products for personalized gift.  </p>
       <a href='https://www.indiamart.com/deepika-prints-delhi/profile.html'>
-	  <button className="bg-navy btn4 hover:bg-blue-200 lg:px-12 lg:mr-14 lg:py-3 rounded-lg text-white font-bold py-2 ml-24 mt-9 bigscreenb px-8 ">
+	  <button className="bg-navy btn4 hover:bg-blue-200 lg:px-12 lg:mr-14 lg:py-3  rounded-lg text-white font-bold py-2 ml-5 mt-9 bigscreenb px-8 ">
   EXPLORE 
 </button></a>  
       </div>
       <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6   ">
-        <img className="object-cover position3 lg:pt-12  object-center rounded-3xl mb-7 " alt="hero" src="man.png" />
+        <img className="object-cover position3 lg:pt-12  object-center rounded-3xl mb-7 lg:mr-7 " alt="hero" src="man.png" />
       </div>
     </div>
 	
@@ -646,7 +646,7 @@ function classNames(...classes) {
     <div className=' py-5 grid lg:grid-cols-2  fontour3'>
 	<img src='contactus.png' className=''/>
     <div className='flex justify-center'>
-	<p className='text-justify lg:text-2xl lg:leading-9  lg:px-48 lg:pt-14  lg:font-medium text-gray-900'>We deals in 12 category of products for personalized giftings with very good percentage of repeated orders .
+	<p className='text-justify lg:text-2xl   lg:px-32 lg:pt-14  lg:leading-8  lg:font-medium text-gray-900'>We deals in 12 category of products for personalized giftings with very good percentage of repeated orders .
 	Our products includes Diaries , Pens , Keychaining , Personalized Pendrives , Bottles, T-shirt , Laptop bags , Jute bags , Scented candles , chocolates(Handmade) , Mugs , Corrugated Boxes . 
 	</p>
     </div>
