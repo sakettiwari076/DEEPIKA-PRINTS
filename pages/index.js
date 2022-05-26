@@ -625,9 +625,9 @@ function classNames(...classes) {
     <div className="txtnavy effect6  bgour3 pt-14" id='home'>
         <div className="container lg:mt-11 sm:mt-6 mx-auto flex  pt-24 md:flex-row flex-col items-center">
       <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-        <p className="text-xl   px-4    bodyfont9  mr-4 tracking-wider sm:font-bold font-bold text-justify  lg:space-x-2 lg:text-3xl lg:pt-28 lg:font-semibold">  We are the one stop solution to all the needs We deal in 12 category of products for personalized gift.  </p>
+        <p className="text-xl   px-4    bodyfont9  mr-4 tracking-wider sm:font-bold font-bold text-justify lg:px-24 lg:space-x-2 lg:text-3xl lg:pt-28 lg:font-semibold">  We are the one stop solution to all the needs We deal in 12 category of products for personalized gift.  </p>
       <a href='https://www.indiamart.com/deepika-prints-delhi/profile.html'>
-	  <button className="bg-navy btn4 hover:bg-blue-200 lg:px-12 lg:py-3 rounded-lg text-white font-bold py-2 ml-8 mt-9 bigscreenb px-8 rounded-md">
+	  <button className="bg-navy btn4 hover:bg-blue-200 lg:px-12 lg:mr-14 lg:py-3 rounded-lg text-white font-bold py-2 ml-24 mt-9 bigscreenb px-8 ">
   EXPLORE 
 </button></a>  
       </div>
