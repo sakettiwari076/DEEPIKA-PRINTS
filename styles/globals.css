@@ -112,7 +112,8 @@ background-color:blueviolet ;
   width: 100%;
   background-color: #ffffff;
   border-radius: 5px;
-  border-top: 58px solid deepskyblue;
+  border-top: 58px solid darkblue;
+
 }
 
 .snip1533 *,
@@ -174,19 +175,7 @@ body {
 
   
   
-  .myCarousel {
-    background: #fafafa;
-    margin-top: -6%;
-    width: 54%;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 6%;
-    padding-bottom: 8%;
-    padding-left: 5%;
-    padding-right: 5%;
-    border: 1px solid #ddd;
-    height: 286px;
-  }
+  
   .buttoncss {
     background: border-box;
     color: white;
