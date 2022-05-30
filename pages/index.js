@@ -630,7 +630,7 @@ function classNames(...classes) {
 			  <h1 className="title-font md:text-5xl  font-bold  text-5xl fontpop mb-4   text-gray-900">Before they <span className='colorfront'>sold out</span> 
 				<br></br> <div  className="hidden  lg:inline-block">Book your order </div>
 			  </h1>
-			  <p className="mb-8 leading-relaxed">We are delivering 11 varities of products which includes Diaries, Pens, Keychaining, Personalized Pendrives, Bottles, T-shirt, Laptop bags, Jute bags, Scented candles, chocolates(Handmade), Mugs, Corrugated Boxes. </p>
+			  <p className="mb-8 lg:text-xl leading-relaxed">We are delivering 11 varities of products which includes Diaries, Pens, Keychaining, Personalized Pendrives, Bottles, T-shirt, Laptop bags, Jute bags, Scented candles, chocolates(Handmade), Mugs, Corrugated Boxes. </p>
 			  <div className="flex justify-center">
 			  <a href='https://www.justdial.com/jdmart/Delhi/Deepika-prints-Near-By-Jal-BoardDwarka/011PXX11-XX11-211124103013-H3U6_BZDET/catalogue'>
 				<button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Explore</button>
