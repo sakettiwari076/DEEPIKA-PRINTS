@@ -621,24 +621,36 @@ function classNames(...classes) {
 				
 			</nav>
 
-		
-    <div className="txtnavy effect6  bgour3 pt-14" id='home'>
-        <div className="container lg:mt-11 sm:mt-6 mx-auto flex  pt-24 md:flex-row flex-col items-center">
-      <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-44  flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-        <p className="text-xl   px-4    bodyfont9  mr-4 tracking-wider sm:font-bold font-bold text-justify  lg:space-x-2 lg:text-3xl lg:pt-28  lg:font-semibold">  We are the one stop solution to all the needs We deal in 12 category of products for personalized gift.  </p>
-      <a href='https://www.indiamart.com/deepika-prints-delhi/profile.html'>
-	  <button className="bg-navy btn4 hover:bg-blue-200 lg:px-12 lg:mr-14 lg:py-3  rounded-lg text-white font-bold py-2 ml-5 mt-9 bigscreenb px-8 ">
-  EXPLORE 
-</button></a>  
-      </div>
-      <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6   ">
-        <img className="object-cover position3 lg:pt-12  object-center rounded-3xl mb-7 lg:mr-7 " alt="hero" src="man.png" />
-      </div>
-    </div>
+		 
+			<div className="txtnavy effect6 pt-14 lg:pt-28 bgour3 " id='home'>
+
+			<section className="text-gray-600 body-font">
+		  <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+			<div className="lg:flex-grow lg:ml-28 md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+			  <h1 className="title-font md:text-5xl  font-bold  text-5xl fontpop mb-4   text-gray-900">Before they <span className='colorfront'>sold out</span> 
+				<br></br> <div  className="hidden  lg:inline-block">Book your order </div>
+			  </h1>
+			  <p className="mb-8 leading-relaxed">We are delivering 11 varities of products which includes Diaries, Pens, Keychaining, Personalized Pendrives, Bottles, T-shirt, Laptop bags, Jute bags, Scented candles, chocolates(Handmade), Mugs, Corrugated Boxes. </p>
+			  <div className="flex justify-center">
+				<button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Explore</button>
+				<button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Button</button>
+			  </div>
+			</div>
+			<div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+			  <img className="object-cover object-center rounded" alt="hero" src="man.png"/>
+			</div>
+		  </div>
+		</section>
+			
+			
+		  
+
+      
+    
+    
 	
 <div className='' id='aboutus' > </div>
-  <a href='https://www.indiamart.com/deepika-prints-delhi/profile.html'><button className='bg-navy text-white hover:bg-blue-200 font-normal space-x-3 px-9 py-2 smallscreenb rounded-md btn9'>EXPLORE</button></a>  
-    </div> 
+    </div>
     <h1 className='text-center font-semibold pt-10 lg:text-4xl text-3xl txtnavy decoration-violet-600  '>ABOUT US</h1>
 
     <div className='  text-gray-900 py-8  grid lg:grid-cols-1 text-center px-8  ' id='' >
@@ -667,8 +679,8 @@ function classNames(...classes) {
 
         </div>
       <Testimonials/>
+	  </div>
 
-     </div>
   
   )
   

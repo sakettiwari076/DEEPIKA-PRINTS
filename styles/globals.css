@@ -9,10 +9,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 
 .bgour{
     background:orange;
 
+}
+.fontpop {
+  font-family: 'Poppins', sans-serif;
 }
 .card {
 
@@ -47,11 +51,13 @@
     border: 1px solid #FFAB17 ;
     ;
 }
+.colorfront {
+  color: rgb(235, 104, 89);
+}
 body {
     border: none;
 }
 .bgour3 {
-    background:ghostwhite;
     height:45rem;
 
 }
@@ -164,22 +170,8 @@ background-color:blueviolet ;
 body {
 }
 /* ends here testimonials  */
-.carousel-root {
-    width: 64% !important;
-    margin: auto !important;
-    margin-top: 3% !important;
-  }
+
   
-  .carousel .slide {
-    background: #fff !important;
-    color: black;
-    height: 100%;
-  }
-  
-  .carousel .slide img {
-    width: 500px !important;
-    
-  }
   
   .myCarousel {
     background: #fafafa;
