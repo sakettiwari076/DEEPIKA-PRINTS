@@ -1,45 +1,54 @@
-import React, { Component } from "react";
-import "react-responsive-carousel/lib/styles/carousel.min.css";
-import { Carousel } from "react-responsive-carousel";
+import React from 'react'
 
-export default class Testimonials extends Component {
-  render() {
-    return (
-        <div className=" " id="">
-              <h1 className="font-bold text-3xl text-center py-12 txtnavy  lg:text-4xl ">TESTIMONIALS</h1>
 
-      <Carousel
-        showArrows={true}
-        infiniteLoop={true}
-        showThumbs={false}
-        showStatus={false}
-        autoPlay={true}
-        interval={6100}
-      >
+const Testimonail = () => {
+  return (
+    <div className=''>
+    <h1 className='lg:text-4xl   text-center font-semibold pt-10  text-3xl text-blue-900 '>TESTIMONIALS</h1>
+    <p className='text-center lg:text-2xl pt-5 font-extralight 
+    '>Look at ours amazing client experience !</p>
+    <div className=' bg-gray-600  text-center'>
+    <figure className="snip1533"id='testimonials' >
+  <figcaption>
+    <blockquote>
+      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae 
+      </p>
+    </blockquote>
+    <h3>Rishabh Mathur</h3>
+    <h4>Designation</h4>
+  </figcaption>
+</figure>
+<figure className="snip1533">
+  <figcaption>
+    <blockquote>
+      <p>Amazing experience with Deepika Prints and believe me anytime you can drop your requirement and it will be ready till the deadline Thankyou! </p>
+    </blockquote>
+    <h3>Saket Tiwari</h3>
+    <h4>Developer at Academix</h4>
+  </figcaption>
+</figure>
+<figure className="snip1533">
+  <figcaption>
+    <blockquote>
+      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae   </p>
+    </blockquote>
+    <h3>Name</h3>
+    <h4>Twitter</h4>
+  </figcaption>
+</figure>
+<figure className="snip1533">
+  <figcaption>
+    <blockquote>
+      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae  </p>
+    </blockquote>
+    <h3>Name</h3>
+    <h4>Twitter</h4>
+  </figcaption>
+</figure>
 
-        <div>
-          <div className="myCarousel width100 effectback ">
-            <h3>Prabhat</h3>
-            <h4></h4>
-            <p>
-              The product quality was too good ! Ill always use DeepikaPrints for my Giftings.
-            </p>
-          </div>
-        </div>
-
-        <div>
-          <div className="myCarousel width100 effectback">
-            <h3>Aryan Tiwari</h3>
-            <h4>Student</h4>
-            <p>
-              I got the products on time , Im very happy with the service.
-            </p>
-          </div>
-        </div>
-
-        
-      </Carousel>
-      </div>
-    );
-  }
+    </div>
+    </div>
+  )
 }
+
+export default Testimonail

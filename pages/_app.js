@@ -26,8 +26,8 @@ const executeScroll = () => scrollToRef(myRef)
   
 
   <Component {...pageProps} />
-  <div className='  font-bold bgtest mt-12 txtnavy text-center py-12 lg:text-4xl text-3xl' id='' >
-  <h1 className='' id='contactus'>CONTACT US</h1>
+  <div className='  font-semibold bgtest mt-12 txtnavy text-center py-12 lg:text-4xl text-3xl' id='' >
+  <h1 className='' id='contactus '>CONTACT US</h1>
   </div>
 
   <div className="text-gray-600 bgtest  text-2xl body-font relative" id='contactus'>
@@ -49,10 +49,7 @@ const executeScroll = () => scrollToRef(myRef)
       </div>
     </div>
   </div>
-  <form action="https://formsubmit.co/your@email.com" method="POST"/>
-     <input type="text" name="name" required/>
-     <input type="email" name="email" required/>
-     <button type="submit">Send</button>
+
 
 
   <div className="lg:w-1/3 md:w-1/2  flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">

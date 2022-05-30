@@ -24,7 +24,7 @@ function classNames(...classes) {
 	<Script src="https://www.google-analytics.com/analytics.js" />
     <nav className=" ournav   fixed w-full z-10" >
 				<div className="w-full">
-					<div className="flex bg-navy lg:py-12  text-white items-center h-20 w-full">
+					<div className="flex bg-navy   text-white items-center h-20 w-full">
 						<div className="flex items-center  mx-20  justify-between w-full">
 							<div className="flex justify-center items-center flex-shrink-0 ">
 							<img src='logo.jpeg ' className='w-14 logo rounded-full '/>
@@ -624,7 +624,7 @@ function classNames(...classes) {
 		
     <div className="txtnavy effect6  bgour3 pt-14" id='home'>
         <div className="container lg:mt-11 sm:mt-6 mx-auto flex  pt-24 md:flex-row flex-col items-center">
-      <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+      <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-44  flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
         <p className="text-xl   px-4    bodyfont9  mr-4 tracking-wider sm:font-bold font-bold text-justify  lg:space-x-2 lg:text-3xl lg:pt-28  lg:font-semibold">  We are the one stop solution to all the needs We deal in 12 category of products for personalized gift.  </p>
       <a href='https://www.indiamart.com/deepika-prints-delhi/profile.html'>
 	  <button className="bg-navy btn4 hover:bg-blue-200 lg:px-12 lg:mr-14 lg:py-3  rounded-lg text-white font-bold py-2 ml-5 mt-9 bigscreenb px-8 ">
@@ -639,7 +639,7 @@ function classNames(...classes) {
 <div className='' id='aboutus' > </div>
   <a href='https://www.indiamart.com/deepika-prints-delhi/profile.html'><button className='bg-navy text-white hover:bg-blue-200 font-normal space-x-3 px-9 py-2 smallscreenb rounded-md btn9'>EXPLORE</button></a>  
     </div> 
-    <h1 className='text-center font-bold pt-10 lg:text-4xl text-3xl txtnavy decoration-violet-600  '>ABOUT US</h1>
+    <h1 className='text-center font-semibold pt-10 lg:text-4xl text-3xl txtnavy decoration-violet-600  '>ABOUT US</h1>
 
     <div className='  text-gray-900 py-8  grid lg:grid-cols-1 text-center px-8  ' id='' >
   
