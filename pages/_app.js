@@ -1,14 +1,14 @@
-import '../styles/globals.css'
-import { createStore, applyMiddleware } from 'redux';
+import { Transition } from "@headlessui/react";
+import Image from "next/image";
+import React, { useRef, useState } from "react";
+import { Link } from "react-scroll";
+import { applyMiddleware, createStore } from 'redux';
 import { persistStore } from 'redux-persist';
 import thunk from 'redux-thunk';
-import useSWR from 'swr'
-import '../public/whatsapp.png'
-import '../public/fb.png'
-import React, { useState, useRef } from "react";
-import { Transition } from "@headlessui/react";
-import { Link } from "react-scroll";
-import Image from "next/image";
+import useSWR from 'swr';
+import '../public/fb.png';
+import '../public/whatsapp.png';
+import '../styles/globals.css';
 const scrollRef = (ref) => window.scrollTo(0 , ref.current.offset.Top)
 
 function MyApp({ Component, pageProps }) {
@@ -49,7 +49,12 @@ const executeScroll = () => scrollToRef(myRef)
       </div>
     </div>
   </div>
-  
+  <form action="https://formsubmit.co/your@email.com" method="POST"/>
+     <input type="text" name="name" required/>
+     <input type="email" name="email" required/>
+     <button type="submit">Send</button>
+
+
   <div className="lg:w-1/3 md:w-1/2  flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
     <h2 className="text-gray-900 text-lg mb-1 font-medium title-font">Feedback</h2>
     <p className="leading-relaxed mb-5 text-gray-600">Please enter your valuable feedbacks here!</p>

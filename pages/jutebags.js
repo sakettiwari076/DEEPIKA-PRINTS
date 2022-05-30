@@ -9,7 +9,7 @@ const jutebags = () => {
     <img src='back1.png' className=' arrow '/>
         </a>
 
-    <div className='mt-8 md:grid-cols-3 grid lg:grid-cols-3 px-7 gap-10 '>
+    <div className='mt-8 md:grid-cols-4 grid lg:grid-cols-3 px-7 gap-10 '>
     <div className='card rounded-2xl effectback'>
     <img src='Jute1.jpeg' alt=' ' className='w-full imghgt  object-cover' /> 
     <div className='m-4'>
