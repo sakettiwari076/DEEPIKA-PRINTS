@@ -627,7 +627,7 @@ function classNames(...classes) {
 
 			</div>
 		 
-			<div className="txtnavy effect6  lg:pt-8 bgour3 " id='home'>
+			<div className="txtnavy effect6  lg:pt-12 bgour3 " id='home'>
 
 
 			<section className="text-gray-600 body-font">
