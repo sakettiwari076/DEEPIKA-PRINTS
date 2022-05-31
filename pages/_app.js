@@ -53,7 +53,7 @@ const executeScroll = () => scrollToRef(myRef)
 
 
   <div className="lg:w-1/3 md:w-1/2  flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
-    <h2 className="text-gray-900 text-lg mb-1 font-medium title-font">Feedback</h2>
+    <h2 className="text-gray-900 text-lg mb-1 font-medium title-font">Drop your requirements ! </h2>
     <p className="leading-relaxed mb-5 text-gray-600">Please enter your valuable feedbacks here!</p>
     <div className="relative mb-4">
       <label htmlFor="name" className="leading-7 text-lg font-mono text-gray-600">Name</label>

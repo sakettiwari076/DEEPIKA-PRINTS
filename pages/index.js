@@ -56,9 +56,9 @@ function classNames(...classes) {
 									About us
 								  </Link>
 								
-									<Menu as="div" className=" text-blue-900 relative inline-block text-left">
+									<Menu as="div" className=" text-blue-900 hover:text-white relative inline-block text-left">
 									<div >
-										<Menu.Button className=" buttoncss inline-flex justify-center w-full lg:text-xl rounded-md  shadow-sm px-4 py-2  text-sm font-normal text-blue-900 hover:bg-blue-600 ">
+										<Menu.Button className=" buttoncss inline-flex justify-center w-full lg:text-xl rounded-md  shadow-sm px-4 py-2 hover:text-white text-sm font-normal text-blue-900  hover:bg-blue-600 ">
 										Products
 										<ChevronDownIcon className="" aria-hidden="true" />
 									  </Menu.Button>
@@ -140,7 +140,7 @@ function classNames(...classes) {
 											  'block px-4 py-2 text-sm'
 											)}
 										  >
-											Tshirt
+											T-shirt
 										  </a>
 										)}
 									  </Menu.Item>
@@ -238,7 +238,7 @@ function classNames(...classes) {
 									'block px-4 py-2 text-sm'
 								  )}
 								>
-								  Keys
+								  Keychains
 								</a>
 							  )}
 							</Menu.Item>
@@ -476,7 +476,7 @@ function classNames(...classes) {
 										  'block px-4 py-2 text-sm'
 										)}
 									  >
-										Tshirt
+										T-shirt
 									  </a>
 									)}
 								  </Menu.Item>
@@ -574,7 +574,7 @@ function classNames(...classes) {
 								'block px-4 py-2 text-sm'
 							  )}
 							>
-							  Keys
+							  Keychains
 							</a>
 						  )}
 						</Menu.Item>
@@ -621,22 +621,22 @@ function classNames(...classes) {
 
 				
 			</nav>
-			<div className=''>
+				<div className='opacity-80'>
 
-			<img src='https://wallpaperaccess.com/full/1393237.jpg' className='bg-fixed w-screen frontpageimage ' ></img>
+			<img src='https://wallpaperaccess.com/full/1393237.jpg' className=' bg-fixed w-screen frontpageimage ' ></img>
 
 			</div>
 		 
-			<div className="txtnavy effect6  lg:pt-12 bgour3 " id='home'>
+			<div className="txtnavy effect6  lg:pt-12n bgour3 " id='home'>
 
 
 			<section className="text-gray-600 body-font">
 		  <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
 			<div className="lg:flex-grow lg:ml-28 md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-			  <h1 className="title-font md:text-5xl text-gray-800  font-bold  text-5xl fontpop mb-4 opacity-90 ">Are you looking for <span className='colorfront '>Personalized products</span> 
+			  <h1 className="title-font md:text-5xl text-gray-800   font-bold lg:text-5xl text-4xl fontpop mb-4 opacity-90 ">Are you looking for <span className='colorfront '>Personalized products</span> 
 				<br></br> <div  className="hidden  lg:inline-block">for your Company/event? </div>
 			  </h1>
-			  <p className="mb-8 lg:text-xl font-semibold space-x-2  leading-relaxed">Then we are the one stop solution to all your needs 🤗 check out the list of products now! You can also find us on Justdial and Indiamart.</p>
+			  <p className="mb-8 lg:text-xl font-semibold space-x-2  leading-relaxed">Then we are the one stop solution to all your needs out the list of products now! You can also find us on Justdial and Indiamart.</p>
 			  <div className="flex justify-center">
 			  <a href='https://www.justdial.com/jdmart/Delhi/Deepika-prints-Near-By-Jal-BoardDwarka/011PXX11-XX11-211124103013-H3U6_BZDET/catalogue'>
 				<button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">JUSTDIAL</button>
