@@ -24,13 +24,13 @@ function classNames(...classes) {
 	<Script src="https://www.google-analytics.com/analytics.js" />
     <nav className=" ournav   fixed w-full z-10" >
 				<div className="w-full">
-					<div className="flex bg-navy   text-white items-center h-20 w-full">
+					<div className="flex blurb   text-white items-center h-20 w-full">
 						<div className="flex items-center  mx-20  justify-between w-full">
 							<div className="flex justify-center items-center flex-shrink-0 ">
 							<img src='logo.jpeg ' className='w-14 logo rounded-full '/>
 				
-								<h1 className=" font-extralight text-xl deepikaprints text-white cursor-pointer">
-								DEEPIKA<span className="text-white ">PRINTS</span>
+								<h1 className=" font-extralight text-xl deepikaprints text-blue-900 cursor-pointer">
+								DEEPIKA<span className="text-blue-900 ">PRINTS</span>
 								</h1>
 							    </div>
 							    <div className="hidden  md:block ">
@@ -41,7 +41,7 @@ function classNames(...classes) {
 										smooth={true}
 										offset={50}
 										duration={500}
-										className="cursor-pointer hover:bg-blue-600 text-white hover:text-white lg:text-xl px-3 py-2 rounded-md  text-sm font-normal"
+										className="cursor-pointer hover:bg-blue-600 text-blue-900 hover:text-white lg:text-xl px-3 py-2 rounded-md  text-sm font-normal"
 									>
 										Home
 									</Link>
@@ -51,14 +51,14 @@ function classNames(...classes) {
 									smooth={true}
 									offset={50}
 									duration={500}
-									className="cursor-pointer hover:bg-blue-600 lg:text-xl text-white hover:text-white px-3 py-2 rounded-md text-sm font-normal"
+									className="cursor-pointer hover:bg-blue-600 lg:text-xl text-blue-900 hover:text-white px-3 py-2 rounded-md text-sm font-normal"
 								  >
 									About us
 								  </Link>
 								
-									<Menu as="div" className="  relative inline-block text-left">
+									<Menu as="div" className=" text-blue-900 relative inline-block text-left">
 									<div >
-										<Menu.Button className=" buttoncss inline-flex justify-center w-full lg:text-xl rounded-md  shadow-sm px-4 py-2  text-sm font-normal text-black hover:bg-blue-600 ">
+										<Menu.Button className=" buttoncss inline-flex justify-center w-full lg:text-xl rounded-md  shadow-sm px-4 py-2  text-sm font-normal text-blue-900 hover:bg-blue-600 ">
 										Products
 										<ChevronDownIcon className="" aria-hidden="true" />
 									  </Menu.Button>
@@ -269,7 +269,7 @@ function classNames(...classes) {
 										smooth={true}
 										offset={50}
 										duration={500}
-										className="cursor-pointer lg:text-xl hover:bg-blue-600 hover:text-white px-3 py-2 rounded-md text-sm font-normal"
+										className="cursor-pointer lg:text-xl hover:bg-blue-600 hover:text-white text-blue-900 px-3 py-2 rounded-md text-sm font-normal"
 									>
 										Testimonials
 									</Link>
@@ -282,7 +282,7 @@ function classNames(...classes) {
 										smooth={true}
 										offset={50}
 										duration={500}
-										className="cursor-pointer lg:text-xl bg-blue-600 text-white px-3 py-2 rounded-md text-sm font-normal hover:bg-black"
+										className="cursor-pointer lg:text-xl bg-blue-600 text-white px-3 py-2 rounded-md text-sm font-normal "
 									>
 										Contact
 									</Link>
@@ -294,7 +294,8 @@ function classNames(...classes) {
 							<button
 								onClick={() => setIsOpen(!isOpen)}
 								type="button"
-									className="bg-navy inline-flex items-center justify-center p-2 rounded-md text-white lg:text-2xl    focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-blue-800 focus:ring-white"
+									className="bg-navy inline-flex items-center justify-center p-2 rounded-md text-whi lg:text-2xl    focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-blue-800 focus:ring-white"
+
 								aria-controls="mobile-menu"
 								aria-expanded="false"
 							>
@@ -620,22 +621,29 @@ function classNames(...classes) {
 
 				
 			</nav>
+			<div className=''>
 
+			<img src='https://wallpaperaccess.com/full/1393237.jpg' className='bg-fixed w-screen frontpageimage ' ></img>
+
+			</div>
 		 
-			<div className="txtnavy effect6 pt-14 lg:pt-28 bgour3 " id='home'>
+			<div className="txtnavy effect6  lg:pt-8 bgour3 " id='home'>
+
 
 			<section className="text-gray-600 body-font">
 		  <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
 			<div className="lg:flex-grow lg:ml-28 md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-			  <h1 className="title-font md:text-5xl  font-bold  text-5xl fontpop mb-4   text-gray-900">Before they <span className='colorfront'>sold out</span> 
-				<br></br> <div  className="hidden  lg:inline-block">Book your order </div>
+			  <h1 className="title-font md:text-5xl text-gray-800  font-bold  text-5xl fontpop mb-4 opacity-90 ">Are you looking for <span className='colorfront '>Personalized products</span> 
+				<br></br> <div  className="hidden  lg:inline-block">for your Company/event? </div>
 			  </h1>
-			  <p className="mb-8 lg:text-xl leading-relaxed">We are delivering 11 varities of products which includes Diaries, Pens, Keychaining, Personalized Pendrives, Bottles, T-shirt, Laptop bags, Jute bags, Scented candles, chocolates(Handmade), Mugs, Corrugated Boxes. </p>
+			  <p className="mb-8 lg:text-xl font-semibold space-x-2  leading-relaxed">Then we are the one stop solution to all your needs 🤗 check out the list of products now! You can also find us on Justdial and Indiamart.</p>
 			  <div className="flex justify-center">
 			  <a href='https://www.justdial.com/jdmart/Delhi/Deepika-prints-Near-By-Jal-BoardDwarka/011PXX11-XX11-211124103013-H3U6_BZDET/catalogue'>
-				<button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Explore</button>
+				<button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">JUSTDIAL</button>
 				</a>
-				<button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Button</button>
+				<a href= "https://www.indiamart.com/deepika-prints-delhi/profile.html">
+				<button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">INDIAMART</button>
+				</a>
 			  </div>
 			</div>
 			<div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
