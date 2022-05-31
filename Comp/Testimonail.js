@@ -11,17 +11,17 @@ const Testimonail = () => {
     <figure className="snip1533"id='testimonials' >
   <figcaption>
     <blockquote>
-      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae 
+      <p>Thank you sooo much for delivering my order on time And i recommend this online store without any doubt and also they quickly response for all our msgs. Again thanks for ur great service and must say my order was so pretty.
       </p>
     </blockquote>
     <h3>Rishabh Mathur</h3>
     <h4>Designation</h4>
   </figcaption>
 </figure>
-<figure className="snip1533">
+<figure className=" s snip1533">
   <figcaption>
     <blockquote>
-      <p>Amazing experience with Deepika Prints and believe me anytime you can drop your requirement and it will be ready till the deadline Thankyou! </p>
+      <p>Amazing experience with Deepika Prints and believe me anytime you can drop your requirement and it will be ready till the deadline Thankyou! Really appreciate the personalized service and I would give it 10/10 for quality at such an affordable cost.</p>
     </blockquote>
     <h3>Saket Tiwari</h3>
     <h4>Developer at Academix</h4>
@@ -30,7 +30,7 @@ const Testimonail = () => {
 <figure className="snip1533">
   <figcaption>
     <blockquote>
-      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae   </p>
+      <p>  The quality is much more than my expectations. Being away from family, your team helped me to make our day special. I would love to continue using your services in the future as well and obviously I will suggest this to my friends. Keep up the excellent work.   </p>
     </blockquote>
     <h3>Name</h3>
     <h4>Twitter</h4>
@@ -39,7 +39,7 @@ const Testimonail = () => {
 <figure className="snip1533">
   <figcaption>
     <blockquote>
-      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae  </p>
+      <p>Thank you for your excellent service. Highly recommend . Very impressed with the whole purchase process , esp as I was ordering from out of India. Prompt delivery and great customer service. I am looking to order more in near future.  </p>
     </blockquote>
     <h3>Name</h3>
     <h4>Twitter</h4>
