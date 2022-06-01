@@ -609,11 +609,11 @@ function classNames(...classes) {
 
 			</div>
 		 
-			<div className="txtnavy effect6  lg:pt-12n bgour3 " id='home'>
+			<div className="txtnavy effect6  bgour3 " id='home'>
 
 
 			<section className="text-gray-600 body-font">
-		  <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+		  <div className="container mx-auto flex px-5 py-12 md:flex-row flex-col items-center">
 			<div className="lg:flex-grow lg:ml-28 md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
 			  <h1 className="title-font md:text-5xl text-gray-800   font-bold lg:text-5xl text-4xl fontpop mb-4 opacity-90 ">Are you looking for <span className='colorfront '>Personalized products</span> 
 				<br></br> <div  className="hidden  lg:inline-block">for your Company/event? </div>
@@ -650,7 +650,7 @@ function classNames(...classes) {
     <div className=' py-5 grid lg:grid-cols-2  fontour3'>
 	<img src='contactus.png' className=''/>
     <div className='flex justify-center'>
-	<p className='text-justify lg:text-2xl   lg:px-32 lg:pt-14  lg:leading-8  lg:font-medium text-gray-900'>We deals in 12 category of products for personalized giftings with very good percentage of repeated orders .
+	<p className=' lg:text-2xl   lg:px-32 lg:pt-14  lg:leading-8  lg:font-medium text-gray-900'>We deals in 12 category of products for personalized giftings with very good percentage of repeated orders .
 	Our products includes Diaries , Pens , Keychaining , Personalized Pendrives , Bottles, T-shirt , Laptop bags , Jute bags , Scented candles , chocolates(Handmade) , Mugs , Corrugated Boxes . 
 	</p>
     </div>
@@ -662,7 +662,7 @@ function classNames(...classes) {
       
       </div>
         <div className='font-semibold  text-2xl py-6 '>
-        Delivered to <br></br>5000+ end users<br></br>
+        Delivered to <br></br>50000+ end users<br></br>
         </div>
         <div className='font-semibold text-2xl py-6 ' id='testimonials'>
         Repeated orders<br></br> ~70% <br></br>
