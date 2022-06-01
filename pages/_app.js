@@ -9,6 +9,7 @@ import useSWR from 'swr';
 import '../public/fb.png';
 import '../public/whatsapp.png';
 import '../styles/globals.css';
+import Head from 'next/head'
 const scrollRef = (ref) => window.scrollTo(0 , ref.current.offset.Top)
 
 function MyApp({ Component, pageProps }) {
@@ -23,7 +24,9 @@ const executeScroll = () => scrollToRef(myRef)
     // NAVBAR 
 
     <div className=''>
-  
+  <Head>
+  <meta name="google-site-verification" content="p_eIkgd0H5Eq1uwkxngdeJrH_LPZt7bt1IE6LavLLwU" />
+  </Head>
 
   <Component {...pageProps} />
   <div className='  font-semibold bgtest   mt-4 txtnavy text-center py-12 lg:text-4xl text-3xl' id='' >
