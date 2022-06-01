@@ -618,7 +618,7 @@ function classNames(...classes) {
 			  <h1 className="title-font md:text-5xl text-gray-800   font-bold lg:text-5xl text-4xl fontpop mb-4 opacity-90 ">Are you looking for <span className='colorfront '>Personalized products</span> 
 				<br></br> <div  className="hidden  lg:inline-block">for your Company/event? </div>
 			  </h1>
-			  <p className="mb-8 lg:text-xl font-semibold space-x-2  leading-relaxed">Then we are the one stop solution to all your needs out the list of products now! You can also find us on Justdial and Indiamart.</p>
+			  <p className="mb-8 lg:text-xl font-semibold space-x-2   leading-relaxed">Then we are the one stop solution to all your needs out the list of products now! You can also find us on Justdial and Indiamart.</p>
 			  <div className="flex justify-center">
 			  <a href='https://www.justdial.com/jdmart/Delhi/Deepika-prints-Near-By-Jal-BoardDwarka/011PXX11-XX11-211124103013-H3U6_BZDET/catalogue'>
 				<button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">JUSTDIAL</button>
@@ -650,7 +650,7 @@ function classNames(...classes) {
     <div className=' py-5 grid lg:grid-cols-2  fontour3'>
 	<img src='contactus.png' className=''/>
     <div className='flex justify-center'>
-	<p className=' lg:text-2xl   lg:px-32 lg:pt-14  lg:leading-8  lg:font-medium text-gray-900'>We deals in 12 category of products for personalized giftings with very good percentage of repeated orders .
+	<p className=' lg:text-2xl   lg:px-32 lg:pt-14  lg:leading-8 font-medium  lg:font-medium text-gray-700 pt-4'>We deals in 12 category of products for personalized giftings with very good percentage of repeated orders .
 	Our products includes Diaries , Pens , Keychaining , Personalized Pendrives , Bottles, T-shirt , Laptop bags , Jute bags , Scented candles , chocolates(Handmade) , Mugs , Corrugated Boxes . 
 	</p>
     </div>
