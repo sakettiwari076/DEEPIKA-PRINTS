@@ -269,23 +269,15 @@ function classNames(...classes) {
 										smooth={true}
 										offset={50}
 										duration={500}
-										className="cursor-pointer lg:text-xl hover:bg-blue-600 hover:text-white text-blue-900 px-3 py-2 rounded-md text-sm font-normal"
+										className="cursor-pointer lg:text-xl hover:bg-blue-600 hover:text-white text-blue-900  px-3 py-2 rounded-md text-sm font-normal"
 									>
 										Testimonials
 									</Link>
 
-                                 
+									<Links  href='/contact'><a className=' cursor-pointer bordernavrest lg:text-xl bg-blue-600 text-white px-3 py-2 rounded-md text-sm font-normal'> Contact</a></Links>
 
-									<Link
-										activeClass=""
-										to="contactus"
-										smooth={true}
-										offset={50}
-										duration={500}
-										className="cursor-pointer lg:text-xl bg-blue-600 text-white px-3 py-2 rounded-md text-sm font-normal "
-									>
-										Contact
-									</Link>
+
+									
 
 								</div>
 							</div>
@@ -351,7 +343,7 @@ function classNames(...classes) {
 						<div className="md:hidden" id="mobile-menu">
 							<div
 								ref={ref}
-								className="bgournv px-2 pt-2 pb-3 space-y-1 sm:px-3"
+								className=" px-2 pt-2 pb-3 space-y-1 sm:px-3"
 							>
 								<Link
 									href="/home"
@@ -360,7 +352,7 @@ function classNames(...classes) {
 									smooth={true}
 									offset={50}
 									duration={500}
-									className="cursor-pointer hover:bg-blue-600  text-black hover:text-white block text-center py-2 rounded-md text-base font-medium bordernavrest"
+									className="cursor-pointer hover:bg-blue-600  text-blue-900 hover:text-white block text-center py-2 rounded-md text-base bordernavrest font-medium "
 								>
 									Home
 
@@ -373,7 +365,7 @@ function classNames(...classes) {
 								smooth={true}
 								offset={50}
 								duration={500}
-								className="cursor-pointer hover:bg-blue-600 text-black hover:text-white block text-center py-2 rounded-md text-base font-medium bordernavrest"
+								className="cursor-pointer hover:bg-blue-600 text-blue-900 hover:text-white block text-center py-2 rounded-md text-base bordernavrest font-medium "
 							>
 								About
 							</Link>
@@ -385,15 +377,15 @@ function classNames(...classes) {
 									smooth={true}
 									offset={50}
 									duration={500}
-									className="cursor-pointer hover:bg-blue-600 text-black hover:text-white block text-center py-2 rounded-md text-base font-medium bordernavrest"
+									className="cursor-pointer hover:bg-blue-600 text-blue-900 hover:text-white block text-center bordernavrest py-2 rounded-md text-base font-medium "
 								>
 									Testimonials
 								</Link>
 
-								<div className='flex justify-center bordernavrest font-medium text-black'>
+								<div className='flex justify-center text-blue-900 bordernavrest font-medium '>
 								<Menu as="div" className="relative inline-block  text-left">
 								<div className='' >
-									<Menu.Button className=" inline-flex justify-center w-full   px-2 py-2 text-black text-sm font-medium ">
+									<Menu.Button className=" inline-flex justify-center w-full   px-2 py-2 text-blue-900 text-sm font-medium ">
 									Products
 									<ChevronDownIcon className="-mr-1 ml-2 h-5 w-5" aria-hidden="true" />
 								  </Menu.Button>
@@ -602,17 +594,7 @@ function classNames(...classes) {
 
 			
 
-								<Link
-									href="/contact"
-									activeClass=""
-									to="contactus"
-									smooth={true}
-									offset={50}
-									duration={500}
-									className=" cursor-pointer hover:bg-blue-600  text-black hover:text-white block text-center py-2 rounded-md text-base font-medium  bordernavrest"
-								>
-									Contact
-								</Link>
+							  <Links  href='/contact'><a className=' cursor-pointer hover:bg-blue-600 text-blue-900 hover:text-white block text-center py-2 rounded-md text-base font-medium'> Contact</a></Links>
 
 							</div>
 						</div>
