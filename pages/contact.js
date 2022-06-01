@@ -33,7 +33,7 @@ const Contact = () => {
 
   return (
     <div>
-    <h1 className='text-center text-4xl py-7 text-blue-900 font-semibold'>Drop your requirements </h1>
+    <h1 className='text-center text-2xl lg:text-4xl py-7 text-blue-900 font-semibold'>Drop your requirements </h1>
     <a href='../'>
     <img src='back1.png' className=' arrow h-52'/>
         </a>
