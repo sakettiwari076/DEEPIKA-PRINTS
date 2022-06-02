@@ -43,8 +43,9 @@ const executeScroll = () => scrollToRef(myRef)
       </div>
       <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
         <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">EMAIL</h2>
+        
         <a className="text-indigo-500 leading-relaxed">Deepikaprints7@gamil.com</a>
-        <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">PHONE</h2>
+        <h2 className="title-font font-semibold text-white  text-xs mt-4">PHONE</h2>
         <p className="leading-relaxed">7827102242</p>
         <p className="leading-relaxed">7827655889</p>
 
@@ -68,9 +69,11 @@ const executeScroll = () => scrollToRef(myRef)
   '>© 2021-22 Deepika Prints. All Rights Reserved.</p>
   <div className="w-full bgour6   text-center">
           <a className="text-white">Deepikaprints7@gmail.com</a>
-          <p className="leading-normal my-5 text-white">Flat No 452 , Adarsh Apartment
+          <p className="leading-normal my-2 text-white">Flat No 452 , Adarsh Apartment
             <br></br>Pocket-16 , Sector 3 , Delhi , 110075
           </p>
+          <p className="text-white"> Contact : 7827102242</p>
+
           <span className="inline-flex">
             <a className="text-gray-500">
               <svg fill="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-5 h-5" viewBox="0 0 24 24">

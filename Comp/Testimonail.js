@@ -32,8 +32,8 @@ const Testimonail = () => {
     <blockquote>
       <p>  The quality is much more than my expectations. Being away from family, your team helped me to make our day special. I would love to continue using your services in the future as well and obviously I will suggest this to my friends. Keep up the excellent work.   </p>
     </blockquote>
-    <h3>Name</h3>
-    <h4>Twitter</h4>
+    <h3>Aryan </h3>
+    <h4>Designation</h4>
   </figcaption>
 </figure>
 <figure className="snip1533">
@@ -41,8 +41,8 @@ const Testimonail = () => {
     <blockquote>
       <p>Thank you for your excellent service. Highly recommend . Very impressed with the whole purchase process , esp as I was ordering from out of India. Prompt delivery and great customer service. I am looking to order more in near future.  </p>
     </blockquote>
-    <h3>Name</h3>
-    <h4>Twitter</h4>
+    <h3>Prabhat</h3>
+    <h4>TEDx Member</h4>
   </figcaption>
 </figure>
 
