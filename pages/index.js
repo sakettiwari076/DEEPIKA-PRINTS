@@ -616,7 +616,7 @@ function classNames(...classes) {
 		  <div className="container mx-auto flex px-5 py-12 md:flex-row flex-col items-center">
 			<div className="lg:flex-grow lg:ml-28 md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
 			  <h1 className="title-font md:text-5xl text-gray-800   font-bold lg:text-5xl text-4xl fontpop mb-4 opacity-90 ">Are you looking for <span className='colorfront '>Personalized products</span> 
-				<br></br> <div  className="hidden  lg:inline-block">for your Company/event? </div>
+				<br></br> <div  className="hidden  lg:inline-block">for your Company/Event? </div>
 			  </h1>
 			  <p className="mb-8 lg:text-xl font-semibold space-x-2   leading-relaxed">Then we are the one stop solution to all your needs out the list of products now! You can also find us on Justdial and Indiamart.</p>
 			  <div className="flex justify-center">
