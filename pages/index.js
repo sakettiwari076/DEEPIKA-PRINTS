@@ -2,15 +2,20 @@ import { Fragment } from 'react'
 import { Menu, Transition } from '@headlessui/react'
 import { ChevronDownIcon } from '@heroicons/react/solid'
 import Head from 'next/head'
+import CountUp from "react-countup";
+
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import '../public/frontpage.png'
 import '../public/bat.png'
+import main_img from '../public/main_img.jpg'
 import Testimonials from '../Comp/Testimonail'
 import { Link } from "react-scroll";
 import React, { useState, useRef } from "react";
 import Links from 'next/link'
 import Script from 'next/script'
+
+  
 function classNames(...classes) {
 	return classes.filter(Boolean).join(' ')
   }
@@ -18,9 +23,15 @@ function classNames(...classes) {
  const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
 
-  
+ 
   return (
+
+		
+	
     <div className=''>
+		                 {/* <div style={{ fontSize: "150px" }}> */}
+                
+            {/* </div> */}
 	<Script src="https://www.google-analytics.com/analytics.js" />
     <nav className=" ournav   fixed w-full z-10" >
 				<div className="w-full">
@@ -603,22 +614,32 @@ function classNames(...classes) {
 
 				
 			</nav>
-				<div className='opacity-80'>
+				<div className='opacity-80 '>
+				{/* <Image
+					  				// className='lg:bold md:bold sm:hidden '
 
-			<img src='https://wallpaperaccess.com/full/1393237.jpg' className=' bg-fixed w-screen frontpageimage ' ></img>
+      src='/main_img.jpg'
+      width={1800}
+      height={400}
+
+      alt="Picture of the author"
+    /> */}
+
+
+			<img src='https://wallpaperaccess.com/full/1393237.jpg' className=' bg-fixed w-screen frontpageimage  ' ></img>
 
 			</div>
 		 
-			<div className="txtnavy effect6  bgour3 " id='home'>
+			<div className="txtnavy poppins-regular effect6  bgour3 " id='home'>
 
 
-			<section className="text-gray-600 body-font">
-		  <div className="container mx-auto flex px-5 py-12 md:flex-row flex-col items-center">
+			<section className="text-gray-600  poppins-regular">
+		  <div className="container mx-auto flex px-5 py-12  md:flex-row flex-col items-center">
 			<div className="lg:flex-grow lg:ml-28 md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
 			  <h1 className="title-font md:text-5xl text-gray-800   font-bold lg:text-5xl text-4xl fontpop mb-4 opacity-90 ">Are you looking for <span className='colorfront '>Personalized products</span> 
 				<br></br> <div  className="hidden  lg:inline-block">for your Company/Event? </div>
 			  </h1>
-			  <p className="mb-8 lg:text-xl font-semibold space-x-2   leading-relaxed">Then we are the one stop solution to all your needs out the list of products now! You can also find us on Justdial and Indiamart.</p>
+			  <p className="mb-8 lg:text-xl font-semibold space-x-2 poppins-thin   leading-relaxed">Then we are the one stop solution to all your needs out the list of products now! You can also find us on Justdial and Indiamart.</p>
 			  <div className="flex justify-center">
 			  <a href='https://www.justdial.com/jdmart/Delhi/Deepika-prints-Near-By-Jal-BoardDwarka/011PXX11-XX11-211124103013-H3U6_BZDET/catalogue'>
 				<button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">JUSTDIAL</button>
@@ -643,22 +664,26 @@ function classNames(...classes) {
 	
 <div className='' id='aboutus' > </div>
     </div>
-    <h1 className='text-center font-semibold pt-10 lg:text-4xl text-3xl txtnavy decoration-violet-600  '>ABOUT US</h1>
+    <h1 className='text-center font-semibold pt-10 lg:text-4xl text-3xl txtnavy decoration-violet-600 poppins-thin '>About Us</h1>
 
     <div className='  text-gray-900 py-8  grid lg:grid-cols-1 text-center px-8  ' id='' >
   
     <div className=' py-5 grid lg:grid-cols-2  fontour3'>
 	<img src='contactus.png' className=''/>
     <div className='flex justify-center'>
-	<p className=' lg:text-2xl   lg:px-32 lg:pt-14  lg:leading-8 font-medium  lg:font-medium text-gray-700 pt-4'>We deals in 12 category of products for personalized giftings with very good percentage of repeated orders .
+	<p className=' lg:text-2xl   lg:px-32 lg:pt-14  lg:leading-8 poppins-thin  lg:font-medium text-gray-700 pt-4'>We deals in 12 category of products for personalized giftings with very good percentage of repeated orders .
 	Our products includes Diaries , Pens , Keychaining , Personalized Pendrives , Bottles, T-shirt , Laptop bags , Jute bags , Scented candles , chocolates(Handmade) , Mugs , Corrugated Boxes . 
 	</p>
     </div>
     </div>
     </div> 
-      <div className=' text bg-navy text-white  effect6 lg:py-14 lg:text-3xl grid lg:grid-cols-3 text-center '>
-      <div className='font-semibold text-white py-6  text-2xl '>
-      Catered to <br></br> 70+ corporates <br></br>
+      <div className=' text poppins-extralight bg-navy text-white   lg:py-14 lg:text-3xl grid lg:grid-cols-3 text-center '>
+      <div className='font-semibold text-white py-6   text-2xl '>
+      Catered to <CountUp
+                    start={0}
+                    end={70}
+                    duration={6}
+                />
       
       </div>
         <div className='font-semibold  text-2xl py-6 '>
